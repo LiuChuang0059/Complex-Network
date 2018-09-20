@@ -6,7 +6,7 @@
 ### 
 
 *  [Cris Moore - Santa Fe Institute](http://tuvalu.santafe.edu/~moore/talks.html)------[Google-Scholar-Citations](https://scholar.google.com/citations?user=p_837e0AAAAJ&hl=zh-CN)
-  > 做很多物理学思想方法在复杂网络中的应用 ；以及一些量子计算，量子算法在网络中的应用
+     > 做很多物理学思想方法在复杂网络中的应用 ；以及一些量子计算，量子算法在网络中的应用
 
 * [Mark Newman - Santa Fe Institute](http://www-personal.umich.edu/~mejn/)------[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=rQ68pVwAAAAJ&view_op=list_works&sortby=pubdate)
   > 引用超高的巨佬（总150,000+，单篇17,000+）,主要做复杂网络工作，主页有很多代码和数据集
@@ -19,7 +19,7 @@
 ](https://www.barabasilab.com/publications)-----[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=vsj2slIAAAAJ&view_op=list_works&sortby=pubdate)
   > 感觉巨佬（总引189，696+，单引30，000+）和网络各个交叉方向都做，统计物理，生物医学，脑科学，表面材料等等，实验室超大组。
 
-[陈关荣教授--香港城市大学](http://www.ee.cityu.edu.hk/~gchen/)[Google-Scholar-Citations](https://scholar.google.com.hk/citations?user=O_Eif1YAAAAJ&hl=en&oi=ao)
+* [陈关荣教授--香港城市大学](http://www.ee.cityu.edu.hk/~gchen/)[Google-Scholar-Citations](https://scholar.google.com.hk/citations?user=O_Eif1YAAAAJ&hl=en&oi=ao)
   > 混沌和复杂网络
 
 * [Jon Kleinberg](http://www.cs.cornell.edu/home/kleinber/)
@@ -152,7 +152,7 @@
 
 
 #### 参考
-[idea来源link](https://www.santafe.edu/research/projects/social-networks-big-data-and-physics-powered-infer)
+* [idea来源link](https://www.santafe.edu/research/projects/social-networks-big-data-and-physics-powered-infer)
 
 
 
@@ -161,8 +161,8 @@
 
 
 ## 参考
-[Physics-Inspired Algorithmsand Phase Transitionsin Community Detection---pdf](http://tuvalu.santafe.edu/~moore/ucsc-stanford.pdf)
-[Physics-Inspired Algorithmsand Phase Transitionsin Community Detection----youtube](https://www.youtube.com/watch?v=jzN37cqkB0c)
+* Physics-Inspired Algorithmsand Phase Transitionsin Community Detection---[pdf](http://tuvalu.santafe.edu/~moore/ucsc-stanford.pdf)
+* Physics-Inspired Algorithmsand Phase Transitionsin Community Detection----[youtube](https://www.youtube.com/watch?v=jzN37cqkB0c)
 
 
 
