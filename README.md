@@ -86,9 +86,39 @@
 
 
 
+----------
+----------
+
+# Day3 ------
+
+## We use physics-inspired methods to find structure within large datasets.
+
+> We are in an age of information, with nearly every scientific field awash in new data. Thus, making sense of large sets of real-world data stands as a preeminent challenge for modern science. Massive data sets, whether they record food web relationships, online friendships, or distributions of utilities like electricity, are often described by mathematical network models that give structure to the data – and help us better understand the relationships hidden within it.
+>>> 我们处在一个信息时代，各个科学领域都有大量数据。因此，理解掌握大量的由真实世界数据构成的数据集是现代科学的一个巨大挑战。大量的数据集，无论他们记录的是食物链，网络社交圈，或者是店电力网络系统，都是由基于数学的网络模型给出数据的结构，从而帮助我们理解数据之间的隐藏关系
+
+
+> Our project aims to use physics-inspired methods to find structure within large data sets and determine when these structures are statistically significant. We are developing elegant, flexible, and computationally efficient algorithms for investigating the underlying structures, dynamics, and attributes of real-world networks.These physics-based algorithms can point to hidden connections between spatially disparate nodes of a network. They can help us understand why a natural disaster in a given area might cause an electrical blackout hundreds of miles away. They can reveal similar relationships in different data sets, such as the keystone species in a modern food web and those from the Cambrian period. They can fill in missing data with intelligent guesses, predict missing links, and tell us the probability that a given node belongs to a given community. Moreover, these algorithms are scalable, allowing us to solve massive problems, once the domain of supercomputers, on an ordinary laptop.
+>>> 这个项目的目的主要是，使用由物理启发的方法去发现大的数据集之间的结构，确定这些结构什么时候具有统计性。我们正在开发一种高效稳定的算法去挖掘真实世界网络的结构，动态变化，构成。这些基于物理的算法可以指出空间网络的不同节点之间的隐藏联系。可以帮我们理解为什么一个地方的自然疾病会导致千里外电力缺失。
+他们可以反映不同数据集之间的相似形。例如不同时期的食物链之中的关键物种。他们可以填补数据集的缺失数据，预测缺失的链接，告诉我们一个给定的节点属于一个给定集团的可能性。这些算法是可延展的，允许我么解决大量的问题，不再是依托于超级计算机，而是笔记本电脑即可。
+
+
+> As we seek out the structures, patterns and attributes of large data sets, we also pursue the broader question of how a network’s structure gives rise to its dynamics. In doing so, we hope to understand the similarities and differences between social networks, economies, power grids, and food web
+>>> 当我们找出数据集的结构，模式，构成时，我们同时追求更深远的问题---一个网络的结构对其动态变化的影响。同时我们洗希望理解各个网络之间的相似和不同点：
+社交网，经济网，电网，食物链。
+
+
+#### 参考
+[idea来源link](https://www.santafe.edu/research/projects/social-networks-big-data-and-physics-powered-infer)
 
 
 
+## Physics-Inspired Algorithmsand Phase Transitionsin Community Detection
+
+
+
+## 参考
+[Physics-Inspired Algorithmsand Phase Transitionsin Community Detection---pdf]()
+[Physics-Inspired Algorithmsand Phase Transitionsin Community Detection----youtube](https://www.youtube.com/watch?v=jzN37cqkB0c)
 
 
 
