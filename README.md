@@ -1,6 +1,50 @@
 # 复杂系统和复杂网络
 
 -----
+# Day0 --- 大佬主页和google学术 + 研究机构
+
+### 
+
+*  [Cris Moore - Santa Fe Institute](http://tuvalu.santafe.edu/~moore/talks.html)------[Google-Scholar-Citations](https://scholar.google.com/citations?user=p_837e0AAAAJ&hl=zh-CN)
+  > 做很多物理学思想方法在复杂网络中的应用 ；以及一些量子计算，量子算法在网络中的应用
+
+* [Mark Newman - Santa Fe Institute](http://www-personal.umich.edu/~mejn/)------[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=rQ68pVwAAAAJ&view_op=list_works&sortby=pubdate)
+  > 引用超高的巨佬（总150,000+，单篇17,000+）,主要做复杂网络工作，主页有很多代码和数据集
+
+* [James Fowler](http://jhfowler.ucsd.edu/)-----[Google-Scholar-Citations](https://scholar.uulucky.com/citations?user=vcTq49gAAAAJ&hl=zh-CN)
+  > 特别高产，引用也超高，主要做社会网络方向，主页同样很多源码，软件，和数据集。
+
+
+* [ Albert-László Barabási个人主页](http://barabasi.com/)---[Barabási Lab
+](https://www.barabasilab.com/publications)-----[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=vsj2slIAAAAJ&view_op=list_works&sortby=pubdate)
+  > 感觉巨佬（总引189，696+，单引30，000+）和网络各个交叉方向都做，统计物理，生物医学，脑科学，表面材料等等，实验室超大组。
+
+[陈关荣教授--香港城市大学](http://www.ee.cityu.edu.hk/~gchen/)[Google-Scholar-Citations](https://scholar.google.com.hk/citations?user=O_Eif1YAAAAJ&hl=en&oi=ao)
+  > 混沌和复杂网络
+
+* [Jon Kleinberg](http://www.cs.cornell.edu/home/kleinber/)
+
+
+* [张潘 - 中科院理论物理所](http://lib.itp.ac.cn/html/panzhang/)-----[Google-Scholar-Citations](https://scholar.google.com/citations?user=MFnbrRUAAAAJ&hl=en)
+  > 近几年做了很多，统计物理和机器学习，量子力学和机器学习的相关工作，都是PRx的高质量文章；个人主页附有一些处理方法的c++代码
+
+--------
+
+### 科研机构
+
+* [Santa Fe Institute](https://www.santafe.edu/research/projects/social-networks-big-data-and-physics-powered-infer)
+  > 上面有几位大佬工作学习过的地方，网页有很多很多很好的研究成果，研究方向等等
+
+* [Centre for Chaos and Complex Networks---香港城市大学](http://www.ee.cityu.edu.hk/~cccn/)------[Complex Networks: Information and Resources](http://www.ee.cityu.edu.hk/~gchen/ComplexNetworks.htm)
+  > 复杂网络方向，已经很多工业应用； 主页有很多有关复杂网络的资源：大学课程+书籍+软件+数据集等等
+
+--------
+### 汇总参考
+* http://blog.sciencenet.cn/blog-583335-477254.html
+* http://www.ee.cityu.edu.hk/~gchen/ComplexNetworks/PersonalWebsites.htm
+
+-------
+----------- 
 
 # Day1 -- 基础了解
 
@@ -117,7 +161,7 @@
 
 
 ## 参考
-[Physics-Inspired Algorithmsand Phase Transitionsin Community Detection---pdf]()
+[Physics-Inspired Algorithmsand Phase Transitionsin Community Detection---pdf](http://tuvalu.santafe.edu/~moore/ucsc-stanford.pdf)
 [Physics-Inspired Algorithmsand Phase Transitionsin Community Detection----youtube](https://www.youtube.com/watch?v=jzN37cqkB0c)
 
 
