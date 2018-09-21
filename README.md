@@ -133,7 +133,7 @@
 ----------
 ----------
 
-# Day3 ------
+# Day3 ------伊辛模型
 
 ## We use physics-inspired methods to find structure within large datasets.
 
@@ -266,14 +266,98 @@ Phase Transitions and Critical Phenomena, C. Domb and M.S. Green, eds. (Academic
 *  Wigner semicircle law
 
 
+--------------
+
+## 总结
+
+* Statistical inference using generative models of networks lets us detect communities, classify nodes, and predict missing links
+
+* Belief propagation and expectation-maximization algorithms let us identify these groups, and learn model parameters, often in linear time: scalable! 
+
+* For instance, we can classify documents using their content and the links between them better than with content or links alone.
+
+* Extending Bayesian inference to richer data is possible, but challenging We need to be agnostic about what types of structure are important
+
 -----------------
 ## 参考
 * Physics-Inspired Algorithmsand Phase Transitionsin Community Detection---[pdf](http://tuvalu.santafe.edu/~moore/ucsc-stanford.pdf)
 * Physics-Inspired Algorithmsand Phase Transitionsin Community Detection----[youtube](https://www.youtube.com/watch?v=jzN37cqkB0c)
 
+* Finding Hidden Structure in Networks---[pdf](https://github.com/LiuChuang0059/datamining/blob/master/PapersAndBooks/Finding%20Hidden%20Structure%20in%20Networks.pdf)
 
 
 --------------------
+--------------
+
+# Day4---- Potts 模型
+
+
+## Physical Models in Community Detection with Applications to Identifying Structure in Complex Amorphous Systems
+
+### 1. Potts 模型--Ising模型中自旋的取向自由度放宽到q个
+
+* http://blog.sciencenet.cn/blog-485752-1106066.html
+
+* http://micro.ustc.edu.cn/CompPhy/lecturenote/12.pdf
+
+### 2. 摘要
+
+* We present an exceptionally accurate spin-glass-type Potts model for the graph theoretic problem of community detection
+     > potts模型用于社区检测
+
+* It further remains a local measure on weighted and directed graphs
+     > 应用于权重图和有向图
+
+* Our multiresolution algorithm calculates correlations among multiple copies (“replicas”) of the same graph over a range of resolutions.
+     > 多层算法计算同一个图多个副本之间的关联。
+
+* We further investigate a “phase transition” effect in community detection
+     > 相变点
+
+
+## 参考
+
+* Physical Models in Community Detection with Applications to Identifying Structure in Complex Amorphous Systems---[pdf](https://github.com/LiuChuang0059/datamining/blob/master/PapersAndBooks/Physical%20Models%20in%20Community%20Detection%20with%20Applications%20to%20Ident.pdf)
+
+
+-----------------------
+----------
+
+# Day 5 ---Spectral
+## Robust Spectral Detection of Global Structures in the Data by Learning a Regularization---[pdf](https://github.com/LiuChuang0059/datamining/blob/master/PapersAndBooks/robust-spectral-detection-of-global-structures-in-the-data-by-learning-a-regularization.pdf)
+
+### 摘要
+* 检测给定数据的全局结构---数据可以用矩阵表示，
+* 而且数据较为稀疏或者有噪声，会引起特征数据局域化，
+* In this work, we propose a general method to solve the localization problem by learning a regularization matrix from the localized eigenvectors.
+* 正则化矩阵的学习，能够抑制或者减少局部特征向量。
+
+
+------------------------
+------------------
+
+# Day6 ---- 社区结构对网络的影响（为什么要检测社区结构）
+
+##  Resilience of networks with community structure behaves as if under an external field---[pdf](https://github.com/LiuChuang0059/datamining/blob/master/PapersAndBooks/%20%20Resilience%20of%20networks%20with%20community%20structure%20behaves%20as%20if%20under%20an%20external%20field.pdf)
+
+### 摘要
+* We use percolation theory to develop a framework for studying the resilience of networks with a community structure.
+
+     > 渗透理论
+  
+* . We find both analytically and numerically that interlinks (the connections among communities) affect the percolation phase transition in a way similar to an external field in a ferromagnetic– paramagnetic spin system
+     > 社区影响渗透相变点的作用。类似与 外场对铁磁-顺磁自选系统的作用
+
+* We also study universality class by defining the analogous critical exponents δ and γ, and we find that their values in various models and in real-world coauthor networks follow the fundamental scaling relations found in physical phase transitions.
+     > 真实社会网络的数值比例类似于物理学相变的相变指数
+     
+     
+-----------------
+
+
+
+
+
 
 
 
