@@ -158,13 +158,122 @@
 
 ## Physics-Inspired Algorithmsand Phase Transitionsin Community Detection
 
+### 1 结构
+* 结构使数据区分于噪声
+* 结构能够帮助压缩数据
+* 结构能够根据我们现有的数据推断没有的数据
+* 帮助我们粗化动态变化，减少变量数
+
+### 2 统计推断
+* 假设有一个网络，由生成模型产生， 拟合数据参数
+* 能够合并部分信息
+    > 一些点的构成已知
+    > 一些链接已知
+* 使用模型能够根据我们知道的推断我们不知道的
+
+### 3 随机块模型
+> nodes have discrete labels: k “groups” or types of nodes
+k×k matrix p of connection probabilities
+if i is type r and j is type s, there is a link i→j with probability prs
+p is not necessarily symmetric, and we don’t assume that prr > prs
+given the graph G, find the labels
+
+* 一般差的情况下，块模型拟合到一个图是一个NP问题，
+* 类比统计物理的Brelief propagation 方法 更好的解决问题，反映相位运输在社区结构检测中
+
+### 4 [伊辛模型](https://zh.wikipedia.org/wiki/%E6%98%93%E8%BE%9B%E6%A8%A1%E5%9E%8B)
+> 二维或二维以上的模型中，该系统可以历经从无序相转变成有序相的相变。基本上在β值小(高温)时，系统处在无序相，而β值大(低温)时，系统处在有序相中
 
 
+* [伊辛(Ising)模型背后的故事](http://blog.sciencenet.cn/home.php?mod=space&uid=1248&do=blog&id=1843)
+
+> 二维伊辛模型的精确解有很多解法，比较经典的、代表性的解法：
+L. Onsager, Phys. Rev. 65, 117 (1944).
+B. Kaufman, Phys. Rev. 76, 1232 (1949).
+M. Kac and J.C. Ward, Phys. Rev. 88, 1332 (1952). 
+C.A. Hurst and H.S. Green, J. Chem. Phys., 33, 1059 (1960).
+E.W. Montroll, R.B. Potts and J.C. Ward, J. Math. Phys., 4, 308 (1963).
+还可以参考综述文献：
+G.F. Newell and E.W. Montroll, Rev. Mod. Phys. 25, 353 (1953).
+C. Domb, Adv. Phys. 9, 149 (1960).
+K. Huang, Statistical Mechanics, (John Wiley and Sons Inc., New York – London, 1963).
+R.J. Baxter, Exactly Solved Models in Statistical Mechanics, (Academic Press, London, 1982).
+S.K. Ma, Modern Theory of Critical Phenomena, (Addison – Wesley, Redwood, CA, 1976). 
+B.M. McCoy and T.T. Wu, The Two – Dimensional Ising Model, (Harvard University Press, Cambridge, MA, 1973).
+Phase Transitions and Critical Phenomena, C. Domb and M.S. Green, eds. (Academic Press, London, 1974).
+
+
+* 伊辛模型应用
+> 社会科学中，人们已经将Ising模型应用于股票市场、种族隔离、政治选择等不同的问题。另一方面，如果将小磁针比喻成神经元细胞，向上向下的状态比喻成神经元的激活与抑制，小磁针的相互作用比喻成神经元之间的信号传导，那么，Ising模型的变种还可以用来建模神经网络系统，从而搭建可适应环境、不断学习的机器（Hopfield网络或Boltzmann机）。
+
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/datamining/blob/master/Image/%E4%BC%8A%E8%BE%9B%E6%A8%A1%E5%9E%8B.png" width="500"/> </div><br>
+
+### 5 基态和 illusions
+
+* 最可能的标签，[最大后验估计](https://www.cnblogs.com/easoncheng/archive/2012/11/08/2760675.html)---基态
+* 即使是随机的3正则图也只有11％的边缘标签越过切口
+* many labelings, about as good as each other, with nothing in common!this is a sign there aren’t actually communities at al
+
+
+### 6 统计估计 vs过拟合
+
+### 7 最好的标记
+* 对于每一个点，计算他的边缘分布，属于每个组的可能性，安排每个点去最可能的标签
+* 真正的标记实现了更高的“重叠”---最大化正确标记节点的覆盖率
+* the consensus of many likely solutions is better than the most-likely one
+
+
+### 8 模型选择和自由能
+* best model: maximize total probability of G, summed over all possible labelings
+
+<div align="center">  <img src="https://github.com/LiuChuang0059/datamining/blob/master/Image/%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%87%AA%E7%94%B1%E8%83%BD.png" width="500"/> </div><br>
+
+* 类似于 热力学统计物理里面的自由能 自由能最小，
+
+------------------
+## Compute marginals and free energies----Monte Carlo is too slow
+
+### Belief propagation
+
+* 学习参考
+* https://blog.csdn.net/qq_23947237/article/details/78385110
+* https://blog.csdn.net/u010830324/article/details/51896570
+
+
+### 近似自由能--变分法
+
+### BP算法的其他应用
+* 也是图集合的分析计算框架
+* 分析信息的固定点，稳定性
+
+
+### BP收敛---取决于数量
+* 在相变点 极速下降
+
+### 相变点---找出社区
+<div align="center">  <img src="https://github.com/LiuChuang0059/datamining/blob/master/Image/%E6%A8%A1%E5%9D%97%E5%8C%96-%E6%A8%A1%E5%9E%8B%E7%BB%93%E6%9E%84.png" width="500"/> </div><br>
+
+
+
+----------------
+
+
+### Spectral methods and their redemption-----特征光谱法
+
+* if there are 2 groups, label nodes according to the sign of the 2nd eigenvec
+
+*  Wigner semicircle law
+
+
+-----------------
 ## 参考
 * Physics-Inspired Algorithmsand Phase Transitionsin Community Detection---[pdf](http://tuvalu.santafe.edu/~moore/ucsc-stanford.pdf)
 * Physics-Inspired Algorithmsand Phase Transitionsin Community Detection----[youtube](https://www.youtube.com/watch?v=jzN37cqkB0c)
 
 
+
+--------------------
 
 
 
