@@ -48,6 +48,7 @@
 
 -------
 ----------- 
+---------
 
 # Day1 -- 基础了解
 
@@ -119,7 +120,7 @@
 * [大数据时代下复杂网络的机遇与挑战](http://blog.sciencenet.cn/blog-4673-722029.html)
 
 
-
+-------
 ----------
 -----------
 
@@ -132,11 +133,13 @@
 * [大数据理论如何指导交通数据分析](https://www.zhihu.com/question/21374161)
 
 
-
 ----------
 ----------
+----------
 
-# Day3 ------伊辛模型
+# Day3 ------社区检测
+
+# （一）伊辛模型
 
 ## We use physics-inspired methods to find structure within large datasets.
 
@@ -290,9 +293,9 @@ Phase Transitions and Critical Phenomena, C. Domb and M.S. Green, eds. (Academic
 
 
 --------------------
---------------
+------------
 
-# Day4---- Potts 模型
+# （二） Potts 模型
 
 
 ## Physical Models in Community Detection with Applications to Identifying Structure in Complex Amorphous Systems
@@ -324,9 +327,9 @@ Phase Transitions and Critical Phenomena, C. Domb and M.S. Green, eds. (Academic
 
 
 -----------------------
-----------
+--------------
 
-# Day 5 ---Spectral
+# （三）光谱分析-Spectral
 ## Robust Spectral Detection of Global Structures in the Data by Learning a Regularization---[pdf](https://github.com/LiuChuang0059/datamining/blob/master/PapersAndBooks/robust-spectral-detection-of-global-structures-in-the-data-by-learning-a-regularization.pdf)
 
 ### 摘要
@@ -339,7 +342,7 @@ Phase Transitions and Critical Phenomena, C. Domb and M.S. Green, eds. (Academic
 ------------------------
 ------------------
 
-# Day6 ---- 社区结构对网络的影响（为什么要检测社区结构）
+# （四）社区结构对网络的影响（为什么要检测社区结构）
 
 ##  Resilience of networks with community structure behaves as if under an external field---[pdf](https://github.com/LiuChuang0059/datamining/blob/master/PapersAndBooks/%20%20Resilience%20of%20networks%20with%20community%20structure%20behaves%20as%20if%20under%20an%20external%20field.pdf)
 
@@ -356,15 +359,156 @@ Phase Transitions and Critical Phenomena, C. Domb and M.S. Green, eds. (Academic
      
      
 -----------------
+----------------
+---------------
+
+
+# Day 4 ----复杂网络研究方向
+
+
+## 0 参考
+
+* 1. 复杂网络研究的机遇与挑战---http://blog.sciencenet.cn/blog-3075-741803.html
+
+* 2. 复杂网络入门读物---http://blog.sciencenet.cn/blog-3075-549946.html
+
+* 3. 复杂网络入门最佳资料：英文经典综述合集--http://blog.sciencenet.cn/blog-3075-1070466.html
+
+* 4. 电子科大周涛教授：当时代发生巨变，一定要站在能够产生重大成果的地方---http://www.sohu.com/a/192786815_114877
+
+## 1 数据到网络
+
+* 收集的数据规模和种类增大，如何构建合适的网络；分析数据的质量；不完整的网络做数据分析、
+
+* 抽样问题
+     > 所用的数据大部分是抽样结果，，抽样得到网络与原网络的关系，没有明确的证明
+     
+ 
+## 2 网络工程----应用到实际问题
+
+* 实际交通系统的优化；社会科学，生命科学等领域
+
+* 模型建立，分析，求解----用来解释和预测真实网络的本质，特性和行为。
+
+
+## 3 网络的信息挖掘和预测
+
+* 从动力学表征挖掘网络结构
+
+* 从观察出发，挖掘网络中缺失的信息，并进行网络结构，功能，和演化趋势预测
+     * 链路预测-----网络中的链路预测是指如何通过已知的网络结构等信息预测网络中尚未产生连边的两个节点之间产生连接的可能性
+     * 人类行为预测
+
+### 1  链路预测
+
+#### 1 分类
+* existent yet unknown links
+
+* future links
+
+#### 2 方法：
+
+* 基于马尔科夫链 和机器学习
+
+* 基于节点的属性--定义节点之间的相似性
+     > 节点的属性信息不一定真实
+* 基于网络拓扑结构的相似性
+     > 只涉及结构，不涉及节点的属性信息
+     > 网络简单 计算复杂度较低
+* 利用网络的 层次结构进行链路预测
+
+#### 3 应用
+
+* 分析数据缺失的网络
+
+* 分析演化网络
+
+
+#### 4 发展展望
+
+* 应用层面-- 过网络的结构信息，借助复杂网络的分析工具，设 计高效的算法处理大规模网络的链路预测问题。
+
+* 理论层面--何以网络系综理 论为基础，建立网络链路预测的理论框架，并产生 对实际预测有指导作用的理论结
+
+* 权重网络相关研究
+
+
+* 结合机器学习
+     
+
+#### 5 参考
+* Link Prediction on Complex Networks---LÜ Lin-yuan
+
+
+### 2 社团检测---详见 Day 3
+
+-------------
+
+## 4 含有时空信息的网络
+
+* 现实的网络大多数是随时间和空间持续变化的，结构完全固定的网络非常少见。
+     > 例如，实际的社会网络中，人与人之间的联系与交互是遵循一定时空统计规律出现，而不是一直保持不变的
+
+### 人类行为时空特性----统计分析
+
+#### 1 主要方法
+* 观察-数据获取与分析-统计规律挖掘- 建模再现数据规律
+
+* 
+
+#### 2 应用
+
+* 特别是长途旅行规律的理解，有助于理 解、预测和控制全球性传染病的流行
+
+* 对人出 行和网络活动中表现出来的阵发性和记忆性的分 析，可以应用于异常行为检测，如疑似恐怖分子非 正常的频繁跨越国境的旅行和处于非正当目的的 网络舆情操控行为的检测
+
+* 对于人类群体出行 行为时空图的分析可以为交通路网设计和道路流量 规划，包括公共服务设施和商业设施的选点提供借 鉴
+
+* 对人网上行为的分析可以为更好地开展互联 网信息服务提供借鉴
+
+
+#### 3 人类行为时间特性的实证分析
+
+* 柏松分布---幂律分布
 
 
 
+#### 4 人类行为空间特性的实证分析   
+
+* 交通
+
+* 在群体水平上，混合交 通方式使用者的移动步长分布服从幂律或截尾幂律 分布，而单一交通方式使用者的移动步长分布则服 从指数或近似指数分布
+
+* 在个体水平上，人类的 移动步长分布呈现不规则的多样化特征，并不服从 某种特定的分布形式
+
+* 人类的空间运动模式具有 时空规则性，如以天为周期频繁返回少数几个地点， 不同个体的空间概率密度分布定性上高度相似，移 动轨迹具有高可预测性。
 
 
+     * 人类空间运动轨迹的规则性、周期性、相似 性等与行为预测问题密切相关的统计特征的研究还 很不充分
+
+     * 孤立地挖掘人类 空间运动行为的统计特征，而对于社会化因素对人 类行为的影响考虑不足
+     
+ 
+#### 5 参考
+
+* 周涛，韩筱璞，闫小勇, 等. 人类行为时空特性的统计力学[J].
+
+--------------------
 
 
+* 许多网络都不是孤立存在的，而是与其它网络之间存在着相互依赖、合作或竞争等关系，即“网络的网络”
+
+####
+* 研究相互依赖网络的结构，功能，鲁棒性
+
+* 真实网络相互依赖的节点不是随机的
+
+#### 参考
+
+* GAO J -X, BULDYREV S V, STANLEY H E, etal. Networks formed from interdependent networks[J]. Nature Physics. 
 
 
+------------
 
 
 
