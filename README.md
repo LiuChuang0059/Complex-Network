@@ -25,6 +25,9 @@
 * [Jon Kleinberg](http://www.cs.cornell.edu/home/kleinber/)
 
 
+* [周涛--电子科技大学--科学网博客](http://blog.sciencenet.cn/?3075)-----[Google-Scholar-Citations](https://scholar.google.com/citations?hl=en&user=MXgWgmEAAAAJ&view_op=list_works&citft=1&citft=3&email_for_op=2015301020059lc%40gmail.com&gmla=AJsN-F4Njj1bIZtqgLDXV_lKORVi7QZxbdLg2uh7rbylMYZ9whd7Ji48E5iNvbIm1b68i8FtOraU8kZdVyiNG7Pq7yveeYnykVLAay8IgUMRKCMKhk-sCaHGmpP9qz4OV-i0Iydg37dIdNuFRPJu97YLKdGc7YlqhSP6rW6sdMouZQ9IsPOGC1dhLQ3OZJQ-0oivaWyHXwfay1pX2VTUsXvCa9gvl0sZ50vvSmO2WD3uLt_7DlTMkxRcu-TcSH8yHwwlT4mp8YBk)
+     > 国内做复杂网络和数据挖掘的大佬，引用超20,000; 经常在科学网博客分享一些论文资料，研究方向介绍分析。DC学院的创始人之一，有很多数据挖掘，图挖掘的课（付费）
+
 * [张潘 - 中科院理论物理所](http://lib.itp.ac.cn/html/panzhang/)-----[Google-Scholar-Citations](https://scholar.google.com/citations?user=MFnbrRUAAAAJ&hl=en)
   > 近几年做了很多，统计物理和机器学习，量子力学和机器学习的相关工作，都是PRx的高质量文章；个人主页附有一些处理方法的c++代码
 
