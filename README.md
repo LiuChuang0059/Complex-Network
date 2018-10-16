@@ -44,6 +44,15 @@
 
 * [Centre for Chaos and Complex Networks---香港城市大学](http://www.ee.cityu.edu.hk/~cccn/)------[Complex Networks: Information and Resources](http://www.ee.cityu.edu.hk/~gchen/ComplexNetworks.htm)
   > 复杂网络方向，已经很多工业应用； 主页有很多有关复杂网络的资源：大学课程+书籍+软件+数据集等等
+  
+
+--------
+
+###  学习课程，资料
+
+* [Complexity- Explore ](https://www.complexityexplorer.org/home)
+
+> 免费！ 复杂网络，相关基础知识，数学理论等
 
 --------
 ### 汇总参考
