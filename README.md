@@ -5,6 +5,9 @@
 
 ### 
 
+* [大佬采访视频](https://www.complexityexplorer.org/courses/89-introduction-to-complexity/segments/6757)
+>  一个复杂系统课程的采访视频，云集了各种大佬，讲 关于复杂系统的定义（实际一点都没听懂）
+
 *  [Cris Moore - Santa Fe Institute](http://tuvalu.santafe.edu/~moore/talks.html)------[Google-Scholar-Citations](https://scholar.google.com/citations?user=p_837e0AAAAJ&hl=zh-CN)
      > 做很多物理学思想方法在复杂网络中的应用 ；以及一些量子计算，量子算法在网络中的应用
 
