@@ -57,6 +57,17 @@
 
 > 免费！ 复杂网络，相关基础知识，数学理论等
 
+-------
+
+### 工具
+
+* [Netlogo](file:///Applications/NetLogo%206.0.4/docs/index.html)
+> 或者参考 Complexity- Explore ](https://www.complexityexplorer.org/home) 课程学习
+
+* [Networkx]()
+
+
+
 --------
 ### 汇总参考
 * http://blog.sciencenet.cn/blog-583335-477254.html
