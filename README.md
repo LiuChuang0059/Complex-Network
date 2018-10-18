@@ -61,8 +61,8 @@
 
 ### 工具
 
-* [Netlogo](file:///Applications/NetLogo%206.0.4/docs/index.html)
-> 或者参考 Complexity- Explore ](https://www.complexityexplorer.org/home) 课程学习
+* [Netlogo]
+> 可以参考 [Complexity- Explore ](https://www.complexityexplorer.org/home) 课程快速学习
 
 * [Networkx]()
 
