@@ -61,7 +61,7 @@
 
 ### 工具
 
-* [Netlogo]
+* Netlogo----[参考手册](http://ccl.northwestern.edu/netlogo/docs/dictionary.html)
 > 可以参考 [Complexity- Explore ](https://www.complexityexplorer.org/home) 课程快速学习
 
 * [Networkx]()
