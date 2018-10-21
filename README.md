@@ -40,7 +40,7 @@
 --------
 ---------
 
-### 科研机构
+### 科研机构--倾向人类行为方向
 
 * [Santa Fe Institute](https://www.santafe.edu/research/projects/social-networks-big-data-and-physics-powered-infer)
      >  真圣地，上面好多位大佬工作学习过的地方，网页有很多很多很好的研究成果，研究方向等等
@@ -48,6 +48,19 @@
 * [Centre for Chaos and Complex Networks---香港城市大学](http://www.ee.cityu.edu.hk/~cccn/)------[Complex Networks: Information and Resources](http://www.ee.cityu.edu.hk/~gchen/ComplexNetworks.htm)
      > 复杂网络方向，已经很多工业应用； 主页有很多有关复杂网络的资源：大学课程+书籍+软件+数据集等等
   
+
+* [麻省理工学院(MIT)多媒体实验室人类行为课题组](https://www.media.mit.edu/groups/human-dynamics/projects/)
+     > 结合计算机和大数据，研究人类在各个系统中的行为，主页有project 数据集。
+     
+* [MIT 环境工程系 González 领导的 HumNet 课题组](http://humnetlab.mit.edu/wordpress/)
+     > 复杂网络角度对人类的时空行为 进行研究，在移动模式挖掘问题上有着长期的积累。
+     
+* [微软亚洲研究院 的城市计算组](https://www.microsoft.com/en-us/research/project/%E5%9F%8E%E5%B8%82%E8%AE%A1%E7%AE%97/)
+     > 通过分析和融合城市中的各种大数据，郑宇博士的团队实现了一系列关于智能交通、城市规划、环境和能源的实际案例 ;; 有出行GPS数据集，天气数据集
+     
+     
+* [北京城市实验室(Beijing City Lab)](https://www.beijingcitylab.com/)
+     > 结合多种类型的数据，对 城市系统里的重要环节(如区域规划、城市经济等)进行量化的分析
 
 --------
 -------
