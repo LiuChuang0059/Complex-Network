@@ -162,6 +162,14 @@
   ------------
   
   ## 3. Trajectory Data Mining- An Overview   ------郑宇博士，微软亚洲研究院 ，ACM Transactions on Intelligent Systems and Technology ，2015年
+  
+  <div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/trajectory_datamining.png" width="400"/> </div><br>
+  
+  
+  * 自制的阅读记录
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/trajectory%20Data%20Mining.png" width="1600"/> </div><br>
+  
 
 
 
