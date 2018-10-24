@@ -33,6 +33,10 @@
 * [汪秉宏----中国科学技术大学---科学网博客](http://blog.sciencenet.cn/home.php?mod=space&uid=4673&view=bhwangustc)-----[Google-Scholar-Citations]()
 
      > 物理倾向的的复杂网络大牛，写过好的复杂网络的专著。
+     
+* [郑宇 前微软亚洲研究院城市计算组负责人，现 京东首席数据科学家](https://www.microsoft.com/en-us/research/project/%E5%9F%8E%E5%B8%82%E8%AE%A1%E7%AE%97/)----[Google-Scholar-Citations](https://scholar.google.com/citations?user=juUcdgYAAAAJ&hl=zh-CN)
+
+     > 主要研究方向为城市计算，，例如： Trajectory Data Mining 等
 
 * [张潘 - 中科院理论物理所](http://lib.itp.ac.cn/html/panzhang/)-----[Google-Scholar-Citations](https://scholar.google.com/citations?user=MFnbrRUAAAAJ&hl=en)
      > 近几年做了很多，统计物理和机器学习，量子力学和机器学习的相关工作，都是PRx的高质量文章；个人主页附有一些处理方法的c++代码
@@ -112,7 +116,9 @@
 -------
 ----------- 
 
+### 研究思路
 
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/%E7%A0%94%E7%A9%B6%E6%80%9D%E8%B7%AF.png" width="400"/> </div><br>
 
 
  
