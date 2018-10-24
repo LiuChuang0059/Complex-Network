@@ -2,7 +2,7 @@
 
 
 
-## 1. 《人类行为时空特性的统计力学》-------周涛 电子科技大学报 2013年
+## 1. [《人类行为时空特性的统计力学》](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Papers/%E4%BA%BA%E7%B1%BB%E8%A1%8C%E4%B8%BA%E6%97%B6%E7%A9%BA%E7%89%B9%E6%80%A7%E7%9A%84%E7%BB%9F%E8%AE%A1%E5%8A%9B%E5%AD%A6-%E5%91%A8%E6%B6%9B.pdf)-------周涛 电子科技大学报 2013年
 > 关于人类行为  研究进展方向 详细介绍， 也有未来研究方向的见解 
 
 ### 一. 人类行为的时间特性
@@ -120,7 +120,7 @@
 ------------------
 -----------------
 
-## 2.  利用移动网络数据的人类时空行为分析及建模研究------ 博士论文  陈夏明博士  2016年
+## 2.  [利用移动网络数据的人类时空行为分析及建模研究](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Papers/%E5%88%A9%E7%94%A8%E7%A7%BB%E5%8A%A8%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE%E7%9A%84%E4%BA%BA%E7%B1%BB%E6%97%B6%E7%A9%BA%E8%A1%8C%E4%B8%BA%E5%88%86%E6%9E%90%E5%8F%8A%E5%BB%BA%E6%A8%A1%E7%A0%94%E7%A9%B6--%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87.pdf)------ 博士论文  陈夏明博士  2016年
 > 简介了人类个体行为的微观，宏观研究； 提出了 人类行为的介观表述； 人类个体行为抽象为有向属性图； 研究人类群体行为； 
 
 <div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/%E4%BB%8B%E8%A7%82%E8%A1%A8%E8%BF%B0%E4%BA%BA%E7%B1%BB%E4%B8%AA%E4%BD%93%E8%A1%8C%E4%B8%BA.png" width="400"/> </div><br>
@@ -161,7 +161,7 @@
   -------------
   ------------
   
-  ## 3. Trajectory Data Mining- An Overview   ------郑宇博士，微软亚洲研究院 ，ACM Transactions on Intelligent Systems and Technology ，2015年
+  ## 3. [Trajectory Data Mining- An Overview](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Papers/Trajectory%20Data%20Mining-%20An%20Overview.pdf)   ------郑宇博士，微软亚洲研究院 ，ACM Transactions on Intelligent Systems and Technology ，2015年
   
   <div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/trajectory_datamining.png" width="400"/> </div><br>
   
@@ -170,6 +170,23 @@
 
 <div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/trajectory%20Data%20Mining.png" width="1600"/> </div><br>
   
+
+
+------------
+------------
+
+## 4. [Introduction to TrajectoryDatamining--course](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Papers/introduction%20to%20TrajectoryDatamining--course.pdf)  ----Kirsi Virrantaus Aalto University GIS-E4020
+
+* Semantic Trajectories Modeling and Analysis
+
+* Space-time density of real data
+
+* 数据集： 轮船运行轨迹数据集，， 龙卷风数据集
+
+-----------
+---------
+
+## 5. [Trajectory data mining- A review of methods and applications](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Papers/Trajectory%20data%20mining-%20A%20review%20of%20methods%20and%20applications--2016.pdf)------Jean Damascène Mazimpaka and Sabine Timpf Department of Geography, University of Augsburg, Germany----  JOURNAL OF SPATIAL INFORMATION SCIENCE----2016
 
 
 
