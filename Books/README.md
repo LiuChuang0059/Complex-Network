@@ -27,3 +27,10 @@
 * 15 章 ： 矩阵运算和文本处理中的两个分类问题 ---[笔记link](https://github.com/LiuChuang0059/Machine_Learning/blob/master/ML-in-Action/SVD.md#3-%E6%BD%9C%E5%9C%A8%E8%AF%AD%E4%B9%89%E7%B4%A2%E5%BC%95-latent-semantic-indexing)
 
 > 其中 X矩阵和Y矩阵的含义，始终和书里面理解的不太一样。
+
+
+
+## 《数据挖掘与分析；概念和算法》---Mohammed J.Zaki
+
+* 第8章 - 项集挖掘
+* 第10章-- 序列挖掘
