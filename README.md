@@ -118,7 +118,7 @@
 
 ### 研究思路
 
-<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/%E7%A0%94%E7%A9%B6%E6%80%9D%E8%B7%AF.png" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/%E7%A0%94%E7%A9%B6%E6%80%9D%E8%B7%AF.png" width="1000"/> </div><br>
 
 
  
