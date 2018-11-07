@@ -168,7 +168,7 @@
   
   * 自制的阅读记录
 
-<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/trajectory%20Data%20Mining.png" width="1600"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/trajectory%20Data%20Mining.png" width="600"/> </div><br>
   
 
 
@@ -190,9 +190,39 @@
 
 
 
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/Trajectory%20data%20mining%20process%20is%20application%20driven.png" width="400"/> </div><br>
 
 
 
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/%E8%BD%A8%E8%BF%B9%E6%8C%96%E6%8E%98%E5%BA%94%E7%94%A81.png" width="400"/> </div><br>
+
+
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/%E8%BD%A8%E8%BF%B9%E6%8C%96%E6%8E%98%E5%BA%94%E7%94%A82.png" width="400"/> </div><br>
+
+
+
+----
+-----
+
+## 6. [Human mobility: Models and applications](https://doi.org/10.1016/j.physrep.2018.01.001)---Barbosa, Hugo---2018 ---physics Report 
+
+> 给出研究人类运动的 数据集，基本原理，基本模型，最新进展，研究方向
+
+-----
+-----
+
+
+## 7. [Discovering Urban Functional Zones Using Latent Activity Trajectories](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Papers/Discovering%20Urban%20Functional%20Zones%20Using%20Latent%20Activity%20Trajectories.pdf)-----Nicholas Jing Yuan, Member, IEEE, Yu Zheng, Senior Memeber, IEEE, Xing Xie, Senior Member, IEEE, Yingzi Wang, Kai Zheng, Hui Xiong, Senior Member, IEEE ----- 微软亚洲研究院----KDD论文 ---2016
+
+
+
+
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/Discovering%20%20Functional%20Zones%20-%20LAT2.png" width="600"/> </div><br>
+
+------
+-----
 
 
 
