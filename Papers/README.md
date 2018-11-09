@@ -225,10 +225,15 @@
 -----
 
 
+## 8. [Recommender problem review](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Papers/Recommender-problem-review-2014.pdf)------- 2014---Netflix---Xavier Amatriain Research/Engineering Director @Netflix
+ 
+
+> 系统介绍传统算法的优缺点； 基于Netflix 介绍 SVD RBM 等； 后给出一些优化方向，或者待解决问题方向
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%AE%97%E6%B3%95.png" width="400"/> </div><br>
 
 
-
-
+-------
 
 
 
