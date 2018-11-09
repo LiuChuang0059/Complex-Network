@@ -58,15 +58,18 @@
 
 ## 3. 个性化推荐算法
 
+<div align="center"> <img src=https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%AE%97%E6%B3%95.png" width="600"/> </div><br>
+
+
 ### 1. 基于人口统计学的推荐 ---- Demographic-based Recommendation
 
 >  简单的额根据系统用户的基本信息 发现用户的相关程度， 后将相似用户喜爱的其他物品推荐给当前用户
-  *  优点： 简单，不使用当前用户对物品的喜好历史数据，所以对于新用户来讲没有“冷启动（Cold Start）”的问题。
-  * 缺点：  分类粗糙， 用户信息涉密
+  *  优点(Pros)： 简单，不使用当前用户对物品的喜好历史数据，所以对于新用户来讲没有“冷启动（Cold Start）”的问题。
+  * 缺点(Cons)：  分类粗糙， 用户信息涉密
   
 -----
 
-### 2. 基于内容的推荐
+### 2. 基于内容的推荐 --  Content-Based Recommendation
 
 > 针对文章本身抽取一些tag作为该文章的关键词，继而可以通过这些tag来评价两篇文章的相似度。 推荐相似的物品
   * 优点： 不需要用户数据 ；； 不存在过度推荐热门，不存在冷启动问题
@@ -126,6 +129,7 @@
 2. 为用户进行推荐。我们选取他们评价过的图书，找出与他们最相似的前两本 书，进行加权，然后推荐给用户加权分最高且他没有读过的书
 > 该用户 看过的书籍 每一本都有两本相近的书籍 使用看过的书籍的分数✖️ 相似性系数 加权求和，最大的 没读过的，作为推荐
 
+------
 
 #### 3. 基于矩阵分解 ----- 贝叶斯 聚类分析 分类回归 首先玻尔兹曼
 
@@ -135,6 +139,52 @@
 * 矩阵分解背后的原理是潜在特征代表了用户如何给项进行评分
 
 ----
+
+#### 4.   2007 ProgressPrize of Netflix
+
+* SVD 
+
+ * 使用随机梯度下降 迭代 近似计算 SVD
+ * 使用 SVD分解 用户的特征向量，以及 项的特征向量
+ 
+ 
+
+* RBM ---  Restricted Boltzmann Machines
+ * 　RBM可以看做是一个编码解码的过程，从可见层到隐藏层就是编码，而反过来从隐藏层到可见层就是解码
+ *  把每个用户对各个物品的评分做为可见层神经元的输入，然后有多少个用户就有了多少个训练样本
+ * 对于可见层输入的训练样本和随机初始化的W,a,我们可以用上面的sigmoid激活函数得到隐藏层的神经元的0,1值，这就是编码。然后反过来从隐藏层的神经元值和W,b可以得到可见层输出，这就是解码
+ 
+ * 即上面的对数似然损失函数尽可能小。按照这个损失函数，我们通过迭代优化得到W,a,b，
+
+ *  然后对于某个用于那些没有评分的物品 --我们用解码的过程可以得到一个预测评分，取最高的若干评分对应物品即可做用户物品推荐了。
+
+
+#### 5. Clustering
+
+* cluster users and compute per-cluster “typical” preferences
+
+* Users receive recommendations computed at the cluster level
+
+
+* Clustering techs
+
+● k-means and all its variations
+
+● Locality- sensitive- Hashing
+
+● Affinity Propagation
+
+● Spectral Clustering
+
+● LDA
+
+● Non-parametric Bayesian Clustering 
+ 
+
+
+#### 6. Classsifier
+
+* Logistic Regression, Bayesian Networks, Support Vector Machines, Decision Trees,
 
 
 ### 5. 混合推荐算法
@@ -149,6 +199,112 @@
 
 <div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/%E5%9B%9B%E7%A7%8D%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.png" width="800"/> </div><br>
 
+----------------
+
+## 4. Index
+
+
+### 1. Ranking
+
+* Popularity is the obvious baseline + Many other features can be added
+
+
+* Quality of ranking measured using metrics--指标衡量
+ >  但是难以用这些指标 优化机器学习模型
+  *  Normalized Discounted Cumulative Gain
+  *  Mean Reciprocal Rank (MRR)
+  *  Fraction of Concordant Pairs (FCP) 
+  
+
+* Approaches
+ * Point wise --- 逐点的
+  * Ranking function minimizes loss function defined on individual relevance judgment
+  * Logistic regression, SVM, GBDT
+  
+ * Pairwise
+  * Loss function is defined on pair-wise preferences
+  * minimize number of inversions in ranking-----两两一对，目标就是减少 反序的数量
+  * RankSVM, RankBoost, RankNet, FRank...
+ 
+ * Listwise
+  * Indirect loss function 
+   * RankCosine: similarity between ranking list and ground truthas loss function
+   * ListNet: KL-divergence as loss function by defining aprobability distribution
+   * Problem: optimization of listwise loss function may not optimizeIR metrics
+ 
+  * Directly optimizing IR metric (difficult since they arenot differentiable)
+   − Genetic Programming or Simulated Annealing
+
+− LambdaMart weights pairwise errors in RankNet by IR metric
+
+− Gradient descent on smoothed version of objective function (e.g. CLiMF or TFMAP)
+
+− SVM-MAP relaxes MAP metric by adding to SVM constraints
+
+− AdaRank uses boosting to optimize NDCG
+ 
+ 
+ 
+ ### 2 Similarity
+ 
+ **The final concept of “similarity” responds to what users vote
+as similar**
+ 
+ * some MAB explore/exploit approach
+ 
+ 
+ 
+ ### 3. Deep Learning
+ 
+ * Deep Learning for Collaborative Filtering 
+ 
+  * Reccurrent Network
+  
+ * Content-basede  
+  * CNN
+  * Training the deep neural network to predict 40 latent factors
+coming from Spotify’s CF solution
+ 
+
+### 4.  Social and Trust-based recommenders
+
+* 社交推荐
+* 评估人和人之间的信任度
+
+
+
+### 5. 页面优化
+
+*  User Attention Modeling
+
+>  From “Modeling User Attention and Interaction on the Web” 2014 - PhD Thesis by Dmitry Lagun (Emory U.)
+
+
+### 6. EE 问题
+
+* Multi-armed bandit problem, K-armed bandit problem, MAB
+
+ * Thompson采样
+ > 假设每个臂是否产生收益，其背后有一个概率分布，产生收益的概率为p;我们不断地试验，去估计出一个置信度较高的*概率p的概率分布*就能近似解决这个问题了。
+怎么能估计概率p的概率分布呢？ 答案是假设概率p的概率分布符合beta(wins, lose)分布，它有两个参数: wins, lose。每个臂都维护一个beta分布的参数。每次试验后，选中一个臂，摇一下，有收益则该臂的wins增加1，否则该臂的lose增加1。每次选择臂的方式是：用每个臂现有的beta分布产生一个随机数b，选择所有臂产生的随机数中最大的那个臂去摇
+
+ * UCB算法
+ > 先对每一个臂都试一遍,之后，每次选择以下值最大的那个臂
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -157,7 +313,7 @@
 
 
 ------
-## 4.  长尾理论---推荐算法
+## 5.  长尾理论---推荐算法
 
 <div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/%E9%95%BF%E5%B0%BE%E7%90%86%E8%AE%BA.png" width="400"/> </div><br>
 
@@ -171,7 +327,7 @@
 用户的数量并不少，并且随时间推移 A 类用户会逐步转变为 B 类用户(因 为人们都是喜新厌旧的)，所以依靠推荐系统来充分满足用户个性化、差 异化的需求，让长尾内容在合适的时机来曝光，维护企业健康的生态，才 能让企业的运转更稳定，波动更小。
 -------
 
-## 5. 评价方法
+## 6. 评价方法
 推荐系统的评价面要宽泛的多，往往推荐结果的数量要多很多，出现 的位置、场景也非常复杂，从量化角度来看，当应用于 Top-N 结果推荐时， MAP(Mean Average Precison)或CTR(Click Through Rate，计算广告 中常用)是普遍的计量方法;当用于评分预测问题时，RMSE(Root Mean Squared Error)或 MAE(Mean Absolute Error)是常见量化方法。
 由于推荐系统和实际业务绑定更为紧密，从业务角度也有很多侧面评 价方法，根据不同的业务形态，有不同的方法，例如带来的增量点击，推 荐成功数，成交转化提升量，用户延长的停留时间等指标
 
@@ -182,16 +338,16 @@
 
 -------
 # 参考
-* https://www.jianshu.com/p/af93e2ff2f83
+* 推荐算法总结-----https://www.jianshu.com/p/af93e2ff2f83
 
-* https://36kr.com/p/5114077.html
+* 今日头条推荐系统架构-----https://36kr.com/p/5114077.html
 
 * 《推荐系统-理论篇》---InfoQ
 
+* RBM 详解---(https://www.cnblogs.com/pinard/p/6530523.html)
 
 
-
-
+* 专治选择困难症——bandit算法----刑无刀----https://zhuanlan.zhihu.com/p/21388070
 
 
 
