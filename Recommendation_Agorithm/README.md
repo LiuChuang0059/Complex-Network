@@ -1,6 +1,6 @@
 # 推荐算法 
 
-## 1. 典型的推荐算法
+## 0. 典型的推荐算法
 
 * 协同过滤
 * GBDT --深度学习
@@ -18,6 +18,44 @@
 • 张量因子分解和因子分解(情境感知的推荐)
 
 ------
+------
+
+
+## 1. 开源工具
+
+* 用户不多， 慎用 分布式版本
+
+### 1. 内容分析
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/Image/%E5%BC%80%E6%BA%90-%E5%86%85%E5%AE%B9%E5%88%86%E6%9E%90%E3%80%81.png" width="600"/> </div><br>
+
+
+* FasText 还提供分类功能，效果几乎等同于CNN ，效率和线性模型一样
+
+
+* 主题模型还有 百度的 Familia 
+
+* 嵌入 还有 FAIR 的starspace 
+
+
+### 2.  协同过滤和矩阵分解
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/Image/%E5%BC%80%E6%BA%90-%E5%8D%8F%E5%90%8C%E8%BF%87%E6%BB%A4%2B%E7%9F%A9%E9%98%B5%E5%88%86%E8%A7%A3.png" width="600"/> </div><br>
+
+
+
+### 3. 模型融合
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/Image/%E5%BC%80%E6%BA%90-%E6%B7%B7%E5%90%88%E6%A8%A1%E5%9E%8B.png" width="600"/> </div><br>
+
+
+
+#### 4. 完整项目推荐
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/Image/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.png" width="600"/> </div><br>
+
+
+------
+------
 ## 2. 业界个性化推荐系统
 
 ### 1. 今日头条的推荐系统
@@ -30,13 +68,15 @@
 
 * 第三个维度是环境特征
 
+
 #### 2. 隐形语义特征 --- 语义标签
 
 #### 3. 层次化文本分类算法
 元分类器类型  ---  SVM ； SVM + CNN ； SVM+ CNN+ RNN
 
+-----
 ### 2.  淘宝推荐系统
-
+-----
 
 ### 3. 豆瓣
 
@@ -52,8 +92,21 @@
 
 <div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/%E5%9B%BE%E4%B9%A6%E8%AF%84%E5%88%86%E7%9F%A9%E9%98%B5.png" width="400"/> </div><br>
 
+--------
+
+### 5. YouTube视频推荐
+[link](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0--%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.md)
+
+-----
+
+### 6.  Spotify 推荐模型
+[link](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0--%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.md)
 
 
+
+
+
+------
 ------
 
 ## 3. 个性化推荐算法
@@ -69,7 +122,7 @@
   
 -----
 
-### 2. 基于内容的推荐 --  Content-Based Recommendation
+### 2. 基于内容的推荐(Content-Based Recommendation) --- [详述link](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/%E5%86%85%E5%AE%B9%E6%8E%A8%E8%8D%90.md)
 
 > 针对文章本身抽取一些tag作为该文章的关键词，继而可以通过这些tag来评价两篇文章的相似度。 推荐相似的物品
   * 优点： 不需要用户数据 ；； 不存在过度推荐热门，不存在冷启动问题
@@ -97,7 +150,7 @@
 -------------
 
 
-### 4. 基于协同过滤的推荐 （CF）
+### 4. 基于协同过滤的推荐(CF)---[详述 link](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/%E8%BF%91%E9%82%BB%E6%8E%A8%E8%8D%90-%E5%8D%8F%E5%90%8C%E8%BF%87%E6%BB%A4.md)
 
 #### 1. 基于用户的协同过滤推荐
 
@@ -133,23 +186,23 @@
 
 #### 3. 基于矩阵分解 ----- 贝叶斯 聚类分析 分类回归 首先玻尔兹曼
 
-* 矩阵因子分解 将项和用户转化为了 相同的潜在空间-----代表了用户和项之间的潜在相互作用
+1. 矩阵因子分解 将项和用户转化为了 相同的潜在空间-----代表了用户和项之间的潜在相互作用
 
 
-* 矩阵分解背后的原理是潜在特征代表了用户如何给项进行评分
+2. 矩阵分解背后的原理是潜在特征代表了用户如何给项进行评分
 
 ----
 
 #### 4.   2007 ProgressPrize of Netflix
 
-* SVD 
+1. SVD 
 
  * 使用随机梯度下降 迭代 近似计算 SVD
  * 使用 SVD分解 用户的特征向量，以及 项的特征向量
  
  
 
-* RBM ---  Restricted Boltzmann Machines
+2. RBM ---  Restricted Boltzmann Machines
  * 　RBM可以看做是一个编码解码的过程，从可见层到隐藏层就是编码，而反过来从隐藏层到可见层就是解码
  *  把每个用户对各个物品的评分做为可见层神经元的输入，然后有多少个用户就有了多少个训练样本
  * 对于可见层输入的训练样本和随机初始化的W,a,我们可以用上面的sigmoid激活函数得到隐藏层的神经元的0,1值，这就是编码。然后反过来从隐藏层的神经元值和W,b可以得到可见层输出，这就是解码
@@ -161,30 +214,27 @@
 
 #### 5. Clustering
 
-* cluster users and compute per-cluster “typical” preferences
+1. cluster users and compute per-cluster “typical” preferences
 
-* Users receive recommendations computed at the cluster level
+2. Users receive recommendations computed at the cluster level
 
 
-* Clustering techs
+3. Clustering techs
 
-● k-means and all its variations
+* k-means and all its variations
 
-● Locality- sensitive- Hashing
+* Locality- sensitive- Hashing
 
-● Affinity Propagation
+* Affinity Propagation
 
-● Spectral Clustering
+* Spectral Clustering
 
-● LDA
+* LDA
 
-● Non-parametric Bayesian Clustering 
+* Non-parametric Bayesian Clustering 
  
 
 
-#### 6. Classsifier
-
-* Logistic Regression, Bayesian Networks, Support Vector Machines, Decision Trees,
 
 
 ### 5. 混合推荐算法
@@ -202,49 +252,9 @@
 ----------------
 
 ## 4. Index
-
-
-### 1. Ranking
-
-* Popularity is the obvious baseline + Many other features can be added
-
-
-* Quality of ranking measured using metrics--指标衡量
- >  但是难以用这些指标 优化机器学习模型
-  *  Normalized Discounted Cumulative Gain
-  *  Mean Reciprocal Rank (MRR)
-  *  Fraction of Concordant Pairs (FCP) 
-  
-
-* Approaches
- * Point wise --- 逐点的
-  * Ranking function minimizes loss function defined on individual relevance judgment
-  * Logistic regression, SVM, GBDT
-  
- * Pairwise
-  * Loss function is defined on pair-wise preferences
-  * minimize number of inversions in ranking-----两两一对，目标就是减少 反序的数量
-  * RankSVM, RankBoost, RankNet, FRank...
+### 1. ranking ---[详述 link](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/%E6%8E%92%E8%A1%8C%E6%A6%9C.md)
  
- * Listwise
-  * Indirect loss function 
-   * RankCosine: similarity between ranking list and ground truthas loss function
-   * ListNet: KL-divergence as loss function by defining aprobability distribution
-   * Problem: optimization of listwise loss function may not optimizeIR metrics
- 
-  * Directly optimizing IR metric (difficult since they arenot differentiable)
-   − Genetic Programming or Simulated Annealing
-
-− LambdaMart weights pairwise errors in RankNet by IR metric
-
-− Gradient descent on smoothed version of objective function (e.g. CLiMF or TFMAP)
-
-− SVM-MAP relaxes MAP metric by adding to SVM constraints
-
-− AdaRank uses boosting to optimize NDCG
- 
- 
- 
+ -----
  ### 2 Similarity
  
  **The final concept of “similarity” responds to what users vote
@@ -252,8 +262,8 @@ as similar**
  
  * some MAB explore/exploit approach
  
- 
- 
+ -----
+
  ### 3. Deep Learning
  
  * Deep Learning for Collaborative Filtering 
@@ -265,20 +275,21 @@ as similar**
   * Training the deep neural network to predict 40 latent factors
 coming from Spotify’s CF solution
  
-
+-----
 ### 4.  Social and Trust-based recommenders
 
 * 社交推荐
 * 评估人和人之间的信任度
 
 
-
+----
 ### 5. 页面优化
 
 *  User Attention Modeling
 
 >  From “Modeling User Attention and Interaction on the Web” 2014 - PhD Thesis by Dmitry Lagun (Emory U.)
 
+---
 
 ### 6. EE 问题
 
@@ -292,26 +303,7 @@ coming from Spotify’s CF solution
  > 先对每一个臂都试一遍,之后，每次选择以下值最大的那个臂
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-----
 ------
 ## 5.  长尾理论---推荐算法
 
@@ -325,7 +317,10 @@ coming from Spotify’s CF solution
 
 * 只依赖最热门内容的另一个不易察觉的危险是潜在用户的流失:因为 只依赖爆款虽然能吸引一批用户(简称 A 类用户)，但同时也悄悄排斥了 对这些热门内容并不感冒的用户(简称 B 类用户)，按照长尾理论，B 类
 用户的数量并不少，并且随时间推移 A 类用户会逐步转变为 B 类用户(因 为人们都是喜新厌旧的)，所以依靠推荐系统来充分满足用户个性化、差 异化的需求，让长尾内容在合适的时机来曝光，维护企业健康的生态，才 能让企业的运转更稳定，波动更小。
+
+
 -------
+------
 
 ## 6. 评价方法
 推荐系统的评价面要宽泛的多，往往推荐结果的数量要多很多，出现 的位置、场景也非常复杂，从量化角度来看，当应用于 Top-N 结果推荐时， MAP(Mean Average Precison)或CTR(Click Through Rate，计算广告 中常用)是普遍的计量方法;当用于评分预测问题时，RMSE(Root Mean Squared Error)或 MAE(Mean Absolute Error)是常见量化方法。
@@ -335,7 +330,7 @@ coming from Spotify’s CF solution
 
 
 
-
+------
 -------
 # 参考
 * 推荐算法总结-----https://www.jianshu.com/p/af93e2ff2f83
@@ -350,4 +345,4 @@ coming from Spotify’s CF solution
 * 专治选择困难症——bandit算法----刑无刀----https://zhuanlan.zhihu.com/p/21388070
 
 
-
+* 极客时间 --- 刑无刀
