@@ -18,7 +18,7 @@
 $h(t) =f(h(t−1),x(t);θ)$
 
 4. RNN 典型结构 
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/RNN%E5%85%B8%E5%9E%8B%E7%BB%93%E6%9E%84.png" width="800"/> </div><br>
 
 * 左面是回路图，
 * 右边是展开图： 其中每一个组件由许多不同的变量表 示，每个时间步一个变量，表示在该时间点组件的状态
@@ -44,20 +44,20 @@ Pros：
 1. 每个时间步都有输出，并且隐藏单元之间有循环连接的循环网络
 
 
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/RNN%E6%A8%A1%E5%BC%8F1.png" width="600"/> </div><br>
 * 选择将想要的任何信息 放入隐藏表示h ， 并传递到未来
 
 2. 每个时间步都产生一个输出，只有当前时刻的输出到下个时刻的隐藏单元之间
 有循环连接的循环网络
 
 
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/RNN%E6%A8%A1%E5%BC%8F2.png" width="600"/> </div><br>
 
 *  将特定的输出值传播到未来，缺乏一些关键信息（因为输出单元明确地训练成匹配训练集的目标，它 们不太能捕获关于过去输入历史的必要信息）---更容易训练
 
 3.  隐藏单元之间存在循环连接，但读取整个序列后产生单个输出的循环网络
 
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/RNN%E6%A8%A1%E5%BC%8F3.png" width="600"/> </div><br>
 
 * 网络可以用于概括序列并产生用于进一步处理的固定大小的表示。在结束处可能存在目标(如此处所示)，或者通过更 下游模块的反向传播来获得输出 o(t) 上的梯度。
 
@@ -75,7 +75,7 @@ Pros：
 * 训练期间该网络看到的输入与测试时看到的会有很大的不同 
 
 
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E5%AF%BC%E5%B8%88%E9%A9%B1%E5%8A%A8%E8%BF%87%E7%A8%8B.png" width="400"/> </div><br>
 
 * 改善：随意选择生成值或真实的数据值作为输入以减小训练时和测试时看到的输入 之间的差别。这种方法利用了课程学习策略，逐步使用更多生成值作为输入。
 
@@ -100,7 +100,7 @@ Pros：
 
 * 作为初始状态
 
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E4%BD%9C%E4%B8%BA%E9%A2%9D%E5%A4%96%E7%9A%84%E8%BE%93%E5%85%A5.png" width="800"/> </div><br>
 
 * 将固定长度的向量 x 映射到序列 Y 上分布的 RNN。🌟
 
@@ -110,7 +110,7 @@ Pros：
 
 
 2. RNN 可以接收向量序列 x(t) 作为输入
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E6%8E%A5%E6%94%B6%E5%90%91%E9%87%8F%E8%BE%93%E5%85%A5.png" width="800"/> </div><br>
 
 * 我们可以在时刻 t 的输出到时刻 t + 1 的隐藏单元添加连接
 
@@ -128,7 +128,7 @@ Pros：
 
 1. 双向 RNN 结合时间上从序列起点开始移动的 RNN 和另一个时间上 从序列末尾开始移动的 RNN
 
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E5%8F%8C%E5%90%91RNN.png" width="600"/> </div><br>
 
 
 
@@ -179,7 +179,7 @@ Pros：
 2. RNN 状态分为多层
 
 
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E6%B7%B1%E5%BA%A6RNN.png" width="600"/> </div><br>
 
 
 * a : 隐藏循环状态可 以被分解为具有层次的组
@@ -205,7 +205,7 @@ pros:
 # 7. 梯度消失或者爆炸
 
 1. 循环网络涉及相同函数的多次组合，每个时间步一次。这些组合可以导致极端 非线性行为
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E9%9D%9E%E7%BA%BF%E6%80%A7.png" width="400"/> </div><br>
 
 * 在标量情况下，多次乘一个权重 w。该乘积wt 消失还是爆炸取决于 w 的幅值
 
@@ -265,7 +265,7 @@ pros:
 
 
 
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/LSTM%E5%9D%97.png" width="600"/> </div><br>
 
 
 * LSTM 循 环网络除了外部的 RNN 循环外，还具有内部的 “LSTM 细胞’’ 循环(自环)
@@ -279,9 +279,6 @@ pros:
 
 ## 2. GRU--- 门控循环单元
 
-------
-------
-------
 
 
 
@@ -323,4 +320,3 @@ pros:
 
 
 
-> One to ‘understand’ the input sequence and the decoder to ‘decode’ the ‘thought vector’ and construct an output sequence.
