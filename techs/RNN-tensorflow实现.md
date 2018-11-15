@@ -1,4 +1,4 @@
-# 4. RNN Tensorflow 实现
+#  RNN Tensorflow 实现
 
 ## 1. 单步RUN-- RNUCell
 
@@ -87,6 +87,29 @@ calling the `rnn` ops several times.
 
 [详见link](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Tensorflow%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0.ipynb)
 
+## 5. 数据集准备
+
+
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/RNN%E5%88%86%E5%89%B2%E6%95%B0%E6%8D%AE%E9%9B%86.png" width="600"/> </div><br>
+
+
+
+
+* 假如我们目前手里有一个序列1-12，
+* 在LSTM中，batch_size意味着每次向网络输入多少个样本，在上图中，当我们设置batch_size=2时，我们会将整个序列划分为6个batch，每个batch中有两个数字。
+> 关于batch-size https://stats.stackexchange.com/questions/153531/what-is-batch-size-in-neural-network
+
+* 然而由于RNN中存在着“记忆”，也就是循环。事实上一个循环神经网络能够被看做是多个相同神经网络的叠加，在这个系统中，每一个网络都会传递信息给下一个。上面的图中，我们可以看到整个RNN网络由三个相同的神经网络单元叠加起来的序列。那么在这里就有了第二个概念sequence_length（也叫steps），中文叫序列长度。上图中序列长度是3，可以看到将三个字符作为了一个序列。
+
+* 定义一个batch中的序列个数为N（即batch_size），定义单个序列长度为M（也就是我们的num_steps）。那么实际上我们每个batch是一个N \times M的数组，相当于我们的每个batch中有N\times M个字符。在上图中，当我们设置N=2， M=3时，我们可以得到每个batch的大小为2 x 3 = 6个字符，整个序列可以被分割成12 / 6 = 2个batch。
+
+-------
+
+
+
+
+
 
 
 # 参考
@@ -95,7 +118,7 @@ calling the `rnn` ops several times.
 
 * TensorFlow中RNN实现的正确打开方式---https://zhuanlan.zhihu.com/p/28196873
 
-
+* https://zhuanlan.zhihu.com/p/27087310
 
 
 
