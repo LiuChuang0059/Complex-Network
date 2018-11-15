@@ -256,6 +256,8 @@ pros:
 
 ## 1. LSTM 
 
+### 1. 简述
+
 1. 引入自循环的巧妙构思，以产生梯度长时间持续流动的路径
 
 2. 使自循环的权重视上下文而定，而不是固定的
@@ -274,8 +276,82 @@ pros:
 
 * 最重要的组成部分是状态单元 s(t)，类似于渗透单元的线性自环，。然而，此处自环的权重(或相关联的时间常数)由 遗忘门 (forget gate) f(t) 控制
 
+----
+### 2. 从RNN到LSTM
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/RNN%E6%A8%A1%E5%BC%8F1.png" width="600"/> </div><br>
+
+* 如果我们略去每层都有的o(t),L(t),y(t)，则RNN的模型可以简化成如下图的形式
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/RNN%E7%AE%80%E5%8C%96%E6%A8%A1%E5%9E%8B.png" width="600"/> </div><br>
+
+* 隐藏状态h(t)由x(t)和h(t−1)得到。得到h(t)后一方面用于当前层的模型损失计算，另一方面用于计算下一层的h(t+1)。
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/LSTM%E7%BB%93%E6%9E%84%E5%9B%BE.png" width="800"/> </div><br>
+
+
+### 3. LSTM 模型结构解析
+##### 1. 细胞状态
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E7%BB%86%E8%83%9E%E7%8A%B6%E6%80%81.png" width="600"/> </div><br>
+
+##### 2. 遗忘门 ---- 一定的概率控制是否遗忘上一层的隐藏细胞状态
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E9%81%97%E5%BF%98%E9%97%A8.png" width="600"/> </div><br>
+
+
+* 输入的有上一序列的隐藏状态h(t−1)和本序列数据x(t)，通过一个激活函数，一般是sigmoid，得到遗忘门的输出f(t)
+
+* sigmoid-- 输出在[0,1] 之间， 输出代表遗忘上一层隐藏细胞状态的概率
+
+
+##### 3. LSTM -输入门
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E8%BE%93%E5%85%A5%E9%97%A8.png" width="600"/> </div><br>
+
+* 一部分使用了sigmoid激活函数，输出为i(t）
+$$i^{(t)} = \sigma(W_ih^{(t-1)} + U_ix^{(t)} + b_i)$$
+*  另一部分使用了tanh激活函数，输出为a(t)
+$$a^{(t)} =tanh(W_ah^{(t-1)} + U_ax^{(t)} + b_a)$$
+
+*  i(t) 和 a(t) 相乘更新细胞状态
+
+
+##### 4. LSTM 细胞状态更新
+
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E7%BB%86%E8%83%9E%E7%8A%B6%E6%80%81%E6%9B%B4%E6%96%B0.png" width="600"/> </div><br>
+
+
+细胞状态C(t)由两部分组成，第一部分是C(t−1)和遗忘门输出f(t)的乘积，第二部分是输入门的i(t)和a(t)的乘积，即：
+
+$$C^{(t)} = C^{(t-1)} \odot f^{(t)} + i^{(t)} \odot a^{(t)}$$
+
+
+##### 5. 输出门
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E8%BE%93%E5%87%BA%E9%97%A8.png" width="600"/> </div><br>
+
+藏状态h(t)的更新由两部分组成，第一部分是o(t), 它由上一序列的隐藏状态h(t−1)和本序列数据x(t)，以及激活函数sigmoid得到，第二部分由隐藏状态C(t)和tanh激活函数组成, 
+
+$$o^{(t)} = \sigma(W_oh^{(t-1)} + U_ox^{(t)} + b_o)$$
+$$h^{(t)} = o^{(t)} \odot tanh(C^{(t)})$$
+
+
+
+
+
+
+
+
+
+
+
+
 
 ------
+
+
+
+
 
 ## 2. GRU--- 门控循环单元
 
@@ -285,7 +361,22 @@ pros:
 
 
 
+----
+-----
 
+
+
+
+
+
+
+
+
+# 参考资料
+
+* 深度学习---Ian Goodfellow and Yoshua Bengio and Aaron Courville
+
+* https://www.cnblogs.com/pinard/p/6519110.html
 
 
 
