@@ -24,7 +24,7 @@
 
 # TCN 结构
 
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/TCN%E7%BB%93%E6%9E%84.png" width="800"/> </div><br>
 
 
 
@@ -37,12 +37,12 @@
 
 
 
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/CNN%E7%89%B9%E5%BE%81%E5%9B%BE.jpg" width="800"/> </div><br>
 
 2. (右图)固定大小的CNN可视化，所有的特征图固定大小并保持与输入特征图大小一致
 > 每个特征被标记在其感受野所在的中心（从而定位出感受野中心位置）。由于一个特征图中所有的特征都有相同大小的感受野，我们可以简单地在每个特征周围画出一个边界框，从而获得感受野的大小
 
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/CNN%E7%89%B9%E5%BE%81%E5%9B%BE2.jpg" width="800"/> </div><br>
 3. 右图中，浅绿色 和浅黄色为感受野，感受野大小增加迅速，以至于第二个特征层的中心特征的感受野已经覆盖了整个输入特征图
 
 ----
@@ -54,11 +54,11 @@
 
 # 空洞卷积---dilated convolution
 
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E7%A9%BA%E6%B4%9E%E5%8D%B7%E7%A7%AF.gif" width="800"/> </div><br>
 
 
 
-<div align="center"> <img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E7%A9%BA%E6%B4%9E%E5%8D%B7%E7%A7%AF.gif" width="800"/> </div><br>
 
 
 * kernel之间有间隔，，以此来增加 感受野
