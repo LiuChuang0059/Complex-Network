@@ -235,6 +235,23 @@
 
 -------
 
+--------
+
+
+## 9. [Real-time Personalization using Embeddings for Search Ranking at Airbnb](https://www.kdd.org/kdd2018/accepted-papers/view/real-time-personalization-using-embeddings-for-search-ranking-at-airbnb)-----KDD best paper----2018
+
+> word2vec 做商品推荐 (embedding)
+> Pros： 点击表示短期兴趣，booking 表示长期兴趣；  2.解决尾部稀疏问题
+
+-------
+------
+
+
+
+
+
+
+
 
 
 
