@@ -78,6 +78,9 @@
 
 * [斯坦福CS224w](http://web.stanford.edu/class/cs224w/)
 
+* [机器学习速成课](https://developers.google.com/machine-learning/crash-course/embeddings/video-lecture)
+    > 谷歌出品，中文机器翻译发音--- 有关于Embedding 的部分
+
 -------
 --------
 
