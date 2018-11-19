@@ -27,8 +27,21 @@
 ## 《数学之美》-- 吴军
 
 * 15 章 ： 矩阵运算和文本处理中的两个分类问题 ---[笔记link](https://github.com/LiuChuang0059/Machine_Learning/blob/master/ML-in-Action/SVD.md#3-%E6%BD%9C%E5%9C%A8%E8%AF%AD%E4%B9%89%E7%B4%A2%E5%BC%95-latent-semantic-indexing)
-
 > 其中 X矩阵和Y矩阵的含义，始终和书里面理解的不太一样。
+
+
+* 5章 ： 隐含马尔可夫模型---[笔记link](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/%E9%9A%90%E5%90%AB%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E6%A8%A1%E5%9E%8B.md)
+>  模型简单介绍和训练
+
+
+* 27章： 期望最大化算法EM
+> 使用自收敛分类  讲解 EM
+
+* 24章： 马尔可夫链的扩展--- 贝叶斯网络---[笔记link](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/%E8%B4%9D%E5%8F%B6%E6%96%AF(Belief)%E7%BD%91%E7%BB%9C.md)
+> 加权有向图
+
+* 11章： 关键词的重要性TF-IDF --[笔记link](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/TF-IDF.md)
+
 
 ------
 
@@ -40,6 +53,7 @@
 -------
 ## 《概率论与数理统计》--- 茆诗松
 * 关于 概率分布的讲解，详细全面
+
 * 贝叶斯相关内容
 
 -----
