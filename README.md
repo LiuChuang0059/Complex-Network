@@ -81,6 +81,8 @@
 * [机器学习速成课](https://developers.google.com/machine-learning/crash-course/embeddings/video-lecture)
     > 谷歌出品，中文机器翻译发音--- 有关于Embedding 的部分
 
+* [序列模型](https://mooc.study.163.com/learn/2001280005?tid=2001391038#/learn/content?type=detail&id=2001770041)
+     * 吴恩达老师--网易云课堂---讲解关于embedding的基础理解
 -------
 --------
 
