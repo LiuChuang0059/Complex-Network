@@ -1,0 +1,43 @@
+# LSTM 学习
+
+
+# LSTM 数据准备输入
+
+## 1. LSTM 输入层
+
+```python
+
+model = Sequential()
+model.add(LSTM(32,input_shape=(50,2)))
+model.add(Dense(1))
+```
+
+LSTM 输入是三维的
+
+* 样品 ： 一个序列是一个样本。批次由一个或多个样本组成。
+
+* 时间步 ： 一个时间步代表样本中的一个观察点。 （50个时间步长，2个特征）
+
+* 特征 ： 一个特征是在一个时间步长的观察得到的。
+
+
+
+```python
+data= data.reshape(1,10,1)  # 每个时间步长一个样本 需要10个时间步长和1个特征。
+model.add(LSTM(32,input_shape(10,1)))
+```
+该数据现在可以为input_shape（10，1）的LSTM的输入（X）。
+
+
+
+
+
+
+
+
+
+
+
+# 参考
+
+* 如何为LSTM重新构建输入数据（Keras）--- https://www.jianshu.com/p/246f117af8f0
