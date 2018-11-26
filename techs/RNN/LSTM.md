@@ -29,8 +29,12 @@ model.add(LSTM(32,input_shape(10,1)))
 该数据现在可以为input_shape（10，1）的LSTM的输入（X）。
 
 
+## 2. LSTM -keras 实现例子
 
 
+[LSTM模型预测股价基于Keras](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/RNN/LSTM-keras.ipynb)
+
+Dataset --[train](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Dataset/NSE-TATAGLOBAL.csv)---[test](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Dataset/tatatest.csv)
 
 
 
@@ -41,3 +45,5 @@ model.add(LSTM(32,input_shape(10,1)))
 # 参考
 
 * 如何为LSTM重新构建输入数据（Keras）--- https://www.jianshu.com/p/246f117af8f0
+
+* Data and Notebook for the Stock Price Prediction Tutorial-- https://github.com/mwitiderrick/stockprice
