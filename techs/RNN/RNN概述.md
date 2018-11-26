@@ -8,6 +8,10 @@
 
 # 循环神经网络 -- Recurrent neural network
 
+* RNN多种类型
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/RNN%E7%B1%BB%E5%9E%8B.png" width="800"/> </div><br>
+
 # 1. define 
 1. 用于处理序列数据的神经网络
 
@@ -130,7 +134,7 @@ Pros：
 
 <div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E5%8F%8C%E5%90%91RNN.png" width="600"/> </div><br>
 
-
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E5%8F%8C%E5%90%91RNN.png" width="600"/> </div><br>
 
 **2维输入--- 四个RNN组成，那在 2 维网格每个点 (i, j) 的输出 out 就能计算一个能捕捉到大多局部信息但仍依 赖于长期输入的表示** 🌟
 
@@ -377,6 +381,8 @@ $$h^{(t)} = o^{(t)} \odot tanh(C^{(t)})$$
 * 深度学习---Ian Goodfellow and Yoshua Bengio and Aaron Courville
 
 * https://www.cnblogs.com/pinard/p/6519110.html
+
+* Andrew Ng
 
 
 
