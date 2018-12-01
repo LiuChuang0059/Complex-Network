@@ -67,7 +67,59 @@ sourse
 ----------
 --------
 
-###  2. 
+###  2.  Temporal/Sequential Data. ---- RNN 
+
+> A powerful class of models for sequential data called Hidden Markov Models (Rabiner, 1989) that utilize dynamical programming techniques have natural statistical physics interpretations in terms of transfer matrices (see (Mehta et al., 2011) for explicit example of this). Recently, Recurrent Neural Networks (RNNs) have become an important and powerful tool for dealing with sequence data.
+
+
+
+------
+------
+
+
+
+ ###  3. Reinforce Learning ---Recently in physics  (2017 --- now) 
+ 
+ 
+ * [Learning to soar in turbulent environments](http://www.pnas.org/content/113/33/E4877)
+ > 鸟类飞行--流体力学--涉及复杂的控制决策，
+ 
+ 
+ 
+ ### 4.  文本挖掘
+ 
+ * [Machine learning for molecular and materials science](https://www.nature.com/articles/s41586-018-0337-2#ref-CR79)---Nature--2018
+ 
+>  Although the scientific literature provides a wealth of information to researchers, it is increasingly difficult to navigate owing to the proliferation of journals, articles and databases. 
+
+> Text mining has become a popular approach to identifying and extracting information from unstructured text sources. 
+
+> This approach can be used to extract facts and relationships in a structured form to create specialized databases, to transfer knowledge between domains and, more generally, to support research decision-making
+ 
+ 
+应用
+
+* [Materials Synthesis Insights from Scientific Literature via Text
+Extraction and Machine Learning](https://pubs.acs.org/doi/ipdf/10.1021/acs.chemmater.7b03500)---2017
+> 检查了超过12,000份手稿中各种金属氧化物的合成条件。然后，我们应用机器学习方法来预测通过水热法合成二氧化钛纳米管所需的关键参数，并根据已知机制验证该结
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
 
 
 
