@@ -93,29 +93,11 @@ sourse
 
 
 ------
--------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+----
 
 ###  3.  Temporal/Sequential Data. ---- RNN 
 
 > A powerful class of models for sequential data called Hidden Markov Models (Rabiner, 1989) that utilize dynamical programming techniques have natural statistical physics interpretations in terms of transfer matrices (see (Mehta et al., 2011) for explicit example of this). Recently, Recurrent Neural Networks (RNNs) have become an important and powerful tool for dealing with sequence data.
-
-
 
 ------
 ------
@@ -146,17 +128,35 @@ sourse
 
 * [Materials Synthesis Insights from Scientific Literature via Text
 Extraction and Machine Learning](https://pubs.acs.org/doi/ipdf/10.1021/acs.chemmater.7b03500)---2017
-> 检查了超过12,000份手稿中各种金属氧化物的合成条件。然后，我们应用机器学习方法来预测通过水热法合成二氧化钛纳米管所需的关键参数，并根据已知机制验证该结
+> 检查了超过12,000份手稿中各种金属氧化物的合成条件。然后，d
+我们应用机器学习方法来预测通过水热法合成二氧化钛纳米管所需的关键参数，并根据已知机制验证该结
  
  
  ----------
  --------
  
  
+ ## 2. 复杂网络 ---网络信息挖掘
+ 
+ ### 1.  关键节点挖掘
+ > 能够在更大程度上影响网络的结构与功能的一些特殊节点
  
  
  
+ * 二是提出若干评价网络中节点中心性（重要性）的指标。节点的度和核数是最常见的刻画节点影响力的中心性指标。我们指出了节点度在刻画影响力方面存在局域化程度过高的缺陷，并据此提出了基于多阶邻居[4]和考虑局部集聚特性[5]和邻居连接模式[6]的新的中心性指标
  
+ 
+ * 实际上在不同的动力学参数条件下，网络中节点重要性的排序变化非常大，这就使得如果不考虑具体动力学的性质和参数，没有办法得到具有普适性的有效排
+ 
+ 
+ 
+ ### 3. 推荐系统
+ 
+ 精巧混合能量扩散和热传导算法，实现了同时提升推荐效果的精确性、多样性和新颖性[51]。
+ 
+ [Solving the apparent diversity-accuracy dilemma of recommender systems](https://arxiv.org/pdf/0808.2670.pdf)
+ 
+ 这些算法从整体上对于推荐的精确度提升并不明显，但是能够显著提高较新的用户和较不流行的商品推荐的精准度。
  
  
  
