@@ -26,13 +26,13 @@ $$i^{(t)} = \sigma(W_ih^{(t-1)} + U_ix^{(t)} + b_i)$$
 $$a^{(t)} =tanh(W_ah^{(t-1)} + U_ax^{(t)} + b_a)$$
 
 
- $$Params_f = 2*(352*50 + 50) = 35300 $$
+ $$Params_f = 2*(51*50 + 50) = 5200 $$
  
  ## 3. 输出门
  
  <div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/raw/master/techs/Image/%E8%BE%93%E5%87%BA%E9%97%A8.png" width="800"/> </div><br>
  
- $$Params_f = 352*50 + 50 = 17650 $$
+ $$Params_f = 51*50 + 50 = 2600 $$
  
  ## 4. 细胞状态更新
  
@@ -51,7 +51,7 @@ $$a^{(t)} =tanh(W_ah^{(t-1)} + U_ax^{(t)} + b_a)$$
 
  
  
- **BiLSTm**
+ **BiLSTm -- LSTM*2**
  
  <div align="center"> <img src="https://github.com/LiuChuang0059/ML_Project/raw/master/Project/BiLSTM-model.png" width="600"/> </div><br>
  
