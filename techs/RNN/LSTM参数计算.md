@@ -56,6 +56,11 @@ $$a^{(t)} =tanh(W_ah^{(t-1)} + U_ax^{(t)} + b_a)$$
  <div align="center"> <img src="https://github.com/LiuChuang0059/ML_Project/raw/master/Project/BiLSTM-model.png" width="600"/> </div><br>
  
  
+*  shape = （5,60） ，时间步是5， 每个时间步的特征长度是 60 ，选取的 units 是 20， 中间的隐向量是 20
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E6%A8%A1%E5%9E%8B%E7%BB%93%E6%9E%842.png" width="600"/> </div><br>
+
+ 
  
  
  
