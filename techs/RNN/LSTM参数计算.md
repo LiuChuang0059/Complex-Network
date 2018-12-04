@@ -45,7 +45,9 @@ $$a^{(t)} =tanh(W_ah^{(t-1)} + U_ax^{(t)} + b_a)$$
  
  $N = 4* ((input + units)* units + units) = 10400$ 
  
- <div align="center"> <img src=" https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E6%A8%A1%E5%9E%8B%E7%BB%93%E6%9E%84.png" width="600"/> </div><br>
+ 
+ 
+ <div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E6%A8%A1%E5%9E%8B%E7%BB%93%E6%9E%84.png" width="600"/> </div><br>
 
  
  
