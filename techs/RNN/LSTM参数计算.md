@@ -51,7 +51,9 @@ $$a^{(t)} =tanh(W_ah^{(t-1)} + U_ax^{(t)} + b_a)$$
 
  
  
+ **BiLSTm**
  
+ <div align="center"> <img src="https://github.com/LiuChuang0059/ML_Project/raw/master/Project/BiLSTM-model.png" width="400"/> </div><br>
  
  
  
