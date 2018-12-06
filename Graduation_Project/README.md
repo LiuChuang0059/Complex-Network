@@ -83,10 +83,16 @@ At least 200 groups of acoustic wave waveforms detected by the detector and corr
 -----
 
 
+# 3. 题目 + 摘要
 
+* Dose verification in proton therapy based on protoacoustic signal and machine learning
+
+
+> In vivo range verification in proton therapy is critical to help minimize range uncertainty. We aim to develop machine learning based approaches and proton-induced acoustics (photoacoustic) to reconstruct pressure/dose distribution in CT-based heterogeneous tissues. The project consists of several components: 1) calculating mono-energetic proton pencil beam-deposited dose distribution in a CT-based patient phantom using Monte Carlo simulation; 2) investigating photoacoustic pressurization, propagation, and reconstruction in K-wave toolbox, and their dependencies on several physical parameters, including mass density (), speed of sound (c), volumetric thermal expansion coefficient (), isobaric special heat capacity (Cp) and attenuation power law prefactor (); 3) using recursive neural network models to quantitatively evaluate the prediction error in Bragg peak localization and dose distribution. 
  
  
- 
+ ------
+ -----
  
  
  
