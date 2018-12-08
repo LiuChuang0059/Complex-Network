@@ -82,3 +82,10 @@
 
 
 * rnn_cell_impl.py---源码-----https://github.com/tensorflow/tensorflow/blob/r1.2/tensorflow/python/ops/rnn_cell_impl.py
+
+* 动态图解 Seq2Seq-- https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/
+
+* Attention机制详解（一）——Seq2Seq中的Attention ---https://zhuanlan.zhihu.com/p/47063917
+
+
+
