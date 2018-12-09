@@ -66,8 +66,28 @@
 ------
 ------
 
+# 4. 图解
+
+![](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/RNN_1.gif)
 
 
+![](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/seq2seq_4.gif)
+
+
+![](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/seq2seq_5.gif)
+
+![](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/seq2seq_6.gif)
+
+![](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/seq2seq_7.gif)
+
+
+![](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/attention_process.gif)
+
+
+![](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/attention_tensor_dance.gif)
+
+
+![]()
 
 ------
 -----
