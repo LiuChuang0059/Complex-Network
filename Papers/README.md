@@ -168,7 +168,7 @@
   
   * 自制的阅读记录
 
-<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/trajectory%20Data%20Mining.png" width="1600"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/trajectory%20Data%20Mining.png" width="600"/> </div><br>
   
 
 
@@ -190,9 +190,61 @@
 
 
 
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/Trajectory%20data%20mining%20process%20is%20application%20driven.png" width="400"/> </div><br>
 
 
 
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/%E8%BD%A8%E8%BF%B9%E6%8C%96%E6%8E%98%E5%BA%94%E7%94%A81.png" width="400"/> </div><br>
+
+
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/%E8%BD%A8%E8%BF%B9%E6%8C%96%E6%8E%98%E5%BA%94%E7%94%A82.png" width="400"/> </div><br>
+
+
+
+----
+-----
+
+## 6. [Human mobility: Models and applications](https://doi.org/10.1016/j.physrep.2018.01.001)---Barbosa, Hugo---2018 ---physics Report 
+
+> 给出研究人类运动的 数据集，基本原理，基本模型，最新进展，研究方向
+
+-----
+-----
+
+
+## 7. [Discovering Urban Functional Zones Using Latent Activity Trajectories](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Papers/Discovering%20Urban%20Functional%20Zones%20Using%20Latent%20Activity%20Trajectories.pdf)-----Nicholas Jing Yuan, Member, IEEE, Yu Zheng, Senior Memeber, IEEE, Xing Xie, Senior Member, IEEE, Yingzi Wang, Kai Zheng, Hui Xiong, Senior Member, IEEE ----- 微软亚洲研究院----KDD论文 ---2016
+
+
+
+
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/Discovering%20%20Functional%20Zones%20-%20LAT2.png" width="600"/> </div><br>
+
+------
+-----
+
+
+## 8. [Recommender problem review](https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Papers/Recommender-problem-review-2014.pdf)------- 2014---Netflix---Xavier Amatriain Research/Engineering Director @Netflix
+ 
+
+> 系统介绍传统算法的优缺点； 基于Netflix 介绍 SVD RBM 等； 后给出一些优化方向，或者待解决问题方向
+
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%AE%97%E6%B3%95.png" width="400"/> </div><br>
+
+
+-------
+
+--------
+
+
+## 9. [Real-time Personalization using Embeddings for Search Ranking at Airbnb](https://www.kdd.org/kdd2018/accepted-papers/view/real-time-personalization-using-embeddings-for-search-ranking-at-airbnb)-----KDD best paper----2018
+
+> word2vec 做商品推荐 (embedding)
+> Pros： 点击表示短期兴趣，booking 表示长期兴趣；  2.解决尾部稀疏问题
+
+-------
+------
 
 
 
