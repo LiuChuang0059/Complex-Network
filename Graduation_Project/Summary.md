@@ -34,11 +34,11 @@
 
 
 
-<div align="center"> <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/CT_%E5%A3%B0%E6%B3%A2%E4%BC%A0%E6%92%AD.png" width="1000"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/CT_%E5%A3%B0%E6%B3%A2%E4%BC%A0%E6%92%AD.png" width="600"/> </div><br>
 
 
 
-<div align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Huygens_principle.gif" width="600"/> </div><br>
+<div align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Huygens_principle.gif" width="300"/> </div><br>
 
 
 
@@ -51,9 +51,9 @@
 
 
 
-# 3. 
+# 3. 路径分析
 
-<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/Untitled%20Diagram.png" width="800"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Image/Untitled%20Diagram.png" width="600"/> </div><br>
 
 
 * 人体的 CT 图
