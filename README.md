@@ -30,7 +30,7 @@
 ------
 
 
-### 复杂网络方向大佬主页和google学术 
+### 复杂网络方向大佬主页和 Google 学术 
 
 
 * [大佬采访视频](https://www.complexityexplorer.org/courses/89-introduction-to-complexity/segments/6757)
@@ -46,7 +46,7 @@
   > 特别高产，引用也超高，主要做社会网络方向，主页同样很多源码，软件，和数据集。
 
 
-* [ Albert-László Barabási个人主页](http://barabasi.com/)---[Barabási Lab
+* [ Albert-László Barabási 个人主页](http://barabasi.com/)---[Barabási Lab
 ](https://www.barabasilab.com/publications)-----[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=vsj2slIAAAAJ&view_op=list_works&sortby=pubdate)
   > 巨佬（总引189，696+，单引30，000+）和网络各个交叉方向都做，统计物理，生物医学，脑科学，表面材料等等，实验室超大组。
 
@@ -199,14 +199,14 @@
 
 
 ##### 6. 
-
-* sigmod函数 费米分布
-* softmax层 能量到正则分布的概率密度
+ 
+* Sigmod 函数 费米分布
+* Softmax 层 能量到正则分布的概率密度
 * 卷积提取特征 重正化
-* Markov场的规范化系数 正则配分函数 
-* Markov场的能量函数 Ising模型的能量函数 🌟
-* Bayes场的概率分解 复杂网络的处理方法
-* 变分贝叶斯 量子力学的Hartree-Fock方法，统计物理的空腔磁场法，平均场理论
+* Markov 场的规范化系数 正则配分函数 
+* Markov 场的能量函数 Ising模型的能量函数 🌟
+* Bayes 场的概率分解 复杂网络的处理方法
+* 变分贝叶斯 量子力学的 Hartree-Fock 方法，统计物理的空腔磁场法，平均场理论
 * 基函数展开扩展的线性模型 量子力学的利兹变分
 * 流形学习 从牛顿力学到拉格朗日力学/哈密顿力学，把问题从平凡流形放到嵌入子流形，实现降维 🌟
 * 卡尔曼滤波 朗之万动力学粒子滤波
@@ -222,10 +222,10 @@
  
  ### 有趣的研究新思路
  
-*  应用拓扑几何的方法分析贫困和欠发达的城市街区 -- evernote --2018
+*  应用拓扑几何的方法分析贫困和欠发达的城市街区 -- Evernote --2018
 
 ----
-*  哈工大刘挺教授：中文信息处理前沿技术进展----- evernote --2018
+*  哈工大刘挺教授：中文信息处理前沿技术进展----- Evernote --2018
 
 ----
 * Session-based Recommendation with Graph Neural Networks --  [link](https://arxiv.org/abs/1811.00855)--2018
@@ -256,6 +256,51 @@
 
 **Modeling Dynamic Missingness of Implicit Feedback  for Recommendation**
 > 推荐系统中 隐式负反馈的缺失研究
+
+
+-----
+
+* SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient--- [link](https://arxiv.org/abs/1609.05473) --- 上海交通大学 ，2017年
+
+>  解决 Gan 模型 对于离散的  tokens。预测结果不好的改善，， 结合了增强学习的策略网络
+
+> At each step, the “state” was the existing words in the sequence, and the agent’s “action” was trying to choose its next word
+
+
+------
+
+* IRGAN: A Minimax Game for Unifying Generative and Discriminative Information Retrieval Models---- [Link ](https://arxiv.org/abs/1705.10513)
+
+> This paper provides a unified account of two schools of thinking in information retrieval modelling: the generative retrieval focusing on predicting relevant documents given a query, and the discriminative retrieval focusing on predicting relevancy given a query-document pair. We propose a game theoretical minimax game to iteratively optimise both models. On one hand, the discriminative model, aiming to mine signals from labelled and unlabelled data, provides guidance to train the generative model towards fitting the underlying relevance distribution over documents given the query. On the other hand, the generative model, acting as an attacker to the current discriminative model, generates difficult examples for the discriminative model in an adversarial way by minimising its discrimination objective. With the competition between these two models, we show that the unified framework takes advantage of both schools of thinking: (i) the generative model learns to fit the relevance distribution over documents via the signals from the discriminative model, and (ii) the discriminative model is able to exploit the unlabelled data selected by the generative model to achieve a better estimation for document ranking. Our experimental results have demonstrated significant performance gains as much as 23.96% on Precision@5 and 15.50% on MAP over strong baselines in a variety of applications including web search, item recommendation, and question answering.
+
+
+> GAN 模型 做信息检索 ---- 推荐系统
+
+
+
+-------
+
+
+* 网络上时变局部信息的自适应扩散过--Adaptive Diffusion Processes of Time-Varying Local Information on Networks--[Link](http://arxiv.org/abs/1812.03814)--2018
+
+> 本文主要讨论了具有时变耦合的复杂网络上的扩散。我们提出了一个模型来描述局部拓扑和动态信息的自适应扩散过程，并发现Barabasi-Albert无标度网络（BA网络）有利于扩散，并使节点达到比其他网络更大的状态值。做。节点的扩散能力与其自身的程度有关。具体而言，具有较小度数的节点更可能改变其状态并且达到较大值，而具有较大度数的节点倾向于保持其原始状态。我们引入状态熵来分析扩散过程的热力学机制，并有趣地发现这种扩散过程是状态熵的最小化过程。我们使用不等式约束优化方法来揭示最小化的限制函数，并发现它具有与吉布斯自由能相同的形式。热力学概念使我们能够从全新的角度理解复杂网络上的动态过程。该结果提供了在实际电路以及相关复杂系统上优化相关动态过程的便利方式。
+
+
+
+-----
+
+* GC-LSTM：用于动态链路预测的图卷积嵌入式LSTM-- [Link]( http://arxiv.org/abs/1812.04206)
+
+> 动态链路预测是复杂网络领域的研究热点，特别是在生物学，社会网络，经济和工业中的广泛应用。与静态链路预测相比，由于网络结构随着时间的推移而发展，动态链路预测要困难得多。目前大多数研究都集中在静态链路预测上，这在动态网络中无法达到预期的性能。针对低AUC，高错误率，添加/删除链路预测难度，我们提出GC-LSTM，一种图卷积网络（GC）嵌入式长短期内存网络（LTSM），用于端到端动态链路预测。据我们所知，这是第一次将GCN嵌入式LSTM用于动态网络的链路预测。这个新的深度模型中的GCN能够为每个时间段滑动节点结构学习网络快照，而LSTM负责网络快照的时间特征学习。此外，当前的动态链路预测方法只能处理删除的链接，GC-LSTM可以同时预测添加或删除的链接。进行了大量实验以证明其在预测准确度，误差率，添加/删除链路预测和关键链路预测方面的性能。结果证明GC-LSTM优于当前最先进的方法。
+
+
+
+--------
+
+
+
+
+
 
 
  -----------
