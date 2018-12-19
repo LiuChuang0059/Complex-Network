@@ -9,7 +9,7 @@ README.md
 
 * 推荐结果的公平性和准确性
 
-<div align="center"> <img src="" width="400"/><img src="" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/Recsys2018_Summary/Image/re_apploication.png" width="400"/><img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/Recsys2018_Summary/Image/re_dataset.png" width="400"/> </div><br>
 
 
 # 2. Techs
@@ -22,6 +22,7 @@ README.md
 
 * Link Prediction
 
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/Recsys2018_Summary/Image/re_techs.png" width="800"/> </div><br>
 
 -----
 -----
@@ -42,7 +43,7 @@ README.md
 *  使用变分自动编码器vae，首先将用户和物品的特征放入这个隐因子的空间里。然后使用贪婪算法，在隐因子空间中选点，然后覆盖所有的用户，最后通过decoder产生新的item。
 
 
-<div align="center"> <img src="" width="600"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/Recsys2018_Summary/Image/re_%E6%96%B0%E9%97%AE%E9%A2%98.png" width="800"/> </div><br>
 
 -----
 
@@ -65,7 +66,7 @@ README.md
 * 实时改变页面
 
 
-<div align="center"> <img src="" width="600"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/Recsys2018_Summary/Image/re_%E6%96%B0%E9%97%AE%E9%A2%982.png" width="800"/> </div><br>
 
 -----
 
@@ -80,7 +81,7 @@ README.md
 * 人们在 借阅书籍的时候 ，有收集癖好，即使不看，也愿意
 
 
-<div align="center"> <img src="" width="600"/> </div><br>
+<div align="center"> <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/Recsys2018_Summary/Image/re_%E6%96%B0%E9%97%AE%E9%A2%983.png" width="800"/> </div><br>
 
 
 -----
@@ -95,7 +96,7 @@ README.md
 
 
 
-<div align="center"> <img src="" width="600"/> </div><br>
+<div align="center"> <img src="" width="800"/> </div><br>
 
 ------
 
@@ -118,7 +119,7 @@ README.md
 
 * 通过一个弱关系的推荐还增强了推荐的多样性。
 
-<div align="center"> <img src="" width="600"/> </div><br>
+<div align="center"> <img src="" width="800"/> </div><br>
 
 
 -------
@@ -136,7 +137,7 @@ README.md
 [Why I like it Multi-task Learning for Recommendation and Explanation]()
 
 
-<div align="center"> <img src="" width="600"/> </div><br>
+<div align="center"> <img src=https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/Recommendation_Agorithm/Recsys2018_Summary/Image/re_%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A71.png" width="800"/> </div><br>
 
 
 ---
