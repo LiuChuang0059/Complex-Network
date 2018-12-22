@@ -19,7 +19,7 @@
   * 三维排列
   * 神经元只对应前一层的一小块区域连接----不是全连接
 
-<div align="center">  <img src="" width="800"/> </div><br>
+<div align="center">  <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E5%8D%B7%E7%A7%AF%E5%B1%82-%E5%85%A8%E8%BF%9E%E6%8E%A5%E5%B1%82.png" width="800"/> </div><br>
 
 * 连接数 从原来的 n_l * n_(l-1) 变为 n_l* m （m 为滤波器的大小）
 
@@ -58,7 +58,7 @@
 
   * 输出解析
 
-<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/%E5%8D%B7%E7%A7%AF%E6%93%8D%E4%BD%9C%E5%9B%BE%E8%A7%A3.jpg" width="500"/> </div><br>
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/%E5%8D%B7%E7%A7%AF%E6%93%8D%E4%BD%9C%E5%9B%BE%E8%A7%A3.jpg" width="800"/> </div><br>
 
 > 通过第一个卷积核计算后的feature_map是一个三维数据，在第三列的绝对值最大，说明原始图片上对应的地方有一条垂直方向的特征，即像素数值变化较大；而通过第二个卷积核计算后，第三列的数值为0，第二行的数值绝对值最大，说明原始图片上对应的地方有一条水平方向的特征。
 
@@ -85,7 +85,7 @@
 ### 3.Flatten 层
 
 
-<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/flatten%E5%B1%82%E8%BF%87%E7%A8%8B.jpg" width="500"/> </div><br>
+<div align="center">  <img src="https://github.com/LiuChuang0059/ML_Project/blob/master/Picture/flatten%E5%B1%82%E8%BF%87%E7%A8%8B.jpg" width="800"/> </div><br>
 
 ------
 
@@ -171,7 +171,7 @@
 ## 4. 典型的卷积网络结构
 
 
-<div align="center">  <img src="" width="800"/> </div><br>
+<div align="center">  <img src="https://github.com/LiuChuang0059/ComplexNetwork-DataMining/blob/master/techs/Image/%E5%8D%B7%E7%A7%AF%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84.png" width="800"/> </div><br>
 
 
 
@@ -257,7 +257,7 @@
 
 * [cnn实现手写识别code+网络层组件学习](https://github.com/LiuChuang0059/ML_Project/blob/master/code/mnist_cnn_keras.ipynb)
 
-> 其中dropout避免过拟合---http://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf
+* dropout避免过拟合---http://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf
 
 * [手写数字识别--卷积神经网络CNN原理详解](https://zhuanlan.zhihu.com/p/30665319)---by Charlotte
 
