@@ -298,6 +298,26 @@
 --------
 
 
+*  Click-sequence-aware DeeP Neural Network (DNN)-based Pop-uPs RecOmmendation--- [link](https://arxiv.org/abs/1803.00458)
+> 基于用户的点击序列的一种推荐系统，
+
+
+---------
+
+
+* Neural Personalized Ranking via Poisson Factor Model for Item Recommendation  --- [link ](https://www.hindawi.com/journals/complexity/2019/3563674/)
+
+> 常规的隐式反馈 通常转化为 0，1 这样的二进制的表示，本文提出
+
+
+-------------
+
+
+
+
+
+
+
 
 
 
