@@ -320,7 +320,13 @@
 
 
 
+* 通过数据挖掘恒星的光变曲线寻找太阳系外的新行星---- [link ](http://iopscience.iop.org/article/10.3847/1538-3881/aa9e09/meta)
 
+
+
+-------
+
+* 自动将质谱输出映射到肽链上----[link](https://arxiv.org/pdf/1808.06576.pdf)
 
 
 

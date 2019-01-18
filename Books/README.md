@@ -1,6 +1,8 @@
 # 相关书籍阅读
 > 书籍推荐清单（陈关荣教授课题组）-------[link](http://www.ee.cityu.edu.hk/~gchen/ComplexNetworks/Books.htm)
 
+> 2018 年 21 本复杂性科学新书好书 (集智俱乐部)----[link](http://swarma.org/e126c2f7d2/)
+
 
 ## 1. 《数据挖掘导论》----
 * 第6章 ，第7章  关联分析
@@ -74,7 +76,7 @@
 
 ## 8. 《利用python进行数据分析》 -- Wes McKinney
 
-* pandas  入门 
+* pandas  入门
 > 基本的创建，索引 ---> 层次化索引
 
 
