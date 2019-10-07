@@ -212,13 +212,13 @@
 ### 论文阅读
 
 
-* [图神经网络相关论文]()
+* [图神经网络相关论文](https://github.com/LiuChuang0059/Complex-Network/blob/master/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md)
 
 
-* [生物信息网络相关论文]()
+* [复杂网络在生物信息方面应用论文](https://github.com/LiuChuang0059/Complex-Network/blob/master/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E7%BD%91%E7%BB%9C.md)
 
 
-
+* [复杂网络在人类时空行为方向论文](https://github.com/LiuChuang0059/Complex-Network/blob/master/Papers/README.md)
 
 
 -----
