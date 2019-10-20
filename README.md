@@ -110,6 +110,10 @@
 
 	> 多层网络研究,研究进展、工具和数据集。
 
+* [Luciano Costa's research group](http://cyvision.ifsc.usp.br/home)
+
+	> emphasize the analysis of several types of theoretical and real-world networks, including urban structures, Wikipedia, scientific citations, amongst others. Particular attention has been given to measurement and classification of complex networks, including the proposal of new measurements such as the accessibility and topological symmetry.
+
 * [MIT 环境工程系 González 领导的 HumNet 课题组](http://humnetlab.mit.edu/wordpress/)
 
 	> 复杂网络角度对人类的时空行为 进行研究，在移动模式挖掘问题上有着长期的积累。
@@ -168,6 +172,11 @@
 	> 开源的可视化软件
 
 
+* [Network 3D](http://cyvision.ifsc.usp.br/software/networks3d)
+
+	> Mac os 上 网络三维可视化工具， 目前是 beta 版，还有些功能没有实现
+
+
 
 * [Netlogo](http://ccl.northwestern.edu/netlogo/docs/dictionary.html)
 
@@ -182,6 +191,10 @@
 
 	> 用于创建，操作，分析图的一个裤， 支持 python， R， C 语言
 
+
+* [pajek](http://mrvar.fdv.uni-lj.si/pajek/)
+
+	> mac 和 linux 大型网络可视化， 完整中文教程，和相关的试验数据集
 
 -------
 
@@ -204,6 +217,17 @@
 * [Software / Databases](http://www.ee.cityu.edu.hk/~gchen/ComplexNetworks/SoftwareDatabases.htm)
 
 	> 陈关荣教授课题组整理的数据集，和相关工具软件放在一起
+
+
+
+* [Pajek dataset](http://vladowiki.fmf.uni-lj.si/doku.php?id=pajek:data:index)
+
+	> Pajek 平台收集的各种类型的数据，
+
+
+* [NeuroMorpho](http://neuromorpho.org/index.jsp)
+
+	> NeuroMorpho.Org is the largest collection of publicly accessible 3D neuronal reconstructions and associated metadata.
 
 
 
@@ -264,4 +288,6 @@
 * http://blog.sciencenet.cn/blog-583335-477254.html
 
 * http://www.ee.cityu.edu.hk/~gchen/ComplexNetworks/PersonalWebsites.html
+
+* 公众号 ： ComplexNetworks
 
