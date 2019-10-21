@@ -16,7 +16,6 @@
 
         * [论文阅读](#论文阅读)
 
-        * [相关研究](#相关研究)
 
 
 
@@ -244,42 +243,12 @@
 
 * [复杂网络在人类时空行为方向论文](https://github.com/LiuChuang0059/Complex-Network/blob/master/Papers/README.md)
 
+* [复杂网络最新相关论文](https://github.com/LiuChuang0059/Complex-Network/blob/master/%E5%A4%8D%E6%9D%82%E7%BD%91%E7%BB%9C%E6%9C%80%E8%BF%91paper%E9%98%85%E8%AF%BB.md)
+
 
 -----
 
-### 相关研究
 
-
-* Spatio-temporal prediction of crimes using network analytic approach-- [paper](https://arxiv.org/abs/1808.06241)
-
-	> 网络分析用于时空数据预测。
-
-
-* Uncovering intimate and casual relationships from mobile phone communication--[paper](https://arxiv.org/abs/1808.10166)
-
-	> 通过分析移动通话的数据集，分析人与人之间的关系性质： 兄弟姐妹，情侣，还是朋友。
-
-
-
-* Why Topology Matters in Predicting Human Activities--[paper](https://arxiv.org/abs/1808.09274)
-
-	> 利用街道的拓扑信息去预测人类活动。
-
-
-* Adaptive Diffusion Processes of Time-Varying Local Information on Networks--[paper](http://arxiv.org/abs/1812.03814)--2018
-
-	> 引入热力学的知识分析具有时变耦合的复杂网络上的扩散。引入状态熵来分析扩散过程的热力学机制，发现这种扩散过程是状态熵的最小化过程。使用不等式约束优化方法来揭示最小化的限制函数，并发现它具有与吉布斯自由能相同的形式。
-
-
-* GC-LSTM: Graph Convolution Embedded LSTM for Dynamic Link Prediction -- [paper]( http://arxiv.org/abs/1812.04206) --2018
-
-	> 动态链路预测(网络结构随着时间的推移而发展).GC-LSTM(GCN + LSTM) 一个学习网络结构，一个学习动态时间变化。
-
-
-* 元胞自动机分析交通系统 --- [link 1](https://mp.weixin.qq.com/s/7qZC5N4aWWAlMWYSjIc6mw) --- [link 2](https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA==&mid=2247490470&idx=1&sn=6bb42f53ed1e0aa9366f4e27d71d9881&chksm=e894412bdfe3c83d415816a9661087b4ca9a9ff3e3df14df9e7e39881053302dd3ba0604b6c7&scene=21#wechat_redirect)
-
-
-------
 
 
 
