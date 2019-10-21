@@ -185,15 +185,52 @@
 
 	> Python 语言开发的图论与复杂网络建模，支持创建简单无向图、有向图和多重图，内置许多标准图算法。
 
+	> 安装容易， 社区活跃， 100，000 节点下表现可接受
 
-*  [igraph](https://igraph.org/)
+	> 缺少可视化输出
 
-	> 用于创建，操作，分析图的一个裤， 支持 python， R， C 语言
+
+
+
+*  [iGraph](https://igraph.org/)
+
+	> 高效，易于创建，操作，分析图的一个库， 支持 python， R， C 语言。 使用 C 语言的速度比使用 python 包分析速度快两个数量级。
+
+	> 支持 社区检测， 有内置的搜索机制去定位边和节点
+
+	> 支持较高质量的图片输出
+
+	> iGraph 运行速度是 NetworkX 的 10-50倍。（10w 节点以上的网络，networkX 不太适合）
+
+	> 安装较为麻烦， 需要 C 编辑器。
+
+
+* [graph-tool](graph-tool.skewed.de)
+
+	> 整个库全部由 C / C++ 完成，加速运行
+
+	> 支持 并行计算，多个子任务同时运行
+
+	> 支持多种形式的图形输出
+
+	> 内置很多图 统计分析工具， 社区检测， blockmodeling 算法
+
+	> 安装和编译较为麻烦
+
+* [NetworKit]()
+
+	> 支持并行计算
+
+	> 和 NetworkX 兼容， 在 NeworkX 建立网络， 可以直接移植到 Networkit
+
 
 
 * [pajek](http://mrvar.fdv.uni-lj.si/pajek/)
 
 	> mac 和 linux 大型网络可视化， 完整中文教程，和相关的试验数据集
+
+
+	![](https://i.loli.net/2019/10/21/OHNVqeguoJaMYzc.png)
 
 -------
 
@@ -230,6 +267,9 @@
 
 
 
+
+
+
 -----
 
 ### 论文阅读
@@ -259,4 +299,6 @@
 * http://www.ee.cityu.edu.hk/~gchen/ComplexNetworks/PersonalWebsites.html
 
 * 公众号 ： ComplexNetworks
+
+* Complex Network Analysis in Python, Dmitry Zinoviev.
 
