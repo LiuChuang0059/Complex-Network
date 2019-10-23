@@ -251,6 +251,12 @@
 
 	![](https://i.loli.net/2019/09/04/oHKPdgeCytzi1La.png)
 
+* 🌟🌟 [KONECT](http://konect.uni-koblenz.de/)
+
+	>  KONECT currently holds 261 networks,
+
+	![](https://i.loli.net/2019/10/23/GA5WagOzxRC9TYp.png)
+
 
 * 🌟 [Datasets Released for Reproducibility](https://comunelab.fbk.eu/data.php)
 
