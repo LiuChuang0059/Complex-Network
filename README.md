@@ -16,6 +16,8 @@
 
         * [论文阅读](#论文阅读)
 
+        * [基础知识学习](#基础知识学习)
+
 
 
 
@@ -113,6 +115,12 @@
 
 	> emphasize the analysis of several types of theoretical and real-world networks, including urban structures, Wikipedia, scientific citations, amongst others. Particular attention has been given to measurement and classification of complex networks, including the proposal of new measurements such as the accessibility and topological symmetry.
 
+* [LINK-group](http://www.linkgroup.hu/index.php?old)
+
+	> 生物信息网络研究
+
+
+
 * [MIT 环境工程系 González 领导的 HumNet 课题组](http://humnetlab.mit.edu/wordpress/)
 
 	> 复杂网络角度对人类的时空行为 进行研究，在移动模式挖掘问题上有着长期的积累。
@@ -125,6 +133,7 @@
 * [北京城市实验室(Beijing City Lab)](https://www.beijingcitylab.com/)
 
 	> 结合多种类型的数据，对 城市系统里的重要环节(如区域规划、城市经济等)进行量化的分析。
+
 
 
 -------
@@ -265,9 +274,26 @@
 
 	> NeuroMorpho.Org is the largest collection of publicly accessible 3D neuronal reconstructions and associated metadata.
 
+* [Gephi Datasets](https://github.com/gephi/gephi/wiki/Datasets)
+
+	> Gephi 提供的样本数据集
+
+* [YAHOO Webscope Program](https://webscope.sandbox.yahoo.com/catalog.php?datatype=g&guccounter=1&guce_referrer=aHR0cHM6Ly93ZWJzY29wZS5zYW5kYm94LnlhaG9vLmNvbS8&guce_referrer_sig=AQAAAKFkWLk3qWX1T-4Xz2GnUNSecbWvqaNr-UAs0d5PO2p3UlZ9bPaDVyFGw9DLxA7JtNQASF3mbptc1Wf-y7J-85iQEEhuolrEktiUFWDXvOwXWAyA2MFPehu-fk_X015P7CU8C-bXOIFXA2q6WRcufQ-TPyQB_XiZ_YDYyE4y9iql)
+
+	>  图和社会网络的相关数据集
+
+* [UC Irvine Network Data Repository](http://networkdata.ics.uci.edu/)
+
+	> 社会网络相关数据集
 
 
+* [link-group](http://www.linkgroup.hu/links.php#proteinnetworks)
 
+	> 生物网络相关数据集（基因，蛋白质，药物，疾病）
+
+* [ESYN](http://www.esyn.org/)
+
+	> 创建一个基因调控网
 
 
 -----
@@ -288,9 +314,18 @@
 
 -----
 
+### 基础知识学习
+
+
+* [使用 NetworkX 创建一个简单的图](https://github.com/LiuChuang0059/Complex-Network/blob/master/Complex_Network_Analysis/Construct%20a%20simple%20network%20with%20NetworkX.ipynb)
+
+
+* [Gephi 使用简单介绍](https://github.com/LiuChuang0059/Complex-Network/blob/master/Complex_Network_Analysis/Gephi%20%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D.md)
 
 
 
+
+-----
 
 ### 参考
 
