@@ -322,6 +322,8 @@
 
 ### 基础知识学习
 
+> 用到的数据在[这里](https://github.com/LiuChuang0059/Complex-Network/tree/master/Complex_Network_Analysis)
+
 
 * [使用 NetworkX 创建一个简单的网络](https://github.com/LiuChuang0059/Complex-Network/blob/master/Complex_Network_Analysis/Construct%20a%20simple%20network%20with%20NetworkX.ipynb)
 
@@ -329,12 +331,12 @@
 * [Gephi 使用简单介绍](https://github.com/LiuChuang0059/Complex-Network/blob/master/Complex_Network_Analysis/Gephi%20%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D.md)
 
 
-* [社会网络简单理解]()
+* [社会网络简单理解](https://github.com/LiuChuang0059/Complex-Network/blob/master/Complex_Network_Analysis/%E7%A4%BE%E4%BC%9A%E7%BD%91%E7%BB%9C%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3.md)
 
-* [用 NetworkX 更高级的创建网络]()
+* [用 NetworkX 更高级的创建网络](https://github.com/LiuChuang0059/Complex-Network/blob/master/Complex_Network_Analysis/Advanced%20Network%20Construction.ipynb)
 
 
-* [网络基本分析和度量]()
+* [网络基本分析和度量](https://github.com/LiuChuang0059/Complex-Network/blob/master/Complex_Network_Analysis/Measuring%20Networks.ipynb)
 -----
 
 ### 参考
