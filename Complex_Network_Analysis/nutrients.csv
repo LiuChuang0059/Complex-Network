@@ -1,0 +1,75 @@
+A,carrots
+A,eggs
+A,"fatty fish"
+A,"green leafy vegs"
+A,liver
+A,milk
+A,tomatoes
+B12,milk
+B6,asparagus
+B6,beans
+B6,"fatty fish"
+B6,kidneys
+B6,liver
+B6,potatoes
+C,carrots
+C,pumpkins
+C,tomatoes
+Ca,broccoli
+Ca,cheese
+Cu,liver
+Cu,nuts
+Cu,"whole grains"
+D,"fatty fish"
+D,milk
+D,mushrooms
+E,nuts
+E,seeds
+Mn,"green leafy vegs"
+Mn,legumes
+Mn,nuts
+Mn,seeds
+Mn,wheat
+Mn,"whole grains"
+Se,kidneys
+Zn,beans
+Zn,kidneys
+Zn,potatoes
+beans,Cu
+beef,B12
+beef,B6
+beef,Zn
+beef,riboflavin
+broccoli,C
+eggs,B12
+eggs,riboflavin
+"fatty fish",B12
+"fatty fish",niacin
+folates,asparagus
+folates,liver
+folates,spinach
+"green leafy vegs",C
+"green leafy vegs",Ca
+"green leafy vegs",E
+"green leafy vegs",riboflavin
+kidneys,Cu
+legumes,riboflavin
+liver,Se
+liver,Zn
+milk,Ca
+milk,riboflavin
+niacin,beef
+niacin,nuts
+niacin,seeds
+niacin,"whole grains"
+nuts,Zn
+potatoes,Cu
+poultry,B12
+poultry,B6
+poultry,Zn
+shellfish,Cu
+shellfish,Se
+thiamin,"whole grains"
+tomatoes,tomatoes
+"veg oils",E
+yogurt,Ca
