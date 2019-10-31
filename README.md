@@ -339,13 +339,13 @@
 
 * [网络基本分析和度量](https://github.com/LiuChuang0059/Complex-Network/blob/master/Complex_Network_Analysis/Measuring%20Networks.ipynb)
 
-* [链路预测_问题抽象描述]()
+* [链路预测_问题抽象描述](https://github.com/LiuChuang0059/Complex-Network/blob/master/Complex_Network_Analysis/%E9%93%BE%E8%B7%AF%E9%A2%84%E6%B5%8B_%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0.ipynb)
 
 
-* [链路预测_数据集划分]()
+* [链路预测_数据集划分](https://github.com/LiuChuang0059/Complex-Network/blob/master/Complex_Network_Analysis/%E9%93%BE%E8%B7%AF%E9%A2%84%E6%B5%8B_%E6%95%B0%E6%8D%AE%E9%9B%86%E5%88%92%E5%88%86.ipynb)
 
 
-* [链路预测_评价指标]()
+* [链路预测_评价指标](https://github.com/LiuChuang0059/Complex-Network/blob/master/Complex_Network_Analysis/%E9%93%BE%E8%B7%AF%E9%A2%84%E6%B5%8B_%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87.ipynb)
 
 
 
