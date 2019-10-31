@@ -135,38 +135,7 @@
 	> 结合多种类型的数据，对 城市系统里的重要环节(如区域规划、城市经济等)进行量化的分析。
 
 
-
--------
-
-###  学习课程
-
-* [Complexity- Explore（introduction to complexity](https://www.complexityexplorer.org/home)
-
-     >  复杂网络，相关基础知识，数学理论等, 部分中文字幕，，实际老师英文说的很慢 而且很好听很舒服，不太需要字幕,有作业，习题和测试，会有答案。免费！
-
-
-* 🌟 [Barabási Lab](https://www.barabasilab.com/course)
-
-	> 上面介绍的Barabási 巨佬实验室出的复杂网络相关课程， 免费！
-
-
-* [Networks, Crowds and Markets](https://courses.edx.org/courses/course-v1:CornellX+INFO2040x+1T2016/course/)
-	> 2016年的课程，有关 graph ， 免费！
-
-
-* [集智俱乐部](https://swarma.org/)
-
-	> 国内一个研究复杂网络的社区， 会实时推送有关复杂网络的研究新进展，也有一些课程，部分付费
-
-* [DC学院](https://www.dcxueyuan.com/courseCatalogue.html)
-
-	> 周涛老师创办，有一些复杂网络相关课程，付费。
-
-* 🌟 [thunlp/GNNPapers](https://github.com/thunlp/GNNPapers#natural-language-processing)
-
-	> 清华大学 nlp 实验室(刘知远大神小组)整理的有关 GNN 的重要论文。
-
---------
+-----------
 
 ### 建模工具
 
@@ -318,7 +287,39 @@
 * [复杂网络最新相关论文](https://github.com/LiuChuang0059/Complex-Network/blob/master/%E5%A4%8D%E6%9D%82%E7%BD%91%E7%BB%9C%E6%9C%80%E8%BF%91paper%E9%98%85%E8%AF%BB.md)
 
 
------
+
+
+-------
+
+###  学习课程
+
+* [Complexity- Explore（introduction to complexity](https://www.complexityexplorer.org/home)
+
+     >  复杂网络，相关基础知识，数学理论等, 部分中文字幕，，实际老师英文说的很慢 而且很好听很舒服，不太需要字幕,有作业，习题和测试，会有答案。免费！
+
+
+* 🌟 [Barabási Lab](https://www.barabasilab.com/course)
+
+	> 上面介绍的Barabási 巨佬实验室出的复杂网络相关课程， 免费！
+
+
+* [Networks, Crowds and Markets](https://courses.edx.org/courses/course-v1:CornellX+INFO2040x+1T2016/course/)
+	> 2016年的课程，有关 graph ， 免费！
+
+
+* [集智俱乐部](https://swarma.org/)
+
+	> 国内一个研究复杂网络的社区， 会实时推送有关复杂网络的研究新进展，也有一些课程，部分付费
+
+* [DC学院](https://www.dcxueyuan.com/courseCatalogue.html)
+
+	> 周涛老师创办，有一些复杂网络相关课程，付费。
+
+* 🌟 [thunlp/GNNPapers](https://github.com/thunlp/GNNPapers#natural-language-processing)
+
+	> 清华大学 nlp 实验室(刘知远大神小组)整理的有关 GNN 的重要论文。
+
+--------
 
 ### 基础知识学习
 
@@ -337,6 +338,19 @@
 
 
 * [网络基本分析和度量](https://github.com/LiuChuang0059/Complex-Network/blob/master/Complex_Network_Analysis/Measuring%20Networks.ipynb)
+
+* [链路预测_问题抽象描述]()
+
+
+* [链路预测_数据集划分]()
+
+
+* [链路预测_评价指标]()
+
+
+
+
+
 -----
 
 ### 参考
@@ -347,5 +361,7 @@
 
 * 公众号 ： ComplexNetworks
 
-* Complex Network Analysis in Python, Dmitry Zinoviev.
+* 《Complex Network Analysis in Python》  Dmitry Zinoviev.
+
+* 《链路预测》吕琳媛 周涛
 
