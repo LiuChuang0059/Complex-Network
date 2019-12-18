@@ -18,6 +18,8 @@
 
         * [基础知识学习](#基础知识学习)
 
+        * [图神经网络](#图神经网络)
+
 
 
 
@@ -350,16 +352,17 @@
 
 ------
 
-### 图神经网络 GNN
+### 图神经网络
 
-* [GCN : 从入门到放弃]()
+* [GNN 综述文章](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/%E7%BB%BC%E8%BF%B0)
+
+* [GCN : 从入门到放弃 (组会报告ppt)](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83.pdf)
 
 
-* [相关 must-read papers]()
+* [ GCN 相关 must-read papers](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/GCN)
 
-* [综述文章]()
 
-* [有关 GCN 的报告PPT]()
+* [有关 GCN 的大佬报告PPT](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/%E7%BB%BC%E8%BF%B0/PPT)
 
 
 
