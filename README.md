@@ -162,14 +162,19 @@
 
 #### 基础知识课程
 
-* [Complexity- Explore（introduction to complexity](https://www.complexityexplorer.org/home)
+* 🌟 [CS224W: Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/index.html)
 
-     >  复杂网络，相关基础知识，数学理论等, 部分中文字幕，，实际老师英文说的很慢 而且很好听很舒服，不太需要字幕,有作业，习题和测试，会有答案。免费！
+	> 斯坦福大学 Jure Leskovec 大佬小组的课程， 包含基本的图结构，图表征介绍，以及最新的 图神经网络，知识图谱的讲述。  主页有课程 PPT
 
 
 * 🌟 [Barabási Lab](https://www.barabasilab.com/course)
 
 	> 上面介绍的 Barabási 巨佬实验室出的复杂网络相关课程， 免费！
+
+
+* [Complexity- Explore（introduction to complexity](https://www.complexityexplorer.org/home)
+
+     >  复杂网络，相关基础知识，数学理论等, 部分中文字幕
 
 
 * [Networks, Crowds and Markets](https://courses.edx.org/courses/course-v1:CornellX+INFO2040x+1T2016/course/)
@@ -199,17 +204,36 @@
 
 	> 清华大学 CogDL: An Extensive Research Toolkit for Graphs。 ： 快速实现网络任务 Baseline ，目前还不太完善
 
+* [图神经网络学习](https://github.com/LiuChuang0059/Graph_Neural_Network_Learning)
+
+	>  个人学习笔记
+
+
 
 #### 微信公众号
 
 
 * 🌟 极验(geetest_jy) : 图神经网络每日资料分享
 
-* 人工智能前沿讲习(AIFrontier)  : 较多研究论文解读分享
+* 🌟 深度学习与图网络(AIGraph) : 图网络最近顶会动态
 
 * 复杂网络(ComplexNetworks) : 不定期分享一些网络研究工具和书籍
 
+* 开放知识图谱(OpenKG) : 几乎每天都有关于知识图谱的论文分享
+
+* 人工智能前沿讲习(AIFrontier)  : 较多研究论文解读分享
+
 * 网络科学研究速递(netsci)： Arxiv等来源的网络科学最新研究翻译推送(翻译纯是机翻，可以浏览)
+
+
+
+#### 个人博客
+
+* 🌟 [Thomas Kipf](https://tkipf.github.io/)
+
+
+
+
 
 
 ####  B 站 UP 主
@@ -279,14 +303,8 @@
 
 ### 图神经网络学习
 
-* [GNN 综述文章](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/%E7%BB%BC%E8%BF%B0)
-
 
 * 🌟 [GCN : 从入门到放弃 (组会报告ppt)](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83.pdf)
-
-
-* [ GCN 相关 must-read papers](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/GCN)
-
 
 * [有关 GCN 的大佬报告 PPT](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/%E7%BB%BC%E8%BF%B0/PPT)
 
