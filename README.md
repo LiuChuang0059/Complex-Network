@@ -12,8 +12,6 @@
 
         * [个人基础知识学习](#个人基础知识学习)
 
-        * [相关论文阅读](#相关论文阅读)
-
         * [图神经网络学习](#图神经网络学习)
 
         * [研究数据集收集](#研究数据集收集)
@@ -28,41 +26,51 @@
 ### 知名学者
 
 > 可以通过谷歌学术 Follow 大佬的最新研究
+> 排名不怎么分先后
 
+* [ Albert-László Barabási 个人主页](http://barabasi.com/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=vsj2slIAAAAJ&hl=zh-CN)
 
-* [大佬采访视频](https://www.complexityexplorer.org/courses/89-introduction-to-complexity/segments/6757)
-
-    >  一个复杂系统课程的采访视频，云集了各种大佬，关于复杂系统的定义
-
-
-* 🌟 [Jure Leskovec](https://cs.stanford.edu/~jure/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN)
-
-	> 斯坦福复杂网络小组，很多开创性工作，个人主页有超多研究工具，数据集，代码
-
-
-* [ Albert-László Barabási 个人主页](http://barabasi.com/)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=vsj2slIAAAAJ&view_op=list_works&sortby=pubdate)
-
-	> 复杂网络领域开创性学者（总引189，696+，单引30，000+）和网络各个交叉方向都做，统计物理，生物医学，脑科学，表面材料等等，实验室超大组。
+	> 复杂网络领域开创性学者（总引190，000+）和网络各个交叉方向都做，统计物理，生物医学，脑科学，表面材料等等，实验室超大组。
 
 
 * [Mark Newman --- Santa Fe Institute](http://www-personal.umich.edu/~mejn/)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=rQ68pVwAAAAJ&view_op=list_works&sortby=pubdate)
 
-	> 复杂网络领域开创性学者（总150,000+，单篇17,000+）,主页有很多代码和数据集
+	> 复杂网络领域开创性学者（总引50,000+，单篇17,000+）,主页有很多代码和数据集
+
+
+* 🌟🌟 [韩家炜 Jiawei Han ---  UIUC](http://hanj.cs.illinois.edu/)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=Kv9AbjMAAAAJ&view_op=list_works&sortby=pubdate)
+
+	> 数据挖掘大佬(总引184,000+)，最近关注于异质图网络和知识图谱等领域
+
+
+* [Philip S. Yu  --- UIC ](https://www.cs.uic.edu/~psyu/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=zh-CN)
+
+	> 数据挖掘大佬(总引118,000+)，最近关注于异质图网络和知识图谱等领域
+
+
+* 🌟🌟 [Christos Faloutsos --- CMU](http://www.cs.cmu.edu/~christos/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=nd8lQQIAAAAJ&hl=zh-CN)
+
+	> Data Mining for graphs and streams 基础理论的大佬
 
 
 * [陈关荣教授--香港城市大学](http://www.ee.cityu.edu.hk/~gchen/)---[Google-Scholar-Citations](https://scholar.google.com.hk/citations?user=O_Eif1YAAAAJ&hl=en&oi=ao)
 
 	> 混沌和复杂网络， 主页有很多复杂网络相关资源推荐
 
+*  [Jon Kleinberg](http://www.cs.cornell.edu/home/kleinber/)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=VX7d5EQAAAAJ&view_op=list_works&sortby=pubdate)
 
-* 🌟 [周涛---电子科技大学---科学网博客](http://blog.sciencenet.cn/?3075)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=en&user=MXgWgmEAAAAJ&view_op=list_works&citft=1&citft=3&email_for_op=2015301020059lc%40gmail.com&gmla=AJsN-F4Njj1bIZtqgLDXV_lKORVi7QZxbdLg2uh7rbylMYZ9whd7Ji48E5iNvbIm1b68i8FtOraU8kZdVyiNG7Pq7yveeYnykVLAay8IgUMRKCMKhk-sCaHGmpP9qz4OV-i0Iydg37dIdNuFRPJu97YLKdGc7YlqhSP6rW6sdMouZQ9IsPOGC1dhLQ3OZJQ-0oivaWyHXwfay1pX2VTUsXvCa9gvl0sZ50vvSmO2WD3uLt_7DlTMkxRcu-TcSH8yHwwlT4mp8YBk)
-
-     > 国内做复杂网络和数据挖掘的大佬，引用超 20,000; 经常在科学网博客分享一些论文资料，研究方向介绍分析。
+	>  小世界模型， 关注于 HyperGraph
 
 
-* 🌟 [唐杰---清华大学---个人主页](http://keg.cs.tsinghua.edu.cn/jietang/)---[Google-Scholar-Citations](https://scholar.google.com.hk/citations?hl=zh-CN&user=n1zDCkQAAAAJ)
+*  [唐杰 --- 清华大学](http://keg.cs.tsinghua.edu.cn/jietang/)---[Google-Scholar-Citations](https://scholar.google.com.hk/citations?hl=zh-CN&user=n1zDCkQAAAAJ)
 
      > 社会网络，知识图谱大佬， 超多顶会文章，还有 AMiner (The system has over 136 million researchers and 200 million papers) 等产品
+
+
+*  [Hanghang Tong --- UIUC](http://tonghanghang.org/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=RaINcuUAAAAJ&hl=zh-CN)
+
+     > 社会网络， 图挖掘； *Christos Faloutsos 门生*
+
 
 
 * [James Fowler](http://jhfowler.ucsd.edu/)---[Google-Scholar-Citations](https://scholar.uulucky.com/citations?user=vcTq49gAAAAJ&hl=zh-CN)
@@ -75,11 +83,6 @@
 	> 多层网络研究知名学者，分享了他的研究进展、工具和数据集
 
 
-*  [Jon Kleinberg](http://www.cs.cornell.edu/home/kleinber/)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=VX7d5EQAAAAJ&view_op=list_works&sortby=pubdate)
-
-	> 大规模社会网络研究
-
-
 *  [Cris Moore - Santa Fe Institute](http://tuvalu.santafe.edu/~moore/talks.html)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=p_837e0AAAAJ&hl=zh-CN)
 
     > 做很多物理学思想方法在复杂网络中的应用 ；以及一些量子计算，量子算法在网络中的应用
@@ -90,9 +93,54 @@
      > 物理倾向的的复杂网络大牛，写过好的复杂网络的专著。
 
 
-* [张潘 --- 中科院理论物理所](http://lib.itp.ac.cn/html/panzhang/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=MFnbrRUAAAAJ&hl=en)
+#### 年轻学者：
 
-     > 近几年做了很多，统计物理和机器学习，量子力学和机器学习的相关工作，都是PRx的高质量文章；个人主页附有一些处理方法的c++代码
+* 🌟🌟 [Jure Leskovec ---  stanford](https://cs.stanford.edu/~jure/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN)
+
+	> 斯坦福复杂网络小组(总引62,000+)，很多开创性工作(node2vec, GraphSAGE)，个人主页有超多研究工具，数据集，代码 ; *Christos Faloutsos 门生*
+
+
+*  [周涛---电子科技大学---科学网博客](http://blog.sciencenet.cn/?3075)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=MXgWgmEAAAAJ&hl=zh-CN)
+
+     > 国内做复杂网络和数据挖掘的大佬(总引20,000+); 经常在科学网博客分享一些论文资料，研究方向介绍分析。
+
+
+* 🌟 [Thomas Kipf --- UVA ](https://tkipf.github.io/)---[Google-Scholar-Citations](https://scholar.google.de/citations?user=83HL5FwAAAAJ&hl=en)
+
+     > GCN 一战成名，随后一系列图方面有影响力的工作， *Max Welling 门生*。
+
+
+* [Xiangnan He --- USTC ](http://staff.ustc.edu.cn/~hexn/)---[Google-Scholar-Citations](https://scholar.google.com.sg/citations?user=X45Go24AAAAJ&hl=en)
+
+     > 推荐系统 ， 图神经网络；  *Tat-Seng Chua 门生*。
+
+* 🌟 [Yizhou Sun --- UCLA](http://web.cs.ucla.edu/~yzsun/index.html)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=TQgOjK0AAAAJ&hl=zh-CN)
+
+     > 异质图方面研究， *韩家炜 门生*。
+
+
+* [Chuan Shi 石川--- 北邮](http://www.shichuan.org/ShiChuan_ch.html)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=tUq_v90AAAAJ&hl=zh-CN)
+
+     > 异质图方面研究， *Philip S. Yu 门生*。
+
+
+* [Danai Koutra --- Umich](http://web.eecs.umich.edu/~dkoutra/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=bDrA1-8AAAAJ&hl=zh-CN)
+
+     > 网络表征学习， 网络对齐 ; *Christos Faloutsos 门生*
+
+* [Bryan Perozzi --- Stony Brook ](http://www.perozzi.net/)---[Google-Scholar-Citations](https://scholar.google.de/citations?user=rZgbMs4AAAAJ&hl=en)
+
+     > 网络表征学习  ;  DeepWalk 模型
+
+* [Peng Cui 崔鹏--- 清华](http://pengcui.thumedialab.com/)---[Google-Scholar-Citations](https://scholar.google.com.hk/citations?hl=zh-CN&user=G8x97ZgAAAAJ)
+
+     > 社会动力学建模、大规模网络表征学习以及大数据驱动的因果推理和稳定预测；  SDNE 模型
+
+
+* 🌟 [Jian Tang 唐建--- MILA](https://jian-tang.com/)---[Google-Scholar-Citations](https://scholar.google.com.hk/citations?hl=zh-CN&user=G8x97ZgAAAAJ)
+
+     > 网络表征学习，知识图谱 ；  LINE 模型
+
 
 
 ---------
@@ -103,6 +151,7 @@
 * 🌟 [Santa Fe Institute](https://www.santafe.edu/research/projects/social-networks-big-data-and-physics-powered-infer)
 
 	>  圣地，上面好多位大佬工作学习过的地方，网页有很多很好的研究成果，研究方向等等。
+
 
 * [Centre for Chaos and Complex Networks---香港城市大学](http://www.ee.cityu.edu.hk/~cccn/)
 
@@ -140,18 +189,6 @@
 * [MIT 环境工程系 González 领导的 HumNet 课题组](http://humnetlab.mit.edu/wordpress/)
 
 	> 复杂网络角度对人类的时空行为 进行研究，在移动模式挖掘问题上有着长期的积累。
-
-
-* [微软亚洲研究院 的城市计算组](https://www.microsoft.com/en-us/research/project/%E5%9F%8E%E5%B8%82%E8%AE%A1%E7%AE%97/)
-
-	> 通过分析和融合城市中的各种大数据，郑宇博士的团队实现了一系列关于智能交通、城市规划、环境和能源的实际案例 ; 有出行GPS数据集，天气数据集。
-
-
-* [北京城市实验室(Beijing City Lab)](https://www.beijingcitylab.com/)
-
-	> 结合多种类型的数据，对 城市系统里的重要环节(如区域规划、城市经济等)进行量化的分析。
-
-
 
 -------
 
@@ -197,16 +234,32 @@
 
 * 🌟 [thunlp/GNNPapers](https://github.com/thunlp/GNNPapers#natural-language-processing)
 
-	> 清华大学 nlp 实验室(刘知远大神小组)整理的有关 GNN 的重要论文。
+	> 清华大学 nlp 实验室(刘知远大神小组)整理的有关 图神经网络(GNN) 的重要论文。
+
+
+* 🌟 [Literature of Deep Learning for Graphs](https://github.com/DeepGraphLearning/LiteratureDL4Graph)
+
+	> 唐建老师小组收集 Deep Learning for Graphs，  可按主题和会议分别筛选
+
+*  [Graph-based deep learning literature](https://github.com/naganandy/graph-based-deep-learning-literature)
+
+	> 按照会议收集的图相关论文
+
+* [Graph Adversarial Learning Literature](https://github.com/YingtongDou/graph-adversarial-learning-literature)
+
+	> 图结构数据的对抗攻击和防御论文收集
 
 
 * 🌟 [thuDM/cogdl](https://github.com/THUDM/cogdl)
 
 	> 清华大学 CogDL: An Extensive Research Toolkit for Graphs。 ： 快速实现网络任务 Baseline ，目前还不太完善
 
+
+
 * [图神经网络学习](https://github.com/LiuChuang0059/Graph_Neural_Network_Learning)
 
-	>  个人学习笔记
+	>  我自己的一个学习笔记
+
 
 
 
@@ -246,24 +299,6 @@
 
 * [Adv-soul](https://space.bilibili.com/49269807) : 图理论，图算法相关英文课程搬运
 
-
------
-
-
-
-### 相关论文阅读
-
-
-* [图神经网络相关论文](https://github.com/LiuChuang0059/Complex-Network/blob/master/%E5%9B%BE%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md)
-
-
-* [复杂网络在生物信息方面应用论文](https://github.com/LiuChuang0059/Complex-Network/blob/master/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E7%BD%91%E7%BB%9C.md)
-
-
-* [复杂网络在人类时空行为方向论文](https://github.com/LiuChuang0059/Complex-Network/blob/master/Papers/README.md)
-
-
-* [复杂网络最新相关论文](https://github.com/LiuChuang0059/Complex-Network/blob/master/%E5%A4%8D%E6%9D%82%E7%BD%91%E7%BB%9C%E6%9C%80%E8%BF%91paper%E9%98%85%E8%AF%BB.md)
 
 
 
@@ -457,6 +492,10 @@
 * http://blog.sciencenet.cn/blog-583335-477254.html
 
 * http://www.ee.cityu.edu.hk/~gchen/ComplexNetworks/PersonalWebsites.html
+
+* 社会网络研究学者: https://www.zhihu.com/question/26348052/answer/1020041417
+
+* 复杂性科学、网络科学、计算社会科学研究机构推介: https://mp.weixin.qq.com/s/R-V4UevsNMKr5tsmWbQDMA
 
 * 《Complex Network Analysis in Python》  Dmitry Zinoviev.
 
