@@ -22,20 +22,23 @@
 
 ------
 
+![](https://github.com/LiuChuang0059/Complex-Network/blob/master/complex_network.png)
+
 
 ### 知名学者
 
 > 可以通过谷歌学术 Follow 大佬的最新研究
+
 > 排名不怎么分先后
 
 * [ Albert-László Barabási ](http://barabasi.com/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=vsj2slIAAAAJ&hl=zh-CN)
 
-	> 复杂网络领域开创性学者（总引190，000+）和网络各个交叉方向都做
+	> 复杂网络领域开创性学者（总引190，000+）
 
 
 * [Mark Newman --- Santa Fe Institute](http://www-personal.umich.edu/~mejn/)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=rQ68pVwAAAAJ&view_op=list_works&sortby=pubdate)
 
-	> 复杂网络领域开创性学者（总引50,000+）
+	> 复杂网络领域开创性学者（总引179,000+）
 
 
 * [Duncan J Watts --- Pennsylvania](https://www.asc.upenn.edu/people/faculty/duncan-watts-phd)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=LhOAiXMAAAAJ&hl=zh-CN)
@@ -45,7 +48,7 @@
 
 *  [Jon Kleinberg](http://www.cs.cornell.edu/home/kleinber/)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=VX7d5EQAAAAJ&view_op=list_works&sortby=pubdate)
 
-	> HITS模型 （总引87,000+） 目前关注 HyperGraph
+	> HITS 模型 （总引87,000+） 目前关注 HyperGraph
 
 
 * [陈关荣教授--香港城市大学](http://www.ee.cityu.edu.hk/~gchen/)---[Google-Scholar-Citations](https://scholar.google.com.hk/citations?user=O_Eif1YAAAAJ&hl=en&oi=ao)
@@ -88,7 +91,7 @@
 	> 多层网络研究知名学者，分享了他的研究进展、工具和数据集
 
 
-*  [Cris Moore - Santa Fe Institute](http://tuvalu.santafe.edu/~moore/talks.html)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=p_837e0AAAAJ&hl=zh-CN)
+*  [Cristopher Moore - Santa Fe Institute](http://tuvalu.santafe.edu/~moore/talks.html)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=p_837e0AAAAJ&hl=zh-CN)
 
     > 做很多物理学思想方法在复杂网络中的应用 ；以及一些量子计算，量子算法在网络中的应用
 
@@ -168,9 +171,9 @@
 	> 结合计算机和大数据，研究人类在各个系统中的行为，主页有project 数据集。
 
 
-* 🌟 [斯坦福大学 Jure Leskovec 小组](https://cs.stanford.edu/~jure/)
+* 🌟 [斯坦福大学  snap 小组](https://cs.stanford.edu/~jure/)
 
-	>  网络嵌入等有较多的相关研究；最新很多 GNN 的研究。
+	> Jure Leskovec领导， 网络嵌入等有较多的相关研究；最新很多 GNN 的研究。
 
 
 * [Complex Multilayer Networks](https://comunelab.fbk.eu/)
