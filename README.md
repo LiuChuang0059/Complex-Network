@@ -28,38 +28,44 @@
 > 可以通过谷歌学术 Follow 大佬的最新研究
 > 排名不怎么分先后
 
-* [ Albert-László Barabási 个人主页](http://barabasi.com/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=vsj2slIAAAAJ&hl=zh-CN)
+* [ Albert-László Barabási ](http://barabasi.com/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=vsj2slIAAAAJ&hl=zh-CN)
 
-	> 复杂网络领域开创性学者（总引190，000+）和网络各个交叉方向都做，统计物理，生物医学，脑科学，表面材料等等，实验室超大组。
+	> 复杂网络领域开创性学者（总引190，000+）和网络各个交叉方向都做
 
 
 * [Mark Newman --- Santa Fe Institute](http://www-personal.umich.edu/~mejn/)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=rQ68pVwAAAAJ&view_op=list_works&sortby=pubdate)
 
-	> 复杂网络领域开创性学者（总引50,000+，单篇17,000+）,主页有很多代码和数据集
+	> 复杂网络领域开创性学者（总引50,000+）
 
 
-* 🌟🌟 [韩家炜 Jiawei Han ---  UIUC](http://hanj.cs.illinois.edu/)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=Kv9AbjMAAAAJ&view_op=list_works&sortby=pubdate)
+* [Duncan J Watts --- Pennsylvania](https://www.asc.upenn.edu/people/faculty/duncan-watts-phd)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=LhOAiXMAAAAJ&hl=zh-CN)
 
-	> 数据挖掘大佬(总引184,000+)，最近关注于异质图网络和知识图谱等领域
-
-
-* [Philip S. Yu  --- UIC ](https://www.cs.uic.edu/~psyu/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=zh-CN)
-
-	> 数据挖掘大佬(总引118,000+)，最近关注于异质图网络和知识图谱等领域
+	> 小世界模型， 六度（总引95,000+）
 
 
-* 🌟🌟 [Christos Faloutsos --- CMU](http://www.cs.cmu.edu/~christos/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=nd8lQQIAAAAJ&hl=zh-CN)
+*  [Jon Kleinberg](http://www.cs.cornell.edu/home/kleinber/)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=VX7d5EQAAAAJ&view_op=list_works&sortby=pubdate)
 
-	> Data Mining for graphs and streams 基础理论的大佬
+	> HITS模型 （总引87,000+） 目前关注 HyperGraph
 
 
 * [陈关荣教授--香港城市大学](http://www.ee.cityu.edu.hk/~gchen/)---[Google-Scholar-Citations](https://scholar.google.com.hk/citations?user=O_Eif1YAAAAJ&hl=en&oi=ao)
 
-	> 混沌和复杂网络， 主页有很多复杂网络相关资源推荐
+	> 混沌，非线性系统，复杂网络 （总引99,000+）
 
-*  [Jon Kleinberg](http://www.cs.cornell.edu/home/kleinber/)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=VX7d5EQAAAAJ&view_op=list_works&sortby=pubdate)
 
-	>  小世界模型， 关注于 HyperGraph
+* 🌟 [韩家炜 Jiawei Han ---  UIUC](http://hanj.cs.illinois.edu/)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=Kv9AbjMAAAAJ&view_op=list_works&sortby=pubdate)
+
+	> 数据挖掘大佬(总引184,000+)，最近关注于异质图网络和知识图谱等领域
+
+
+* 🌟[Philip S. Yu  --- UIC ](https://www.cs.uic.edu/~psyu/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=zh-CN)
+
+	> 数据挖掘大佬(总引118,000+)，最近关注于异质图网络和知识图谱等领域
+
+
+* 🌟 [Christos Faloutsos --- CMU](http://www.cs.cmu.edu/~christos/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=nd8lQQIAAAAJ&hl=zh-CN)
+
+	> Data Mining for graphs and streams 基础理论的大佬
 
 
 *  [唐杰 --- 清华大学](http://keg.cs.tsinghua.edu.cn/jietang/)---[Google-Scholar-Citations](https://scholar.google.com.hk/citations?hl=zh-CN&user=n1zDCkQAAAAJ)
@@ -70,7 +76,6 @@
 *  [Hanghang Tong --- UIUC](http://tonghanghang.org/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=RaINcuUAAAAJ&hl=zh-CN)
 
      > 社会网络， 图挖掘； *Christos Faloutsos 门生*
-
 
 
 * [James Fowler](http://jhfowler.ucsd.edu/)---[Google-Scholar-Citations](https://scholar.uulucky.com/citations?user=vcTq49gAAAAJ&hl=zh-CN)
