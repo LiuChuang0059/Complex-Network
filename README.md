@@ -421,7 +421,7 @@
 
 ### 研究软件工具
 
-![](https://i.loli.net/2019/10/21/OHNVqeguoJaMYzc.png)
+![](https://github.com/LiuChuang0059/Complex-Network/blob/master/network_tool.png)
 
 
 * 🌟 [Networkx](https://networkx.github.io/)
@@ -431,27 +431,6 @@
 	> 安装容易， 社区活跃， 100，000 节点下表现可接受
 
 	> 缺少可视化输出
-
-
-* 🌟 [Gephi](https://gephi.org/)
-
-
-	> 开源的可视化软件
-
-
-* [cytoscape](https://cytoscape.org/)
-
-	> 开源的可视化软件
-
-
-* [Network 3D](http://cyvision.ifsc.usp.br/software/networks3d)
-
-	> Mac os 上 网络三维可视化工具， 目前是 beta 版，还有些功能没有实现
-
-
-* [Netlogo](http://ccl.northwestern.edu/netlogo/docs/dictionary.html)
-
-     > 可以参考 [Complexity- Explore ](https://www.complexityexplorer.org/home) 课程快速学习
 
 
 *  [iGraph](https://igraph.org/)
@@ -466,7 +445,6 @@
 
 	> 安装较为麻烦， 需要 C 编辑器。
 
-
 * [graph-tool](graph-tool.skewed.de)
 
 	> 整个库全部由 C / C++ 完成，加速运行
@@ -479,7 +457,6 @@
 
 	> 安装和编译较为麻烦
 
-
 * [NetworKit]()
 
 	> 支持并行计算
@@ -487,10 +464,45 @@
 	> 和 NetworkX 兼容， 在 NeworkX 建立网络， 可以直接移植到 Networkit
 
 
+#### 可视化工具(large graph)
+
+
+
+* 🌟 [Gephi](https://gephi.org/)
+
+	> GUI ，使用方便。 社区有很多插件，但是开发者好像不再更新 Gephi 了。
+
+
+* [GraphViz](https://www.graphviz.org/)
+
+	> 命令行工具，容易自动化，但是交互性较差
+
+*  [iGraph](https://igraph.org/)
+
+	>  C  编译，有 python 库。 但是 Python 的 API 看起来有点乱(难受)。
+
+* [LargeVis](https://github.com/lferry007/LargeVis)
+
+	> 前面提到的唐建大佬的工作([相关paper](https://arxiv.org/abs/1602.00370))。 处理超大规模的数据(百万量级)，命令行工具，速度快，占用内存少。
+
+*  [Graphistry](https://www.graphistry.com)
+
+	> GUI 好看，出图较炫。 但是按小时付费，功能不全，节点有限制。
+
+
+* [Network 3D](http://cyvision.ifsc.usp.br/software/networks3d)
+
+	> Mac os 上 网络三维可视化工具， 目前是 beta 版，还有些功能没有实现
+
+
 * [pajek](http://mrvar.fdv.uni-lj.si/pajek/)
 
 	> mac 和 linux 大型网络可视化， 完整中文教程，和相关的试验数据集
 
+
+* [cytoscape](https://cytoscape.org/)
+
+	> 开源的可视化软件
 
 ------
 ------
@@ -500,6 +512,8 @@
 * http://blog.sciencenet.cn/blog-583335-477254.html
 
 * http://www.ee.cityu.edu.hk/~gchen/ComplexNetworks/PersonalWebsites.html
+
+* https://towardsdatascience.com/large-graph-visualization-tools-and-approaches-2b8758a1cd59
 
 * 社会网络研究学者: https://www.zhihu.com/question/26348052/answer/1020041417
 
