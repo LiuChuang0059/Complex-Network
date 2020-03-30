@@ -150,6 +150,10 @@
      > 网络表征学习，知识图谱 ；  LINE 模型
 
 
+* 🌟 [Huawei Shen 沈华伟--- ICT-CAS](http://www.bigdatalab.ac.cn/~shenhuawei/)
+
+
+	> 图信号处理基础特别扎实的大佬， 在 Barabasi 研究组工作过。
 
 ---------
 
@@ -307,6 +311,7 @@
 
 * [Adv-soul](https://space.bilibili.com/49269807) : 图理论，图算法相关英文课程搬运
 
+* [北京智源](https://space.bilibili.com/424100065/) ： 人工智能前沿 ： 刘知远，唐杰， 沈华伟等大佬都在。
 
 
 
