@@ -22,7 +22,7 @@
 
 ------
 
-![](https://github.com/LiuChuang0059/Complex-Network/blob/master/complex_network.png)
+![](https://github.com/LiuChuang0059/Complex-Network/blob/master/pic/complex_network.png)
 
 
 ### 知名学者
@@ -165,28 +165,30 @@
 	>  圣地，上面好多位大佬工作学习过的地方，网页有很多很好的研究成果，研究方向等等。
 
 
-* [Centre for Chaos and Complex Networks---香港城市大学](http://www.ee.cityu.edu.hk/~cccn/)
-
-	> 复杂网络方向，已经很多工业应用； 主页有很多有关复杂网络的资源：大学课程+书籍+软件+数据集等等。
-
-
-* [麻省理工学院(MIT)多媒体实验室人类行为课题组](https://www.media.mit.edu/groups/human-dynamics/projects/)
-
-	> 结合计算机和大数据，研究人类在各个系统中的行为，主页有project 数据集。
-
-
 * 🌟 [斯坦福大学  snap 小组](https://cs.stanford.edu/~jure/)
 
-	> Jure Leskovec领导， 网络嵌入等有较多的相关研究；最新很多 GNN 的研究。
+	> Jure Leskovec 领导， 网络嵌入等有较多的相关研究；最新很多 GNN 的研究。
+
+
+* [Graph Exploration and Mining at Scale (GEMS)](https://gemslab.github.io/)
+
+	> 网络表征研究，图对齐，知识图谱等方面研究 (PS: 很喜欢这个实验室绘图风格）
 
 
 * [Complex Multilayer Networks](https://comunelab.fbk.eu/)
 
 	> 多层网络研究： 研究进展、工具和数据集。
 
+
+* [Centre for Chaos and Complex Networks---香港城市大学](http://www.ee.cityu.edu.hk/~cccn/)
+
+	> 复杂网络方向，已经很多工业应用； 主页有很多有关复杂网络的资源：大学课程+书籍+软件+数据集等等。
+
+
 * [Luciano Costa's research group](http://cyvision.ifsc.usp.br/home)
 
 	> emphasize the analysis of several types of theoretical and real-world networks, including urban structures, Wikipedia, scientific citations, amongst others. Particular attention has been given to measurement and classification of complex networks, including the proposal of new measurements such as the accessibility and topological symmetry.
+
 
 * 🌟 [LINK-group](http://www.linkgroup.hu/index.php?old)
 
@@ -211,33 +213,42 @@
 
 #### 基础知识课程
 
+
 * 🌟 [CS224W: Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/index.html)
 
-	> 斯坦福大学 Jure Leskovec 大佬小组的课程， 包含基本的图结构，图表征介绍，以及最新的 图神经网络，知识图谱的讲述。  主页有课程 PPT
+	> 斯坦福大学 Jure Leskovec 大佬小组的课程， 包含基本的图结构，图表征介绍，以及最新的 图神经网络，知识图谱的讲述。  主页有课程 PPT （PS：如果不能访问，可以直接下载我存好的讲义）
 
 
 * 🌟 [Barabási Lab](https://www.barabasilab.com/course)
 
-	> 上面介绍的 Barabási 巨佬实验室出的复杂网络相关课程， 免费！
+	> 上面介绍的 Barabási 巨佬实验室出的复杂网络相关课程。 也可以直接看[在线书](http://networksciencebook.com/)，内容相同。  (PS:如果不能访问，可以直接下载我存好的讲义)
+
+	![](https://github.com/LiuChuang0059/Complex-Network/blob/master/pic/course_barabasi.png)
 
 
 * [Complexity- Explore（introduction to complexity](https://www.complexityexplorer.org/home)
 
-     >  复杂网络，相关基础知识，数学理论等, 部分中文字幕
+     >  上面介绍的 Santa Fe Institute 出的在线课程
 
-
-* [Networks, Crowds and Markets](https://courses.edx.org/courses/course-v1:CornellX+INFO2040x+1T2016/course/)
-	> 2016年的课程，有关 graph ， 免费！
+   ![](https://github.com/LiuChuang0059/Complex-Network/blob/master/pic/course_sfi.png)
 
 
 * [集智俱乐部](https://swarma.org/)
 
-	> 国内一个研究复杂网络的社区， 会实时推送有关复杂网络的研究新进展，也有一些课程，部分付费
+	> 北京师范大学张江老师创建的一个研究复杂网络的社区， 会实时推送有关复杂网络的研究新进展，也有一些课程，部分付费
 
 
-* [DC学院](https://www.dcxueyuan.com/courseCatalogue.html)
+#### 相关书籍
 
-	> 周涛老师创办，有一些复杂网络相关课程，付费。
+
+*  🌟 [网络科学导论 by 汪小帆]()
+
+	> 复杂网络快速入门书籍， 或者当作工具书，随时查询了解
+
+
+*  🌟 [Introduction to Graph Neural Network]()
+
+	> 刘知远大神出品，从基础到应用
 
 
 
@@ -266,6 +277,9 @@
 
 	> 清华大学 CogDL: An Extensive Research Toolkit for Graphs。 ： 快速实现网络任务 Baseline ，目前还不太完善
 
+* [snap-stanford/ogb](https://github.com/snap-stanford/ogb)
+
+	> Snap 小组 Open Graph Benchmark ： Benchmark datasets, data loaders, and evaluators for graph machine learning
 
 
 * [图神经网络学习](https://github.com/LiuChuang0059/Graph_Neural_Network_Learning)
@@ -351,12 +365,38 @@
 
 ### 图神经网络学习
 
-
-* 🌟 [GCN : 从入门到放弃 (组会报告ppt)](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83.pdf)
-
-* [有关 GCN 的大佬报告 PPT](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/%E7%BB%BC%E8%BF%B0/PPT)
+**个人看完觉得很有收获的几个 tutorial ：**
 
 
+* jure 大佬对组内相关工作的介绍报告：
+
+
+	* [1. Advancements in GNN : GraphSAGE + DiffPool + Knowledge Graph +  Pinterest]()
+
+	* [2. Advancements in GNN :  PGNNs + Pretraining + OGB]()
+
+	* [3. Deep Generative Models for Graphs: Methods and Applications]()
+
+	* [4. How Powerful are Graph Neural Network : GIN]()
+
+
+*  [Kipf 大佬有关 GCN 的介绍]()
+
+	> 很清晰， PPT 很好看
+
+*  [Graph Neural Networks by Xavier Bresson]()
+
+	> GCN 谱分析相关介绍很详细
+
+* [Graph Convolutional Neural Networks by 沈华伟]()
+
+	> 信号处理角度看 GCN， 脉络清晰
+
+
+* [其他有关 GNN 报告 PPT 汇总 ](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/%E7%BB%BC%E8%BF%B0/PPT)
+
+
+*  [GCN : 从入门到放弃 (个人组会报告ppt)](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83.pdf)
 
 -------
 
@@ -366,20 +406,20 @@
 
 	> 斯坦福大学复杂网络小组收集整理
 
-	![](https://i.loli.net/2019/09/04/oHKPdgeCytzi1La.png)
+	![](https://github.com/LiuChuang0059/Complex-Network/blob/master/pic/database_snap.png)
 
 * 🌟🌟 [KONECT](http://konect.uni-koblenz.de/)
 
 	>  KONECT currently holds 261 networks,
 
-	![](https://i.loli.net/2019/10/23/GA5WagOzxRC9TYp.png)
+	![](https://github.com/LiuChuang0059/Complex-Network/blob/master/pic/database_konect.png)
 
 
 * 🌟 [Datasets Released for Reproducibility](https://comunelab.fbk.eu/data.php)
 
 	> comunelab 小组整理，主要为 社会网络和基因网络
 
-	![](https://i.loli.net/2019/09/28/eid3gHQkOoU6zKP.png)
+	![](https://github.com/LiuChuang0059/Complex-Network/blob/master/pic/database_comune.png)
 
 
 * [Software / Databases](http://www.ee.cityu.edu.hk/~gchen/ComplexNetworks/SoftwareDatabases.htm)
@@ -426,7 +466,7 @@
 
 ### 研究软件工具
 
-![](https://github.com/LiuChuang0059/Complex-Network/blob/master/network_tool.png)
+![](https://github.com/LiuChuang0059/Complex-Network/blob/master/pic/network_tool.png)
 
 
 * 🌟 [Networkx](https://networkx.github.io/)
