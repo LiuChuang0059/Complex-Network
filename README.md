@@ -29,7 +29,7 @@
 
 > 可以通过谷歌学术 Follow 大佬的最新研究
 
-> 排名不怎么分先后
+> 排名不怎么分先后(怎么可能部分先后😊)
 
 * [ Albert-László Barabási ](http://barabasi.com/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=vsj2slIAAAAJ&hl=zh-CN)
 
@@ -216,21 +216,24 @@
 
 * 🌟 [CS224W: Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/index.html)
 
-	> 斯坦福大学 Jure Leskovec 大佬小组的课程， 包含基本的图结构，图表征介绍，以及最新的 图神经网络，知识图谱的讲述。  主页有课程 PPT （PS：如果不能访问，可以直接下载我存好的讲义）
+	> 斯坦福大学 Jure Leskovec 大佬小组的课程， 包含基本的图结构，图表征介绍，以及最新的 图神经网络，知识图谱的讲述。  主页有课程 PPT （PS：如果不能访问，可以直接下载我存好的[讲义](https://github.com/LiuChuang0059/Complex-Network/tree/master/Online_course/snap)）
 
 
 * 🌟 [Barabási Lab](https://www.barabasilab.com/course)
 
-	> 上面介绍的 Barabási 巨佬实验室出的复杂网络相关课程。 也可以直接看[在线书](http://networksciencebook.com/)，内容相同。  (PS:如果不能访问，可以直接下载我存好的讲义)
+	> 上面介绍的 Barabási 巨佬实验室出的复杂网络相关课程。 也可以直接看[在线书](http://networksciencebook.com/)，内容相同。  (PS:如果不能访问，可以直接下载我存好的[讲义](https://github.com/LiuChuang0059/Complex-Network/tree/master/Online_course/barabasi))
 
-	![](https://github.com/LiuChuang0059/Complex-Network/blob/master/pic/course_barabasi.png)
+	<div align=center><img width="600" height="300" src="https://github.com/LiuChuang0059/Complex-Network/blob/master/pic/course_barabasi.png"/></div>
+
+
 
 
 * [Complexity- Explore（introduction to complexity](https://www.complexityexplorer.org/home)
 
      >  上面介绍的 Santa Fe Institute 出的在线课程
 
-   ![](https://github.com/LiuChuang0059/Complex-Network/blob/master/pic/course_sfi.png)
+	<div align=center><img width="600" height="200" src="https://github.com/LiuChuang0059/Complex-Network/blob/master/pic/course_sfi.png"/></div>
+
 
 
 * [集智俱乐部](https://swarma.org/)
@@ -241,12 +244,12 @@
 #### 相关书籍
 
 
-*  🌟 [网络科学导论 by 汪小帆]()
+*  🌟 [网络科学导论](https://github.com/LiuChuang0059/Complex-Network/blob/master/Books/%E7%BD%91%E7%BB%9C%E7%A7%91%E5%AD%A6%E5%AF%BC%E8%AE%BA.pdf)  by 汪小帆
 
 	> 复杂网络快速入门书籍， 或者当作工具书，随时查询了解
 
 
-*  🌟 [Introduction to Graph Neural Network]()
+*  🌟 [Introduction to Graph Neural Network](https://github.com/LiuChuang0059/Complex-Network/blob/master/Books/Introduction%20to%20Graph%20Neural%20Networks.pdf) by 刘知远
 
 	> 刘知远大神出品，从基础到应用
 
@@ -371,32 +374,32 @@
 * jure 大佬对组内相关工作的介绍报告：
 
 
-	* [1. Advancements in GNN : GraphSAGE + DiffPool + Knowledge Graph +  Pinterest]()
+	* [1. Advancements in GNN : GraphSAGE + DiffPool + Knowledge Graph +  Pinterest](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/Advancements%20in%20Graph%20Neural%20Networks_graphSaGE_KG.pdf)
 
-	* [2. Advancements in GNN :  PGNNs + Pretraining + OGB]()
+	* [2. Advancements in GNN :  PGNNs + Pretraining + OGB](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/Advancements%20in%20GNN_PGNNs_Pretraining_OGB.pdf)
 
-	* [3. Deep Generative Models for Graphs: Methods and Applications]()
+	* [3. Deep Generative Models for Graphs: Methods and Applications](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/Deep%20Generative%20Models%20for%20Graphs-%20Methods%20%26%20Applications%20.pdf)
 
-	* [4. How Powerful are Graph Neural Network : GIN]()
+	* [4. How Powerful are Graph Neural Network : GIN](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/How%20Powerful%20are%20Graph%20Neural%20Network.pdf)
 
 
-*  [Kipf 大佬有关 GCN 的介绍]()
+*  [Kipf 大佬有关 GCN 的介绍](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/Structured%20deep%20models-%20Deep%20learning%20on%20graphs%20and%20beyond.pdf)
 
 	> 很清晰， PPT 很好看
 
-*  [Graph Neural Networks by Xavier Bresson]()
+*  [Graph Neural Networks ](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/GNN_NTU.pdf) by Xavier Bresson 南洋理工大学
 
 	> GCN 谱分析相关介绍很详细
 
-* [Graph Convolutional Neural Networks by 沈华伟]()
+* [Graph Convolutional Neural Networks ](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/GCN_%E6%B2%88%E5%8D%8E%E4%BC%9F.pdf) by 沈华伟 中科院计算所
 
 	> 信号处理角度看 GCN， 脉络清晰
 
 
-* [其他有关 GNN 报告 PPT 汇总 ](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/%E7%BB%BC%E8%BF%B0/PPT)
+* [其他有关 GNN 报告 PPT 文件汇总 ](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/tutorial/GNN_other)
 
 
-*  [GCN : 从入门到放弃 (个人组会报告ppt)](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83.pdf)
+*  [GCN : 从入门到放弃 ](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/GCN%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83.pdf) by (我个人组会报告ppt，粗糙)
 
 -------
 
