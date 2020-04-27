@@ -29,7 +29,7 @@
 
 > 可以通过谷歌学术 Follow 大佬的最新研究
 
-> 排名不怎么分先后(怎么可能部分先后😊)
+> 排名不怎么分先后(怎么可能不分先后😊)
 
 * [ Albert-László Barabási ](http://barabasi.com/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=vsj2slIAAAAJ&hl=zh-CN)
 
@@ -368,7 +368,9 @@
 
 ### 图神经网络学习
 
-**个人看完觉得很有收获的几个 tutorial ：**
+#### Tutorial
+
+> 个人看完觉得很有收获的几个 tutorial ：
 
 
 * jure 大佬对组内相关工作的介绍报告：
@@ -396,10 +398,25 @@
 	> 信号处理角度看 GCN， 脉络清晰
 
 
-* [其他有关 GNN 报告 PPT 文件汇总 ](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/tutorial/GNN_other)
+* 其他有关 GNN 报告 PPT [文件汇总](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/tutorial/GNN_other)
 
 
-*  [GCN : 从入门到放弃 ](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/GCN%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83.pdf) by (我个人组会报告ppt，粗糙)
+*  [GCN : 从入门到放弃 ](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/GCN%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83.pdf) by  (我个人组会报告ppt，粗糙)
+
+
+#### Code - GCN
+
+> GCN 基本模型实现代码, 用到的[数据集在这里]()
+
+
+* [基于 Numpy 实现 GCN 基本结构]()
+
+
+* [基于 Keras 实现 GCN (kipf 代码解析)]()
+
+
+
+
 
 -------
 
