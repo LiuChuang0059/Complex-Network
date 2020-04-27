@@ -10,9 +10,19 @@
 
         * [网络学习资源](#网络学习资源)
 
+        	* [基础知识课程](#基础知识课程)
+
+        	* [Github相关项目](#Github相关项目)
+
+        	* [微信公众号](#微信公众号)
+
         * [个人基础知识学习](#个人基础知识学习)
 
         * [图神经网络学习](#图神经网络学习)
+
+        	* [GNN_tutorial](#GNN_tutorial)
+
+        	* [GCN_code](#GCN_code)
 
         * [研究数据集收集](#研究数据集收集)
 
@@ -255,7 +265,7 @@
 
 
 
-#### Github 相关项目
+#### Github相关项目
 
 
 * 🌟 [thunlp/GNNPapers](https://github.com/thunlp/GNNPapers#natural-language-processing)
@@ -368,7 +378,7 @@
 
 ### 图神经网络学习
 
-#### Tutorial
+#### GNN_tutorial
 
 > 个人看完觉得很有收获的几个 tutorial ：
 
@@ -404,16 +414,15 @@
 *  [GCN : 从入门到放弃 ](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/GCN%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83.pdf) by  (我个人组会报告ppt，粗糙)
 
 
-#### Code - GCN
+#### GCN_code
 
-> GCN 基本模型实现代码, 用到的[数据集在这里]()
-
-
-* [基于 Numpy 实现 GCN 基本结构]()
+> GCN 基本模型实现代码, 用到的[数据集在这里](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/GCN_code/data/cora)
 
 
-* [基于 Keras 实现 GCN (kipf 代码解析)]()
+* [基于 Numpy 实现 GCN 基本结构](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN_code/GCN_numpy.ipynb)
 
+
+* [基于 Keras 实现 GCN (kipf 代码解析)](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN_code/GCN_keras.ipynb)
 
 
 
