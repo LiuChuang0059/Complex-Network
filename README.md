@@ -257,7 +257,7 @@
 
 	> 刘知远大神出品，从基础到应用
 
-* 🌟 [数学之美]() by  吴军博士
+* 🌟 [数学之美](https://github.com/LiuChuang0059/Complex-Network/blob/master/Books/%E6%95%B0%E5%AD%A6%E4%B9%8B%E7%BE%8E.pdf) by  吴军博士
 
 	> 获益匪浅
 
@@ -396,7 +396,7 @@
 
 	> 很清晰， PPT 很好看
 
-*  [Kipf 大佬博士毕业论文]()
+*  [Kipf 大佬博士毕业论文](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/Deep%20learning%20with%20graph-structured%20representations.pdf)
 
 	> 相关 GCN 主要工作总结梳理
 
@@ -407,8 +407,6 @@
 * [Graph Convolutional Neural Networks ](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/GCN_%E6%B2%88%E5%8D%8E%E4%BC%9F.pdf) by 沈华伟 中科院计算所
 
 	> 信号处理角度看 GCN， 脉络清晰
-
-
 
 
 * 其他有关 GNN 报告 PPT [文件汇总](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/tutorial/GNN_other)
@@ -580,6 +578,9 @@
 * [cytoscape](https://cytoscape.org/)
 
 	> 开源的可视化软件
+
+	* [ipycytoscape在 Jupyter 实现交互式图可视化](https://blog.jupyter.org/interactive-graph-visualization-in-jupyter-with-ipycytoscape-a8828a54ab63)
+
 
 ------
 ------
