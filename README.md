@@ -8,7 +8,6 @@
 * [研究小组](#研究小组)
 
 * [网络学习资源](#网络学习资源)
-
     * [基础知识课程](#基础知识课程)
     * [Github相关项目](#Github相关项目)
     * [微信公众号](#微信公众号)
@@ -16,7 +15,6 @@
 * [个人基础知识学习](#个人基础知识学习)
 
 * [图神经网络学习](#图神经网络学习)
-
     * [GNN_tutorial](#GNN_tutorial)
     * [GCN_code](#GCN_code)
 
@@ -259,6 +257,9 @@
 
 	> 刘知远大神出品，从基础到应用
 
+* 🌟 [数学之美]() by  吴军博士
+
+	> 获益匪浅
 
 
 #### Github相关项目
@@ -395,6 +396,10 @@
 
 	> 很清晰， PPT 很好看
 
+*  [Kipf 大佬博士毕业论文]()
+
+	> 相关 GCN 主要工作总结梳理
+
 *  [Graph Neural Networks ](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/GNN_NTU.pdf) by Xavier Bresson 南洋理工大学
 
 	> GCN 谱分析相关介绍很详细
@@ -402,6 +407,8 @@
 * [Graph Convolutional Neural Networks ](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/GCN_%E6%B2%88%E5%8D%8E%E4%BC%9F.pdf) by 沈华伟 中科院计算所
 
 	> 信号处理角度看 GCN， 脉络清晰
+
+
 
 
 * 其他有关 GNN 报告 PPT [文件汇总](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/tutorial/GNN_other)
