@@ -126,9 +126,21 @@
 
      > 推荐系统 ， 图神经网络；  *Tat-Seng Chua 门生*。
 
+
 * 🌟 [Yizhou Sun --- UCLA](http://web.cs.ucla.edu/~yzsun/index.html)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=TQgOjK0AAAAJ&hl=zh-CN)
 
-     > 异质图方面研究， *韩家炜 门生*。
+     > 异质图方面研究大佬， *韩家炜 门生*。
+
+
+* [Joan Bruna --- NYU](https://cims.nyu.edu/~bruna/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=L4bNmsMAAAAJ&hl=zh-CN)
+
+	> 14年图卷积开山作的作者。数学出身，理论相当扎实。
+
+
+
+* [Xavier Bresson --- NTU](https://www.ntu.edu.sg/home/xbresson/index.html)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=9pSK04MAAAAJ&hl=zh-CN)
+
+	> 图上的深度学习， 图谱理论，图卷积。
 
 
 * [Chuan Shi 石川--- 北邮](http://www.shichuan.org/ShiChuan_ch.html)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=tUq_v90AAAAJ&hl=zh-CN)
@@ -158,6 +170,7 @@
 
 
 	> 图信号处理基础特别扎实的大佬， 在 Barabasi 研究组工作过。
+
 
 ---------
 
@@ -192,6 +205,11 @@
 * [Luciano Costa's research group](http://cyvision.ifsc.usp.br/home)
 
 	> emphasize the analysis of several types of theoretical and real-world networks, including urban structures, Wikipedia, scientific citations, amongst others. Particular attention has been given to measurement and classification of complex networks, including the proposal of new measurements such as the accessibility and topological symmetry.
+
+
+* [DataLab](http://datalab.ischool.uw.edu/)
+
+	> 主要研究 large-scale, heterogeneous human data, **for the social good.**  主要的 Project ： Social Networks ； Data Visualization ; Science of Science ;  Data Curation
 
 
 * 🌟 [LINK-group](http://www.linkgroup.hu/index.php?old)
@@ -319,6 +337,8 @@
 #### 个人博客
 
 * 🌟 [Thomas Kipf](https://tkipf.github.io/)
+
+* [Michaël Defferrard](http://deff.ch/)
 
 
 
