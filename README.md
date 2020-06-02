@@ -17,6 +17,7 @@
 * [图神经网络学习](#图神经网络学习)
     * [GNN_tutorial](#GNN_tutorial)
     * [GCN_code](#GCN_code)
+    * [GraphSAGE_code](#GraphSAGE_code)
 
 * [研究数据集收集](#研究数据集收集)
 
@@ -122,6 +123,12 @@
      > GCN 一战成名，随后一系列图方面有影响力的工作， *Max Welling 门生*。
 
 
+
+* 🌟 [William L Hamilton --- McGill ](https://williamleif.github.io/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=T5tm9eQAAAAJ&hl=en)
+
+     > GraphSAGE 作者， 图表征，图神经网络相关工作 ， *Jure Leskovec 门生*
+
+
 * [Xiangnan He --- USTC ](http://staff.ustc.edu.cn/~hexn/)---[Google-Scholar-Citations](https://scholar.google.com.sg/citations?user=X45Go24AAAAJ&hl=en)
 
      > 推荐系统 ， 图神经网络；  *Tat-Seng Chua 门生*。
@@ -225,6 +232,14 @@
 * [MIT 环境工程系 González 领导的 HumNet 课题组](http://humnetlab.mit.edu/wordpress/)
 
 	> 复杂网络角度对人类的时空行为 进行研究，在移动模式挖掘问题上有着长期的积累。
+
+
+**复杂性科学研究机构推荐 by 集智俱乐部**
+
+* [复杂性科学、网络科学、计算社会科学研究机构推介（北美篇）](https://mp.weixin.qq.com/s/R-V4UevsNMKr5tsmWbQDMA)
+
+
+* [欧洲复杂性科学、网络科学研究机构推荐](https://mp.weixin.qq.com/s/FKS9iNNETBnKGkZIPOPcdg)
 
 -------
 
@@ -336,11 +351,13 @@
 
 #### 个人博客
 
-* 🌟 [Thomas Kipf](https://tkipf.github.io/)
+* 🌟 [Thomas Kipf 个人主页](https://tkipf.github.io/)
 
-* [Michaël Defferrard](http://deff.ch/)
+* 🌟 [唐杰 Jie Tang 老师个人主页](http://keg.cs.tsinghua.edu.cn/jietang/)
 
-* [周涛](http://blog.sciencenet.cn/home.php?mod=space&uid=3075)
+* [Michaël Defferrard 个人主页](http://deff.ch/)
+
+* [周涛老师 科学网博客](http://blog.sciencenet.cn/home.php?mod=space&uid=3075)
 
 
 
@@ -447,7 +464,16 @@
 
 * [基于 Keras 实现 GCN (kipf 代码解析)](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN_code/GCN_keras.ipynb)
 
+* [基于 Tensorflow 实现 GCN (kipf 代码解析)](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN_code/GCN_tensorflow.ipynb)
 
+* [基于 Pytorch 实现 GCN (kipf 代码解析)](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN_code/GCN_pytorch.ipynb)
+
+#### GraphSAGE_code
+
+* [基于 Keras 实现 GraphSAGE](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN_code/GraphSAGE_keras.ipynb)
+
+
+* [基于 pytorch 实现 GraphSAGE (William L Hamilton  代码解析)](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN_code/GraphSAGE_pytorch.ipynb)
 
 
 -------
