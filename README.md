@@ -34,7 +34,7 @@
 
 > 可以通过谷歌学术 Follow 大佬的最新研究
 
-> 排名不怎么分先后(怎么可能不分先后😊)
+> 排名不怎么分先后😊
 
 * [ Albert-László Barabási ](http://barabasi.com/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=vsj2slIAAAAJ&hl=zh-CN)
 
@@ -118,6 +118,11 @@
      > 国内做复杂网络和数据挖掘的大佬(总引20,000+); 经常在科学网博客分享一些论文资料，研究方向介绍分析。
 
 
+* [Le Song --- Georgia Tech ](https://www.cc.gatech.edu/~lsong/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=Xl4E0CsAAAAJ&hl=zh-CN)
+
+     > 动态网络表征学习，社会网络分析。
+
+
 * 🌟 [Thomas Kipf --- UVA ](https://tkipf.github.io/)---[Google-Scholar-Citations](https://scholar.google.de/citations?user=83HL5FwAAAAJ&hl=en)
 
      > GCN 一战成名，随后一系列图方面有影响力的工作， *Max Welling 门生*。
@@ -197,6 +202,11 @@
 * [Graph Exploration and Mining at Scale (GEMS)](https://gemslab.github.io/)
 
 	> 网络表征研究，图对齐，知识图谱等方面研究 (PS: 很喜欢这个实验室绘图风格）
+
+
+* [NTU Graph Deep Learning Lab](https://graphdeeplearning.github.io/)
+
+	> fundamental techniques in Graph Deep Learning, Xavier Bresson 组
 
 
 * [Complex Multilayer Networks](https://comunelab.fbk.eu/)
@@ -279,6 +289,7 @@
 
 
 #### 相关书籍
+> 支持正版
 
 
 *  🌟 [网络科学导论](https://github.com/LiuChuang0059/Complex-Network/blob/master/Books/%E7%BD%91%E7%BB%9C%E7%A7%91%E5%AD%A6%E5%AF%BC%E8%AE%BA.pdf)  by 汪小帆
@@ -320,9 +331,34 @@
 
 	> 清华大学 CogDL: An Extensive Research Toolkit for Graphs。 ： 快速实现网络任务 Baseline ，目前还不太完善
 
+
 * [snap-stanford/ogb](https://github.com/snap-stanford/ogb)
 
 	> Snap 小组 Open Graph Benchmark ： Benchmark datasets, data loaders, and evaluators for graph machine learning
+
+* [GraphVite](https://github.com/DeepGraphLearning/graphvite)
+
+	>  graph embedding at **high speed** and large scale:  node embedding, knowledge graph embedding and graph & high-dimensional data visualization
+	( works on any Linux distribution with CUDA >= 9.2.)
+
+* 🌟 [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric)
+
+	> 基于 Pytorch 实现的 geometric deep learning models： deep learning on graphs and other irregular structures.  包含 node2vec， GCN GAT，GraphSAGE，JK-Net， GIN 等经典模型， 也有最新的 Dropedge， GraphSAINT 等模型。 (ps: macos 目前只支持 cpu)
+
+
+* [dgl](https://github.com/dmlc/dgl/blob/0.4.x/docs/source/index.rst)
+
+	> 基于 PyTorch, MXNet, Gluon etc.实现 graph neural network models (ICLR 2019 workshop)
+
+
+* [Spektral](https://github.com/danielegrattarola/spektral)
+
+	> 基于 Keras  and TensorFlow 2 实现的 graph deep learning。 包含  GCN GAT，GraphSAGE， GIN 等经典模型， 还有一些 pooling 模型 （ICML 2020 workshop）
+
+
+* [BUPTDM-OpenHINE](https://github.com/BUPTDM/OpenHINE)
+
+	> 北邮石川老师组异质信息网络表示学习训练和测试框架， 包括：DHNE、HAN、HeGAN、HERec、HIN2vec、Metapath2vec、MetaGraph2vec、RHINE 等模型
 
 
 * [图神经网络学习](https://github.com/LiuChuang0059/Graph_Neural_Network_Learning)
@@ -414,6 +450,19 @@
 
 ### 图神经网络学习
 
+
+#### Workshop_graph
+
+> 有关图表征和图神经网络的 workshop
+
+* [Geometric and Relational Deep Learning --- ELLIS 2020 ](https://geometric-relational-dl.github.io/) --- Kipf , Max Welling et al.
+
+* [Learning Graph Neural Networks with Deep Graph Library -- WWW 2020](https://github.com/dglai/WWW20-Hands-on-Tutorial) --- George Karypis et al.
+
+* [Representation Learning on Graphs and Manifolds --- ICLR 2019 ](https://geometric-relational-dl.github.io/) --- Le Song, Jure Leskovec et al.
+
+
+
 #### GNN_tutorial
 
 > 个人看完觉得很有收获的几个 tutorial ：
@@ -454,6 +503,7 @@
 *  [GCN : 从入门到放弃 ](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/tutorial/GCN%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83.pdf) by  (我个人组会报告ppt，粗糙)
 
 
+
 #### GCN_code
 
 > GCN 基本模型实现代码, 用到的[数据集在这里](https://github.com/LiuChuang0059/Complex-Network/tree/master/GNN/GCN_code/data/cora)
@@ -464,9 +514,12 @@
 
 * [基于 Keras 实现 GCN (kipf 代码解析)](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN_code/GCN_keras.ipynb)
 
+
 * [基于 Tensorflow 实现 GCN (kipf 代码解析)](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN_code/GCN_tensorflow.ipynb)
 
+
 * [基于 Pytorch 实现 GCN (kipf 代码解析)](https://github.com/LiuChuang0059/Complex-Network/blob/master/GNN/GCN_code/GCN_pytorch.ipynb)
+
 
 #### GraphSAGE_code
 
