@@ -326,6 +326,10 @@
 
 	> 图结构数据的对抗攻击和防御论文收集
 
+* [awesome-self-supervised-gnn](https://github.com/ChandlerBang/awesome-self-supervised-gnn)
+
+	> self-supervised learning on Graph Neural Networks
+
 
 * 🌟 [thuDM/cogdl](https://github.com/THUDM/cogdl)
 
