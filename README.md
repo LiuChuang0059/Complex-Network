@@ -461,10 +461,15 @@
 
 * [Geometric and Relational Deep Learning --- ELLIS 2020 ](https://geometric-relational-dl.github.io/) --- Kipf , Max Welling et al.
 
-* [Learning Graph Neural Networks with Deep Graph Library -- WWW 2020](https://github.com/dglai/WWW20-Hands-on-Tutorial) --- George Karypis et al.
+* [Learning Graph Neural Networks with Deep Graph Library --- WWW 2020](https://github.com/dglai/WWW20-Hands-on-Tutorial) --- George Karypis et al.
 
 * [Representation Learning on Graphs and Manifolds --- ICLR 2019 ](https://geometric-relational-dl.github.io/) --- Le Song, Jure Leskovec et al.
 
+* [The First International Workshop on Deep Learning on Graphs --- KDD 2019](https://deep-learning-graphs.bitbucket.io/dlg-kdd19/) --- Jure Leskovec, Yizhou Sun et al.
+
+* [The Second International Workshop on Deep Learning on Graphs --- KDD 2020](https://deep-learning-graphs.bitbucket.io/dlg-kdd20/) --- Jure Leskovec, Jian Tang et al.
+
+* [The First International Workshop on Deep Learning on Graphs: Methodologies and Applications (DLGMA’20) --- AAAI 2020](https://deep-learning-graphs.bitbucket.io/dlg-aaai20/) --- Jure Leskovec, William L. Hamilton et al.
 
 
 #### GNN_tutorial
