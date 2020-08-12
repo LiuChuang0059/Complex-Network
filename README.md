@@ -387,6 +387,8 @@
 
 * 网络科学研究速递(netsci)： Arxiv等来源的网络科学最新研究翻译推送(翻译纯是机翻，可以浏览)
 
+* telegram  :  [Graph Machine Learning](https://t.me/graphML) : 每天更新有关图机器学习的 paper 会议以及相关内容， 很不错.
+
 
 
 #### 个人博客
@@ -398,6 +400,8 @@
 * [Michaël Defferrard 个人主页](http://deff.ch/)
 
 * [周涛老师 科学网博客](http://blog.sciencenet.cn/home.php?mod=space&uid=3075)
+
+* [Michael Bronstein Head of Graph ML Research @Twitter](https://medium.com/@michael.bronstein)
 
 
 
