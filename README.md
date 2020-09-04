@@ -301,9 +301,20 @@
 
 	> 刘知远大神出品，从基础到应用
 
+*  [Graph Representation Learning Book](https://www.cs.mcgill.ca/~wlh/grl_book/)
+
+	> by William L. Hamilton 等大佬。 系统介绍图表征学习。 目前有三个大章节： node embeddings, GNNs, and generative models.
+
+
+* [Deep Learning on Graphs](https://cse.msu.edu/~mayao4/dlg_book/)
+
+	> by Yao Ma and Jiliang Tang 等大佬。 主要介绍 GNN 的基础和应用。
+
+
 * 🌟 [数学之美](https://github.com/LiuChuang0059/Complex-Network/blob/master/Books/%E6%95%B0%E5%AD%A6%E4%B9%8B%E7%BE%8E.pdf) by  吴军博士
 
 	> 获益匪浅
+
 
 
 #### Github相关项目
@@ -386,6 +397,8 @@
 * 人工智能前沿讲习(AIFrontier)  : 较多研究论文解读分享
 
 * 网络科学研究速递(netsci)： Arxiv等来源的网络科学最新研究翻译推送(翻译纯是机翻，可以浏览)
+
+* 北邮 GAMMA Lab(BUPT_GAMMA) : 北邮图数据挖掘与机器学习实验室, 石川老师的小组
 
 * telegram  :  [Graph Machine Learning](https://t.me/graphML) : 每天更新有关图机器学习的 paper 会议以及相关内容， 很不错.
 
