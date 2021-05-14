@@ -374,6 +374,11 @@
 	> 基于 Pytorch 实现的 geometric deep learning models： deep learning on graphs and other irregular structures.  包含 node2vec， GCN GAT，GraphSAGE，JK-Net， GIN 等经典模型， 也有最新的 Dropedge， GraphSAINT 等模型。 (ps: macos 目前只支持 cpu)
 
 
+* 🌟 [PyTorch Geometric Temporal](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)
+
+	>  A temporal (dynamic) extension library for PyTorch Geometric. Temporal graph neural networks ： Recurrent Graph Convolutions，Temporal Graph Convolutions， Auxiliary Graph Convolutions.
+
+
 * [dgl](https://github.com/dmlc/dgl/blob/0.4.x/docs/source/index.rst)
 
 	> 基于 PyTorch, MXNet, Gluon etc.实现 graph neural network models (ICLR 2019 workshop)
@@ -381,7 +386,7 @@
 
 * [Spektral](https://github.com/danielegrattarola/spektral)
 
-	> 基于 Keras  and TensorFlow 2 实现的 graph deep learning。 包含  GCN GAT，GraphSAGE， GIN 等经典模型， 还有一些 pooling 模型 （ICML 2020 workshop）
+	> 基于 Keras and TensorFlow 2 实现的 graph deep learning。 包含 GCN,GAT,GraphSAGE,GIN 等经典模型， 还有一些 pooling 模型 （ICML 2020 workshop）
 
 
 * [BUPTDM-OpenHINE](https://github.com/BUPTDM/OpenHINE)
@@ -730,6 +735,25 @@
 	* [ipycytoscape在 Jupyter 实现交互式图可视化](https://blog.jupyter.org/interactive-graph-visualization-in-jupyter-with-ipycytoscape-a8828a54ab63)
 
 
+* [Ployly](https://plotly.com/python/network-graphs/#)
+
+	> 基于 dash 库 pip install dash dash-cytoscape，感觉稍微有点麻烦而且不提供对 notebook 的支持。
+
+
+* [PyEcharts](https://pyecharts.org/#/zh-cn/basic_charts?id=graph%ef%bc%9a%e5%85%b3%e7%b3%bb%e5%9b%be)
+
+	> 百度开源的图表可视化项目, 不可以随意拖动节点。
+
+
+* 🌟 [AnyChart](https://docs.anychart.com/Basic_Charts/Network_Graph)
+
+	> 节点和边的形状、标签信息可以高度定制化，而且节点可以任意拖动，可以基于 Java、Scala、JavaScript、Python等语言使用。虽然 AnyChart 支持 Python，但是需要配合 Django、MySQL 一起使用就有点复杂，这个库比较适合中大型项目的图展示
+
+
+* [PyVis](https://pyvis.readthedocs.io/en/latest/)
+
+	> 可交互的图可视化库, 提供了基本的节点显示和操作，可以有不同的布局.
+
 ------
 ------
 
@@ -740,6 +764,8 @@
 * http://www.ee.cityu.edu.hk/~gchen/ComplexNetworks/PersonalWebsites.html
 
 * https://towardsdatascience.com/large-graph-visualization-tools-and-approaches-2b8758a1cd59
+
+* 可视化工具: https://mp.weixin.qq.com/s/Inf-04E_NWSH-vxeROPPgQ
 
 * 社会网络研究学者: https://www.zhihu.com/question/26348052/answer/1020041417
 
