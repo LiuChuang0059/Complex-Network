@@ -63,12 +63,12 @@
 
 * 🌟 [韩家炜 Jiawei Han ---  UIUC](http://hanj.cs.illinois.edu/)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=Kv9AbjMAAAAJ&view_op=list_works&sortby=pubdate)
 
-	> 数据挖掘大佬(总引184,000+)，最近关注于异质图网络和知识图谱等领域
+	> 数据挖掘大佬(总引184,000+)
 
 
 * 🌟[Philip S. Yu  --- UIC ](https://www.cs.uic.edu/~psyu/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=zh-CN)
 
-	> 数据挖掘大佬(总引118,000+)，最近关注于异质图网络和知识图谱等领域
+	> 数据挖掘大佬(总引118,000+)
 
 
 * 🌟 [Christos Faloutsos --- CMU](http://www.cs.cmu.edu/~christos/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=nd8lQQIAAAAJ&hl=zh-CN)
@@ -78,7 +78,7 @@
 
 *  [唐杰 --- 清华大学](http://keg.cs.tsinghua.edu.cn/jietang/)---[Google-Scholar-Citations](https://scholar.google.com.hk/citations?hl=zh-CN&user=n1zDCkQAAAAJ)
 
-     > 社会网络，知识图谱大佬， 超多顶会文章，还有 AMiner (The system has over 136 million researchers and 200 million papers) 等产品
+     > 社会网络，知识图谱大佬，还有 AMiner (The system has over 136 million researchers and 200 million papers) 等产品
 
 
 *  [Hanghang Tong --- UIUC](http://tonghanghang.org/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=RaINcuUAAAAJ&hl=zh-CN)
@@ -88,7 +88,7 @@
 
 * [James Fowler](http://jhfowler.ucsd.edu/)---[Google-Scholar-Citations](https://scholar.uulucky.com/citations?user=vcTq49gAAAAJ&hl=zh-CN)
 
-	> 高产学者，主要做社会网络方向，个人主页有很多源码，软件，和数据集。
+	> 社会网络方向，个人主页有很多源码，软件，和数据集。
 
 
 * [M. De Domenico](https://comunelab.fbk.eu/manlio/index.php)---[Google-Scholar-Citations](https://scholar.google.it/citations?user=KhJ4UFIAAAAJ&hl=zh-CN)
@@ -98,12 +98,12 @@
 
 *  [Cristopher Moore - Santa Fe Institute](http://tuvalu.santafe.edu/~moore/talks.html)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=p_837e0AAAAJ&hl=zh-CN)
 
-    > 做很多物理学思想方法在复杂网络中的应用 ；以及一些量子计算，量子算法在网络中的应用
+    > 做很多物理学思想方法在复杂网络中的应用；以及一些量子计算，量子算法在网络中的应用
 
 
 * [汪秉宏---中国科学技术大学---科学网博客](http://blog.sciencenet.cn/home.php?mod=space&uid=4673&view=bhwangustc)-----[Google-Scholar-Citations]()
 
-     > 物理倾向的的复杂网络大牛，写过好的复杂网络的专著。
+     > 物理倾向的的复杂网络大牛，复杂网络专著。
 
 
 #### 年轻学者：
@@ -115,7 +115,7 @@
 
 *  [周涛---电子科技大学---科学网博客](http://blog.sciencenet.cn/?3075)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=MXgWgmEAAAAJ&hl=zh-CN)
 
-     > 国内做复杂网络和数据挖掘的大佬(总引20,000+); 经常在科学网博客分享一些论文资料，研究方向介绍分析。
+     > 国内做复杂网络和数据挖掘的大佬(总引20,000+)。
 
 
 * [Le Song --- Georgia Tech ](https://www.cc.gatech.edu/~lsong/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=Xl4E0CsAAAAJ&hl=zh-CN)
@@ -167,11 +167,11 @@
 
 * [Danai Koutra --- Umich](http://web.eecs.umich.edu/~dkoutra/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=bDrA1-8AAAAJ&hl=zh-CN)
 
-     > 网络表征学习， 网络对齐 ; *Christos Faloutsos 门生*
+     > 网络表征学习，网络对齐 ; *Christos Faloutsos 门生*
 
 * [Bryan Perozzi --- Stony Brook ](http://www.perozzi.net/)---[Google-Scholar-Citations](https://scholar.google.de/citations?user=rZgbMs4AAAAJ&hl=en)
 
-     > 网络表征学习  ;  DeepWalk 模型
+     > 网络表征学习;  DeepWalk 模型
 
 * [Peng Cui 崔鹏--- 清华](http://pengcui.thumedialab.com/)---[Google-Scholar-Citations](https://scholar.google.com.hk/citations?hl=zh-CN&user=G8x97ZgAAAAJ)
 
@@ -190,7 +190,6 @@
 * [Jiliang Tang 汤继良 --- Michigan State University](https://www.cse.msu.edu/~tangjili/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=WtzKMWAAAAAJ&hl=en)
 
 	> Graph Neural Networks, Network Representation Learning, Network Analysis, Recommendations
-
 
 
 * [Shirui Pan --- Monash](https://shiruipan.github.io/)---[Google-Scholar-Citations](https://scholar.google.com.au/citations?user=frWRJN4AAAAJ&hl=en)
@@ -212,7 +211,7 @@
 	>  圣地，上面好多位大佬工作学习过的地方，网页有很多很好的研究成果，研究方向等等。
 
 
-* 🌟 [斯坦福大学  snap 小组](https://cs.stanford.edu/~jure/)
+* 🌟 [斯坦福大学 snap 小组](https://cs.stanford.edu/~jure/)
 
 	> Jure Leskovec 领导， 网络嵌入等有较多的相关研究；最新很多 GNN 的研究。
 
@@ -244,7 +243,7 @@
 
 * [DataLab](http://datalab.ischool.uw.edu/)
 
-	> 主要研究 large-scale, heterogeneous human data, **for the social good.**  主要的 Project ： Social Networks ； Data Visualization ; Science of Science ;  Data Curation
+	>  large-scale, heterogeneous human data, **for the social good.**  主要的 Project ： Social Networks ； Data Visualization ; Science of Science ;  Data Curation
 
 
 * 🌟 [LINK-group](http://www.linkgroup.hu/index.php?old)
