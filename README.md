@@ -53,7 +53,7 @@
 
 *  [Jon Kleinberg](http://www.cs.cornell.edu/home/kleinber/)---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=VX7d5EQAAAAJ&view_op=list_works&sortby=pubdate)
 
-	> HITS 模型 （总引87,000+） 目前关注 HyperGraph
+	> HITS 模型 （总引87,000+）
 
 
 * [陈关荣教授--香港城市大学](http://www.ee.cityu.edu.hk/~gchen/)---[Google-Scholar-Citations](https://scholar.google.com.hk/citations?user=O_Eif1YAAAAJ&hl=en&oi=ao)
@@ -187,7 +187,7 @@
 
 	> 图信号处理基础特别扎实的大佬， 在 Barabasi 研究组工作过。
 
-* [Jiliang Tang 汤继良 --- ](https://www.cse.msu.edu/~tangjili/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=WtzKMWAAAAAJ&hl=en)
+* [Jiliang Tang 汤继良 --- Michigan State University](https://www.cse.msu.edu/~tangjili/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=WtzKMWAAAAAJ&hl=en)
 
 	> Graph Neural Networks, Network Representation Learning, Network Analysis, Recommendations
 
@@ -198,7 +198,9 @@
 	> Graph Nerual Networks, Graph Attack and Defence, Knowledge Graph
 
 
+* 🌟 [Muhan Zhang (张牧涵) --- Peking University](https://muhanzhang.github.io/)---[Google-Scholar-Citations](https://scholar.google.com.hk/citations?user=OBBqkosAAAAJ&hl=en)
 
+	> Link prediction, graph classification, graph structure optimization, and knowledge graph reasoning. Practical applications of GNN: brain modeling, drug discovery, healthcare, and biological applications.
 
 ---------
 
