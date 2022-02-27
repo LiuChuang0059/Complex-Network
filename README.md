@@ -81,9 +81,9 @@
      > 社会网络，知识图谱大佬，还有 AMiner (The system has over 136 million researchers and 200 million papers) 等产品
 
 
-*  [Hanghang Tong --- UIUC](http://tonghanghang.org/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=RaINcuUAAAAJ&hl=zh-CN)
+*  [Hanghang Tong --- Associate Professor of UIUC](http://tonghanghang.org/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=RaINcuUAAAAJ&hl=zh-CN)
 
-     > 社会网络， 图挖掘； *Christos Faloutsos 门生*
+     > social networks analysis, healthcare, cyber-security and e-commerce； *Christos Faloutsos 门生*
 
 
 * [James Fowler](http://jhfowler.ucsd.edu/)---[Google-Scholar-Citations](https://scholar.uulucky.com/citations?user=vcTq49gAAAAJ&hl=zh-CN)
