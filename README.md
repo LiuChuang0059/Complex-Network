@@ -125,7 +125,7 @@
 
 * 🌟 [Thomas Kipf --- UVA ](https://tkipf.github.io/)---[Google-Scholar-Citations](https://scholar.google.de/citations?user=83HL5FwAAAAJ&hl=en)
 
-     > GCN 一战成名，随后一系列图方面有影响力的工作， *Max Welling 门生*。
+     > GCN 作者，随后一系列图方面有影响力的工作， *Max Welling 门生*。
 
 
 
@@ -151,7 +151,7 @@
 
 * [Joan Bruna --- NYU](https://cims.nyu.edu/~bruna/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=L4bNmsMAAAAJ&hl=zh-CN)
 
-	> 14年图卷积开山作的作者。数学出身，理论相当扎实。
+	> 14年图卷积开山作的作者。数学出身。
 
 
 
@@ -200,6 +200,21 @@
 * 🌟 [Muhan Zhang (张牧涵) --- Peking University](https://muhanzhang.github.io/)---[Google-Scholar-Citations](https://scholar.google.com.hk/citations?user=OBBqkosAAAAJ&hl=en)
 
 	> Link prediction, graph classification, graph structure optimization, and knowledge graph reasoning. Practical applications of GNN: brain modeling, drug discovery, healthcare, and biological applications.
+
+
+* [Jie Wang (王杰) -- Professor at University of Science and Technology of China](https://miralab.ai/)---[Google-Scholar-Citations](https://scholar.google.com/citations?user=OugG4dUAAAAJ&hl=zh-CN)
+
+	>  Reinforcement learning,  Graph representation learning
+
+
+* [Xiao Wang (王啸) -- Associate Professor, Beijing University of Posts and Telecommunications]()---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=MnzarAQAAAAJ&view_op=list_works&sortby=pubdate)
+
+	> Graph neural networks, Heterogeneous graph.
+
+
+* [Lingfei Wu (吴凌飞) -- Principal Scientist at JD.COM Silicon Valley Research Center]()---[Google-Scholar-Citations](https://scholar.google.com/citations?hl=zh-CN&user=GjcORkUAAAAJ&view_op=list_works&sortby=pubdate)
+
+	> Graph Neural Networks
 
 ---------
 
@@ -313,7 +328,7 @@
 
 *  🌟 [Introduction to Graph Neural Network](https://github.com/LiuChuang0059/Complex-Network/blob/master/Books/Introduction%20to%20Graph%20Neural%20Networks.pdf) by 刘知远
 
-	> 刘知远大神出品，从基础到应用
+	> 刘知远小组出品，从基础到应用
 
 *  [Graph Representation Learning Book](https://www.cs.mcgill.ca/~wlh/grl_book/)
 
@@ -323,6 +338,10 @@
 * [Deep Learning on Graphs](https://cse.msu.edu/~mayao4/dlg_book/)
 
 	> by Yao Ma and Jiliang Tang 等大佬。 主要介绍 GNN 的基础和应用。
+
+* 🌟 [Graph Neural Networks: Foundations, Frontiers, and Applications](https://link.springer.com/book/10.1007/978-981-16-6054-2)
+
+	> 吴凌飞，崔鹏，裴健等主编， 上面学者介绍里的很多老师都参与不同章节的撰写
 
 
 * 🌟 [数学之美](https://github.com/LiuChuang0059/Complex-Network/blob/master/Books/%E6%95%B0%E5%AD%A6%E4%B9%8B%E7%BE%8E.pdf) by  吴军博士
@@ -355,15 +374,9 @@
 
 	> self-supervised learning on Graph Neural Networks
 
-
-* 🌟 [thuDM/cogdl](https://github.com/THUDM/cogdl)
-
-	> 清华大学 CogDL: An Extensive Research Toolkit for Graphs。 ： 快速实现网络任务 Baseline ，目前还不太完善
-
-
 * [snap-stanford/ogb](https://github.com/snap-stanford/ogb)
 
-	> Snap 小组 Open Graph Benchmark ： Benchmark datasets, data loaders, and evaluators for graph machine learning
+	> Snap Open Graph Benchmark ： Benchmark datasets, data loaders, and evaluators for graph machine learning
 
 * [GraphVite](https://github.com/DeepGraphLearning/graphvite)
 
@@ -379,40 +392,54 @@
 
 	>  A temporal (dynamic) extension library for PyTorch Geometric. Temporal graph neural networks ： Recurrent Graph Convolutions，Temporal Graph Convolutions， Auxiliary Graph Convolutions.
 
+* 🌟 [PyTorch Geometric Signed Directed](https://github.com/SherylHYX/pytorch_geometric_signed_directed)
 
-* [dgl](https://github.com/dmlc/dgl/blob/0.4.x/docs/source/index.rst)
-
-	> 基于 PyTorch, MXNet, Gluon etc.实现 graph neural network models (ICLR 2019 workshop)
-
-
-* [Spektral](https://github.com/danielegrattarola/spektral)
-
-	> 基于 Keras and TensorFlow 2 实现的 graph deep learning。 包含 GCN,GAT,GraphSAGE,GIN 等经典模型， 还有一些 pooling 模型 （ICML 2020 workshop）
+	>  A signed and directed extension library for PyTorch Geometric. The library consists of various signed and directed geometric deep learning, embedding, and clustering methods from a variety of published research papers and selected preprints.
 
 
-* [BUPTDM-OpenHINE](https://github.com/BUPTDM/OpenHINE)
+* 🌟 [Deep Graph Library](https://www.dgl.ai/)
 
-	> 北邮石川老师组异质信息网络表示学习训练和测试框架， 包括：DHNE、HAN、HeGAN、HERec、HIN2vec、Metapath2vec、MetaGraph2vec、RHINE 等模型
+	> DGL is an easy-to-use, high performance and scalable Python package for deep learning on graphs. DGL is framework agnostic, meaning if a deep graph model is a component of an end-to-end application, the rest of the logics can be implemented in any major frameworks, such as PyTorch, Apache MXNet or TensorFlow.
+
+
+* 🌟 [Spektral](https://github.com/danielegrattarola/spektral)
+
+	> Spektral is a Python library for graph deep learning, based on the Keras API and TensorFlow 2. The main goal of this project is to provide a simple but flexible framework for creating graph neural networks (GNNs).
+
+
+* 🌟 [thuDM/cogdl](https://github.com/THUDM/cogdl)
+
+	> CogDL is a graph deep learning toolkit that allows researchers and developers to easily train and compare baseline or customized models for node classification, graph classification, and other important tasks in the graph domain. (Tsinghua University)
+
+
+* [BUPTDM-OpenHINE](https://github.com/BUPTDM/OpenHINE) / [BUPTDM-OpenHGNN](https://github.com/BUPT-GAMMA/OpenHGNN) / [Space4HGNN](https://github.com/BUPT-GAMMA/Space4HGNN)
+
+	> This is an open-source toolkit for Heterogeneous Graph Neural Network(OpenHGNN) based on DGL [Deep Graph Library] and PyTorch. We integrate SOTA models of heterogeneous graph.  (Beijing University of Posts and Telecommunications)
 
 
 
 
 #### 微信公众号
 
-
-* 🌟 极验(geetest_jy) : 图神经网络每日资料分享
-
 * 🌟 深度学习与图网络(AIGraph) : 图网络最近顶会动态
+
+* 北邮 GAMMA Lab(BUPT_GAMMA) : 北邮图数据挖掘与机器学习实验室, 石川老师小组
+
+* ACTBIGDATA : 北航计算机学院 李建欣(Jianxin Li)老师小组
+
+* GEAR图学习(SYSU-GL) : 中山大学 郑子彬教授 InplusLab 小组
+
+* MIRA Lab: 中科大 王杰老师 MIRA 小组
+
+* 🌟 图与推荐(GraphRec): 北邮纪厚业博士， GAMMA Lab博士生， 代表作 HAN
+
+* AI in Graph : 图在生物信息中的应用
 
 * 复杂网络(ComplexNetworks) : 不定期分享一些网络研究工具和书籍
 
-* 开放知识图谱(OpenKG) : 几乎每天都有关于知识图谱的论文分享
+* 开放知识图谱(OpenKG) : 有关知识图谱的论文分享
 
-* 人工智能前沿讲习(AIFrontier)  : 较多研究论文解读分享
-
-* 网络科学研究速递(netsci)： Arxiv等来源的网络科学最新研究翻译推送(翻译纯是机翻，可以浏览)
-
-* 北邮 GAMMA Lab(BUPT_GAMMA) : 北邮图数据挖掘与机器学习实验室, 石川老师的小组
+* 人工智能前沿讲习(AIFrontier)  : 论文解读分享
 
 * telegram :  [Graph Machine Learning](https://t.me/graphML) : 每天更新有关图机器学习的 paper 会议以及相关内容， 很不错.
 
