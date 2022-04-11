@@ -388,13 +388,17 @@
 	> 基于 Pytorch 实现的 geometric deep learning models： deep learning on graphs and other irregular structures.  包含 node2vec， GCN GAT，GraphSAGE，JK-Net， GIN 等经典模型， 也有最新的 Dropedge， GraphSAINT 等模型。 (ps: macos 目前只支持 cpu)
 
 
-* 🌟 [PyTorch Geometric Temporal](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)
+*  [PyTorch Geometric Temporal](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)
 
 	>  A temporal (dynamic) extension library for PyTorch Geometric. Temporal graph neural networks ： Recurrent Graph Convolutions，Temporal Graph Convolutions， Auxiliary Graph Convolutions.
 
-* 🌟 [PyTorch Geometric Signed Directed](https://github.com/SherylHYX/pytorch_geometric_signed_directed)
+*  [PyTorch Geometric Signed Directed](https://github.com/SherylHYX/pytorch_geometric_signed_directed)
 
 	>  A signed and directed extension library for PyTorch Geometric. The library consists of various signed and directed geometric deep learning, embedding, and clustering methods from a variety of published research papers and selected preprints.
+
+*  [Python Graph Outlier Detection](https://github.com/pygod-team/pygod/)
+
+	>  PyGOD includes more than 10 latest graph-based detection algorithms, such as DOMINANT (SDM'19) and GUIDE (BigData'21). For consistently and accessibility, PyGOD is developed on top of PyTorch Geometric (PyG) and PyTorch, and follows the API design of PyOD. See examples below for detecting outliers with PyGOD in 5 lines.
 
 
 * 🌟 [Deep Graph Library](https://www.dgl.ai/)
